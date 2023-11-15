@@ -1,0 +1,24 @@
+FlashPro
+Version: 9.1.0.18
+Release: v9.1
+
+Software Version: 9.1.0.18
+Created new project
+'G:\05_ledmatrix_actel\designer\impl1\Led_Matrix_Controller_ClockDiv_fp\Led_Matrix_Controller_C\
+lockDiv.pro'
+PDB file 'G:\05_ledmatrix_actel\designer\impl1\Led_Matrix_Controller_ClockDiv.pdb' has been
+loaded successfully.
+DESIGN : Led_Matrix_Controller_ClockDiv;  CHECKSUM : 6F34;  PDB_VERSION : 1.6
+programmer 'FPBBALTLPT1' : Para2Buff
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Found 8 instruction register bits.
+programmer 'FPBBALTLPT1' : Checking IDCODEs...
+programmer 'FPBBALTLPT1' : Device 1: 32A141CF Mfr: Actel Part: A3P(L|N)/AGL(N)250(Z)
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+programmer 'FPBBALTLPT1' : Executing action PROGRAM
+programmer 'FPBBALTLPT1' : EXPORT FSN[48] = 80debb087cb4
+programmer 'FPBBALTLPT1' : Erase ...
+programmer 'FPBBALTLPT1' : Completed erase
+programmer 'FPBBA

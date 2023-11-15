@@ -1,0 +1,37 @@
+FlashPro
+Version: 9.1.0.18
+Release: v9.1
+
+Software Version: 9.1.0.18
+Created new project 'C:\Documents and
+Settings\ktmt\Desktop\bcd7segdecoder_actel\designer\impl1\DM74LS47_1_fp_1\DM74LS47.pro'
+PDB file 'C:\Documents and
+Settings\ktmt\Desktop\bcd7segdecoder_actel\designer\impl1\DM74LS47.pdb' has been loaded
+successfully.
+DESIGN : DM74LS47;  CHECKSUM : EA22;  PDB_VERSION : 1.6
+programmer 'FPBBALTLPT1' : Para2Buff
+programmer 'FPBBALTLPT1' :  Pinging Programmer...
+programmer 'FPBBALTLPT1' :  Programmer Found.
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Found 8 instruction register bits.
+programmer 'FPBBALTLPT1' : Checking IDCODEs...
+programmer 'FPBBALTLPT1' : Device 1: 32A141CF Mfr: Actel Part: A3P(L|N)/AGL(N)250(Z)
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+Rescanning for Programmers...
+programmer 'FPBBALTLPT1' : Para2Buff
+Rescanning for Programmers DONE.
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+programmer 'FPBBALTLPT1' : Executing action PROGRAM
+programmer 'FPBBALTLPT1' : EXPORT FSN[48] = 80debb087cb4
+programmer 'FPBBALTLPT1' : Erase ...
+programmer 'FPBBALTLPT1' : Completed erase
+programmer 'FPBBALTLPT1' : Programming FPGA Array
+programmer 'FPBBALTLPT1' : Verifying FPGA Array
+programmer 'FPBBALTLPT1' :         Verifying FPGA Array -- pass
+programmer 'FPBBALTLPT1' : Finished: Mon Oct 28 11:30:53 2013 (Elapsed time 00:03:46)
+programmer 'FPBBALTLPT1' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'DM74LS47' has been modified. Do you want to save it? [NO]

@@ -1,0 +1,39 @@
+timestamp=1383896976395
+
+[demo]
+A/demo=A/Demo 24|.\src\Demo.bde|10000|1*5002
+BinI32/demo=3*845
+I=0*7522
+I/demo=I/Demo 0*7971
+M=11|0|v98|1383896949890|./compile/Demo.vhd|0*7193*0xa78b3de94a4ad0c6034520873bb1183b521bb6c0|0*7449*0xab32bc1a2daf049573e14469f634e0e6
+M/demo=M/Demo 21|0|v98|1383896949892|./compile/Demo.vhd|0*7620*0x26d0773c3ea57acad0be259dc328c74e34c6ec43|0*7890*0xb33770ff1c10522f9491560174ac8e6c
+R=./compile/Demo.vhd|25
+S/demo=S/Demo 40|0|2*0
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/demo=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[dm74ls47]
+A/behaviour=21|./src/BCD_7Seg_Decoder.vhd|29|1*2501
+BinI32/behaviour=3*0
+I=0*817
+I/behaviour=0*6823
+M=11|0|v98|1382600386690|./src/bcd_7seg_decoder.vhd|0*315*0xdebe952260bfd6dd880c6fccc3d3fd9a1f492f91|0*732*0xab32bc1a2daf049573e14469f634e0e6
+M/behaviour=21|0|v98|1382603073629|./src/BCD_7Seg_Decoder.vhd|0*5497*0x5b2d05d0fff27666f06a1961c0cec0000e20a0c1|0*6725*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/bcd_7seg_decoder.vhd|10
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/behaviour=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=40
+Version=73
+
+[~MFT]
+0=31|0bcd7segdecoder.mgf|7971|4512
+1=3|1bcd7segdecoder.mgf|5002|2501
+2=0|2bcd7segdecoder.mgf|0|0
+3=1|3bcd7segdecoder.mgf|845|0
+
+[~U]
+demo=Demo 11|0*7001||0x3
+dm74ls47=DM74LS47 11|0*0|
+

@@ -1,0 +1,5 @@
+@N: CD630 :"E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd":31:7:31:15|Synthesizing work.counter40.behavior 
+@W: CG296 :"E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd":45:4:45:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd":48:33:48:42|Referenced variable load_value is not in sensitivity list
+@W: CD638 :"E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd":43:8:43:17|Signal load_value is undriven 
+Post processing for work.counter40.behavior

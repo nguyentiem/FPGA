@@ -1,0 +1,497 @@
+#Build: Synplify 8.6.2H, Build 017R, Dec  7 2006
+#install: C:\Libero\Synplify\Synplify_862H
+#OS: Windows XP 5.1
+#Hostname: TANMAY
+
+#Thu Apr 05 03:31:58 2007
+
+$ Start of Compile
+#Thu Apr 05 03:31:58 2007
+
+Synplicity VHDL Compiler, version 3.7, Build 090R, built Nov 17 2006
+Copyright (C) 1994-2006, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Libero\Synplify\Synplify_862H\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"F:\Actel\CD\PA3_test\hdl\test.vhd":14:7:14:10|Top entity is set to TEST.
+VHDL syntax check successful!
+@N: CD630 :"F:\Actel\CD\PA3_test\hdl\test.vhd":11:7:11:10|Synthesizing work.test.def_arch 
+@N: CD231 :"F:\Actel\CD\PA3_test\hdl\test.vhd":62:16:62:17|Using onehot encoding for type state_type (warmup="100000000")
+@W: CD604 :"F:\Actel\CD\PA3_test\hdl\test.vhd":316:25:316:38|OTHERS clause is not synthesized 
+Post processing for work.test.def_arch
+@W: CL112 :"F:\Actel\CD\PA3_test\hdl\test.vhd":214:4:214:5|Feedback mux created for signal DATA_LCD[7:0]. Did you forget the set/reset assignment for this signal?
+@W: CL112 :"F:\Actel\CD\PA3_test\hdl\test.vhd":214:4:214:5|Feedback mux created for signal dis_complete. Did you forget the set/reset assignment for this signal?
+@W: CL112 :"F:\Actel\CD\PA3_test\hdl\test.vhd":214:4:214:5|Feedback mux created for signal RS_LCD. Did you forget the set/reset assignment for this signal?
+@N: CL201 :"F:\Actel\CD\PA3_test\hdl\test.vhd":214:4:214:5|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 05 03:31:59 2007
+
+###########################################################]
+Synplicity Proasic Technology Mapper, Version 9.0.0, Build 368R, Built Nov 27 2006 12:29:38
+Copyright (C) 1994-2006, Synplicity Inc.  All Rights Reserved
+Product Version Version 8.6.2H
+@N: MF249 |Running in 32-bit mode.
+
+
+RTL optimization done.
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 42MB peak: 44MB)
+Encoding state machine work.TEST(def_arch)-state[0:8]
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+@N: MF238 :"f:\actel\cd\pa3_test\hdl\test.vhd":131:21:131:36|Found 24 bit incrementor, 'un2_divide_clk[23:0]'
+Automatic dissolve during optimization of view:work.TEST(def_arch) of un1_sel_char_1(PM_ADDC__0_2_A3P250-2)
+
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 43MB peak: 44MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 43MB peak: 45MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 43MB peak: 45MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 43MB peak: 45MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:02s; Memory used current: 43MB peak: 45MB)
+
+Finished preparing to map (Time elapsed 0h:00m:02s; Memory used current: 45MB peak: 45MB)
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+state[1] / Q                   14                            
+sel_char[0] / Q                15                            
+sel_char[1] / Q                13                            
+dis_count[0] / Q               14                            
+dis_count[2] / Q               19                            
+un2_dis_char_0_a2_0[0] / Y     13                            
+RST_pad / Y                    54 : 50 asynchronous set/reset
+UP_DN_pad / Y                  19                            
+=============================================================
+
+Promoting Net RST_c on CLKINT  I_53
+Buffering divide_clk_c[22], fanout 36 segments 3
+Buffering UP_DN_c, fanout 19 segments 2
+Buffering CLK_c, fanout 24 segments 2
+Replicating N_132, fanout 13 segments 2
+Replicating dis_count[2], fanout 19 segments 2
+Replicating dis_count[0], fanout 14 segments 2
+Replicating sel_char[1], fanout 13 segments 2
+Replicating sel_char[0], fanout 15 segments 2
+Replicating state[1], fanout 15 segments 2
+
+Finished technology mapping (Time elapsed 0h:00m:02s; Memory used current: 44MB peak: 46MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:02s; Memory used current: 44MB peak: 46MB)
+Replicating divide_clk_c_2[22], fanout 14 segments 2
+Replicating divide_clk_c_1[22], fanout 14 segments 2
+Replicating divide_clk_c_0[22], fanout 13 segments 2
+
+Added 6 Buffers
+Added 9 Cells via replication
+
+Finished restoring hierarchy (Time elapsed 0h:00m:02s; Memory used current: 44MB peak: 46MB)
+Writing Analyst data base F:\Actel\CD\PA3_test\synthesis\TEST.srm
+@N: BN225 |Writing default property annotation file F:\Actel\CD\PA3_test\synthesis\TEST.map.
+Writing EDIF Netlist and constraint files
+Found clock TEST|CLK with period 10.00ns 
+Found clock TEST|divide_clk_inferred_clock[21] with period 10.00ns 
+Found clock TEST|divide_clk_inferred_clock[22] with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Apr 05 03:32:03 2007
+#
+
+
+Top view:               TEST
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.40, P = 1.33, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        PA3
+Paths requested:        5
+Constraint File(s):    
+@N: MT195 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT197 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 1.342
+
+                                       Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                         Frequency     Frequency     Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------
+TEST|CLK                               100.0 MHz     143.0 MHz     10.000        6.994         3.006     inferred     Inferred_clkgroup_1
+TEST|divide_clk_inferred_clock[21]     100.0 MHz     323.5 MHz     10.000        3.092         6.908     inferred     Inferred_clkgroup_2
+TEST|divide_clk_inferred_clock[22]     100.0 MHz     115.5 MHz     10.000        8.658         1.342     inferred     Inferred_clkgroup_0
+=========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                            Ending                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+TEST|divide_clk_inferred_clock[22]  TEST|divide_clk_inferred_clock[22]  |  10.000      1.342  |  No paths    -      |  No paths    -      |  No paths    -    
+TEST|CLK                            TEST|CLK                            |  10.000      3.006  |  No paths    -      |  No paths    -      |  No paths    -    
+TEST|divide_clk_inferred_clock[21]  TEST|divide_clk_inferred_clock[21]  |  10.000      6.908  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: TEST|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                            Arrival          
+Instance           Reference     Type       Pin     Net                Time        Slack
+                   Clock                                                                
+----------------------------------------------------------------------------------------
+divide_clk[0]      TEST|CLK      DFN1C1     Q       divide_clk[0]      0.483       3.006
+divide_clk[1]      TEST|CLK      DFN1C1     Q       divide_clk[1]      0.483       3.071
+divide_clk[2]      TEST|CLK      DFN1C1     Q       divide_clk[2]      0.483       3.245
+divide_clk[3]      TEST|CLK      DFN1C1     Q       divide_clk[3]      0.483       3.363
+divide_clk[4]      TEST|CLK      DFN1C1     Q       divide_clk[4]      0.483       3.473
+divide_clk[5]      TEST|CLK      DFN1C1     Q       divide_clk[5]      0.483       3.643
+divide_clk[9]      TEST|CLK      DFN1C1     Q       divide_clk[9]      0.483       3.918
+divide_clk[8]      TEST|CLK      DFN1C1     Q       divide_clk[8]      0.483       3.963
+divide_clk[10]     TEST|CLK      DFN1C1     Q       divide_clk[10]     0.483       4.023
+divide_clk[6]      TEST|CLK      DFN1C1     Q       divide_clk[6]      0.483       4.060
+========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                   Required          
+Instance           Reference     Type       Pin     Net       Time         Slack
+                   Clock                                                        
+--------------------------------------------------------------------------------
+divide_clk[12]     TEST|CLK      DFN1C1     D       I_73      9.590        3.006
+divide_clk[11]     TEST|CLK      DFN1C1     D       I_66      9.590        3.078
+divide_clk[13]     TEST|CLK      DFN1C1     D       I_77      9.590        3.078
+divide_clk[14]     TEST|CLK      DFN1C1     D       I_84      9.590        3.078
+divide_clk[15]     TEST|CLK      DFN1C1     D       I_91      9.590        3.078
+divide_clk[16]     TEST|CLK      DFN1C1     D       I_98      9.590        3.078
+divide_clk[17]     TEST|CLK      DFN1C1     D       I_105     9.590        3.078
+divide_clk[18]     TEST|CLK      DFN1C1     D       I_115     9.590        3.370
+divide_clk[19]     TEST|CLK      DFN1C1     D       I_122     9.590        3.370
+divide_clk[20]     TEST|CLK      DFN1C1     D       I_129     9.590        3.370
+================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        10.000
+    - Setup time:                            0.410
+    = Required time:                         9.590
+
+    - Propagation time:                      6.584
+    = Slack (non-critical) :                 3.006
+
+    Number of logic level(s):                4
+    Starting point:                          divide_clk[0] / Q
+    Ending point:                            divide_clk[12] / D
+    The start point is clocked by            TEST|CLK [rising] on pin CLK
+    The end   point is clocked by            TEST|CLK [rising] on pin CLK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                  Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divide_clk[0]                         DFN1C1     Q        Out     0.483     0.483       -         
+divide_clk[0]                         Net        -        -       1.178     -           6         
+un2_divide_clk.I_16                   AND3       A        In      -         1.661       -         
+un2_divide_clk.I_16                   AND3       Y        Out     0.394     2.055       -         
+un2_divide_clk.U1.DWACT_FINC_E[0]     Net        -        -       1.470     -           8         
+un2_divide_clk.I_62                   AND3       A        In      -         3.525       -         
+un2_divide_clk.I_62                   AND3       Y        Out     0.394     3.919       -         
+un2_divide_clk.U1.DWACT_FINC_E[6]     Net        -        -       1.324     -           7         
+un2_divide_clk.I_72                   NOR2B      B        In      -         5.243       -         
+un2_divide_clk.I_72                   NOR2B      Y        Out     0.466     5.709       -         
+un2_divide_clk.N_63                   Net        -        -       0.279     -           1         
+un2_divide_clk.I_73                   XOR2       A        In      -         5.988       -         
+un2_divide_clk.I_73                   XOR2       Y        Out     0.317     6.305       -         
+I_73                                  Net        -        -       0.279     -           1         
+divide_clk[12]                        DFN1C1     D        In      -         6.584       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 6.994 is 2.465(35.3%) logic and 4.529(64.7%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: TEST|divide_clk_inferred_clock[21]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                                   Arrival          
+Instance         Reference                              Type       Pin     Net              Time        Slack
+                 Clock                                                                                       
+-------------------------------------------------------------------------------------------------------------
+int_flash[0]     TEST|divide_clk_inferred_clock[21]     DFN1C1     Q       int_flash[0]     0.483       6.908
+int_flash[1]     TEST|divide_clk_inferred_clock[21]     DFN1C1     Q       int_flash[1]     0.483       7.029
+int_flash[2]     TEST|divide_clk_inferred_clock[21]     DFN1C1     Q       int_flash[2]     0.483       7.479
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                                                     Required          
+Instance         Reference                              Type       Pin     Net                Time         Slack
+                 Clock                                                                                          
+----------------------------------------------------------------------------------------------------------------
+int_flash[2]     TEST|divide_clk_inferred_clock[21]     DFN1C1     D       SUM2               9.690        6.908
+int_flash[1]     TEST|divide_clk_inferred_clock[21]     DFN1C1     D       SUM1               9.690        6.914
+int_flash[0]     TEST|divide_clk_inferred_clock[21]     DFN1C1     D       int_flash_i[0]     9.590        7.219
+================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        10.000
+    - Setup time:                            0.310
+    = Required time:                         9.690
+
+    - Propagation time:                      2.782
+    = Slack (non-critical) :                 6.908
+
+    Number of logic level(s):                1
+    Starting point:                          int_flash[0] / Q
+    Ending point:                            int_flash[2] / D
+    The start point is clocked by            TEST|divide_clk_inferred_clock[21] [rising] on pin CLK
+    The end   point is clocked by            TEST|divide_clk_inferred_clock[21] [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                     Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+int_flash[0]             DFN1C1     Q        Out     0.483     0.483       -         
+int_flash[0]             Net        -        -       1.324     -           7         
+un2_int_flash_1.SUM2     AX1C       A        In      -         1.807       -         
+un2_int_flash_1.SUM2     AX1C       Y        Out     0.696     2.503       -         
+SUM2                     Net        -        -       0.279     -           1         
+int_flash[2]             DFN1C1     D        In      -         2.782       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 3.092 is 1.489(48.2%) logic and 1.603(51.8%) route.
+
+
+
+
+====================================
+Detailed Report for Clock: TEST|divide_clk_inferred_clock[22]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                                     Arrival          
+Instance         Reference                              Type       Pin     Net                Time        Slack
+                 Clock                                                                                         
+---------------------------------------------------------------------------------------------------------------
+dis_complete     TEST|divide_clk_inferred_clock[22]     DFN1E0     Q       dis_complete       0.483       1.342
+state_0[1]       TEST|divide_clk_inferred_clock[22]     DFN1C1     Q       state_0[1]         0.483       1.481
+dis_count[1]     TEST|divide_clk_inferred_clock[22]     DFN1C1     Q       dis_count[1]       0.483       1.876
+state[7]         TEST|divide_clk_inferred_clock[22]     DFN1C1     Q       state[7]           0.483       2.044
+int_count[1]     TEST|divide_clk_inferred_clock[22]     DFN1C1     Q       int_count_c[1]     0.483       2.175
+dis_count[2]     TEST|divide_clk_inferred_clock[22]     DFN1C1     Q       dis_count[2]       0.483       2.229
+int_count[2]     TEST|divide_clk_inferred_clock[22]     DFN1C1     Q       int_count_c[2]     0.483       2.361
+state[1]         TEST|divide_clk_inferred_clock[22]     DFN1C1     Q       state[1]           0.483       2.396
+int_count[3]     TEST|divide_clk_inferred_clock[22]     DFN1C1     Q       int_count_c[3]     0.483       2.427
+state[8]         TEST|divide_clk_inferred_clock[22]     DFN1P1     Q       state[8]           0.483       2.666
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                                     Required          
+Instance           Reference                              Type       Pin     Net                Time         Slack
+                   Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------
+dis_count[3]       TEST|divide_clk_inferred_clock[22]     DFN1C1     D       N_13               9.690        1.342
+dis_count[2]       TEST|divide_clk_inferred_clock[22]     DFN1C1     D       N_11               9.690        1.820
+dis_count_0[2]     TEST|divide_clk_inferred_clock[22]     DFN1C1     D       N_11               9.690        1.820
+DATA_LCD[1]        TEST|divide_clk_inferred_clock[22]     DFN1E0     D       N_234              9.590        1.876
+sel_char[0]        TEST|divide_clk_inferred_clock[22]     DFN1C1     D       sel_char_1         9.690        1.947
+sel_char_0[0]      TEST|divide_clk_inferred_clock[22]     DFN1C1     D       sel_char_1         9.690        1.947
+DATA_LCD[0]        TEST|divide_clk_inferred_clock[22]     DFN1E0     D       N_233              9.590        2.038
+int_count[7]       TEST|divide_clk_inferred_clock[22]     DFN1C1     D       int_count_6[7]     9.690        2.175
+DATA_LCD[4]        TEST|divide_clk_inferred_clock[22]     DFN1E0     D       N_237              9.590        2.220
+dis_count[0]       TEST|divide_clk_inferred_clock[22]     DFN1C1     D       N_7                9.590        2.245
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        10.000
+    - Setup time:                            0.310
+    = Required time:                         9.690
+
+    - Propagation time:                      8.348
+    = Slack (critical) :                     1.342
+
+    Number of logic level(s):                7
+    Starting point:                          dis_complete / Q
+    Ending point:                            dis_count[3] / D
+    The start point is clocked by            TEST|divide_clk_inferred_clock[22] [rising] on pin CLK
+    The end   point is clocked by            TEST|divide_clk_inferred_clock[22] [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+dis_complete                                    DFN1E0     Q        Out     0.483     0.483       -         
+dis_complete                                    Net        -        -       1.766     -           10        
+un1_dis_complete_1_sqmuxa_0_0_a2                NOR2A      B        In      -         2.249       -         
+un1_dis_complete_1_sqmuxa_0_0_a2                NOR2A      Y        Out     0.308     2.558       -         
+N_143                                           Net        -        -       0.655     -           3         
+un1_dis_complete_1_sqmuxa_0_0                   OR2        B        In      -         3.213       -         
+un1_dis_complete_1_sqmuxa_0_0                   OR2        Y        Out     0.481     3.693       -         
+un1_dis_complete_1_sqmuxa_0_0                   Net        -        -       0.469     -           2         
+un1_dis_count_1.I_1                             AND2       B        In      -         4.162       -         
+un1_dis_count_1.I_1                             AND2       Y        Out     0.466     4.629       -         
+un1_dis_count_1.DWACT_ADD_CI_0_TMP[0]           Net        -        -       0.469     -           2         
+un1_dis_count_1.I_19                            NOR2B      A        In      -         5.098       -         
+un1_dis_count_1.I_19                            NOR2B      Y        Out     0.389     5.487       -         
+un1_dis_count_1.DWACT_ADD_CI_0_g_array_1[0]     Net        -        -       0.469     -           2         
+un1_dis_count_1.I_21                            NOR2B      A        In      -         5.956       -         
+un1_dis_count_1.I_21                            NOR2B      Y        Out     0.389     6.345       -         
+I_21                                            Net        -        -       0.279     -           1         
+un1_dis_count_1.I_17                            XOR2       B        In      -         6.624       -         
+un1_dis_count_1.I_17                            XOR2       Y        Out     0.691     7.315       -         
+I_17                                            Net        -        -       0.279     -           1         
+dis_count_5_i[3]                                NOR3B      B        In      -         7.593       -         
+dis_count_5_i[3]                                NOR3B      Y        Out     0.475     8.069       -         
+N_13                                            Net        -        -       0.279     -           1         
+dis_count[3]                                    DFN1C1     D        In      -         8.348       -         
+============================================================================================================
+Total path delay (propagation time + setup) of 8.658 is 3.992(46.1%) logic and 4.666(53.9%) route.
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Report for cell TEST.def_arch
+  Core Cell usage:
+              cell count     area count*area
+            DFN1C1    52      1.0       52.0
+              XOR2    50      1.0       50.0
+              AND3    32      1.0       32.0
+              AND2    16      1.0       16.0
+              OR3A    12      1.0       12.0
+            DFN1E0    10      1.0       10.0
+             NOR2B    10      1.0       10.0
+               OR3     9      1.0        9.0
+               MX2     9      1.0        9.0
+              BUFF     9      1.0        9.0
+               AO1     9      1.0        9.0
+              OR2A     8      1.0        8.0
+             NOR3B     7      1.0        7.0
+              OR3C     7      1.0        7.0
+              NOR2     7      1.0        7.0
+              OA1A     7      1.0        7.0
+             NOR3C     6      1.0        6.0
+             NOR2A     6      1.0        6.0
+               OR2     5      1.0        5.0
+              OR2B     5      1.0        5.0
+             AOI1B     5      1.0        5.0
+               INV     5      1.0        5.0
+              OR3B     4      1.0        4.0
+             NOR3A     3      1.0        3.0
+              OA1C     3      1.0        3.0
+          DFN1E0C1     2      1.0        2.0
+              NOR3     2      1.0        2.0
+              AO1C     2      1.0        2.0
+               OA1     1      1.0        1.0
+              OA1B     1      1.0        1.0
+             XNOR2     1      1.0        1.0
+              MX2B     1      1.0        1.0
+             AXOI5     1      1.0        1.0
+            DFN1P1     1      1.0        1.0
+              OAI1     1      1.0        1.0
+            CLKINT     1      0.0        0.0
+              AX1C     1      1.0        1.0
+              AXO2     1      1.0        1.0
+               VCC     1      0.0        0.0
+               GND     1      0.0        0.0
+                   -----          ----------
+             TOTAL   314               311.0
+
+
+  IO Cell usage:
+              cell count
+            OUTBUF    36
+             INBUF    16
+                   -----
+             TOTAL    52
+
+RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Apr 05 03:32:03 2007
+
+###########################################################]

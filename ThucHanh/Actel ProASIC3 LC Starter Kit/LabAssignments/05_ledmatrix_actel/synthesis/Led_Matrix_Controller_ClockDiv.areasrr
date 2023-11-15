@@ -1,0 +1,110 @@
+----------------------------------------------------------------------
+Report for cell Led_Matrix_Controller_ClockDiv.led_matrix_controller_clockdiv
+                                          Cell usage:
+                               cell       count     area    count*area
+                               BUFF         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+          Led_Matrix_Controller_With_Rom         1      26.0       26.0
+                             OUTBUF        17       0.0        0.0
+                                VCC         1       0.0        0.0
+                          counter1M         1      78.0       78.0
+                          counter40         1      27.0       27.0
+                            
+                         TOTAL             25                132.0
+----------------------------------------------------------------------
+Report for cell counter1M.netlist
+     Instance path:  U3
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         5       1.0        5.0
+                               AND3        29       1.0       29.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C1        20       1.0       20.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2B         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                               XOR2        19       1.0       19.0
+                            
+                         TOTAL             81                 78.0
+----------------------------------------------------------------------
+Report for cell counter40.netlist
+     Instance path:  U2
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AND3         5       1.0        5.0
+                                AO1         2       1.0        2.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C1         5       1.0        5.0
+                             DFN1P1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2B         4       1.0        4.0
+                              NOR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         6       1.0        6.0
+                            
+                         TOTAL             30                 27.0
+----------------------------------------------------------------------
+Report for cell Led_Matrix_Controller_With_Rom.netlist
+     Instance path:  U1
+                                          Cell usage:
+                               cell       count     area    count*area
+                         Controller         1       6.0        6.0
+                                GND         1       0.0        0.0
+                      Step_Register         1       8.0        8.0
+                                VCC         1       0.0        0.0
+                                rom         1      12.0       12.0
+                            
+                         TOTAL              5                 26.0
+----------------------------------------------------------------------
+Report for cell rom.netlist
+     Instance path:  U1.ROW_VALUE_ROM
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO16         3       1.0        3.0
+                               DFI1         6       1.0        6.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                               ZOR3         1       1.0        1.0
+                            
+                         TOTAL             14                 12.0
+----------------------------------------------------------------------
+Report for cell Step_Register.netlist
+     Instance path:  U1.ROW_SCAN_REG
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C1         7       1.0        7.0
+                             DFN1P1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             10                  8.0
+----------------------------------------------------------------------
+Report for cell Controller.netlist
+     Instance path:  U1.ADDR_AUTOINC
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                          GRegister         1       6.0        6.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  6.0
+----------------------------------------------------------------------
+Report for cell GRegister.netlist
+     Instance path:  U1.ADDR_AUTOINC.U1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         1       1.0        1.0
+                             DFN1C1         3       1.0        3.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL              8                  6.0

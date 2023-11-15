@@ -1,0 +1,220 @@
+*****************************************************************
+Pin Report - Date: Tue Nov 27 14:15:27 2018 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: simple_dip_switch
+Family: ProASIC3
+Die: A3P250
+Package: 208 PQFP
+*****************************************************************
+Number |Port    |Function       |State       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|--------|---------------|------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+1                GND             Reserved
+2                GAA2/IO118UDB3  Special
+3                IO118VDB3       Unassigned
+4                GAB2/IO117UDB3  Special
+5                IO117VDB3       Unassigned
+6                GAC2/IO116UDB3  Special
+7                IO116VDB3       Unassigned
+8                IO115UDB3       Unassigned
+9                IO115VDB3       Unassigned
+10               IO114UDB3       Unassigned
+11               IO114VDB3       Unassigned
+12               IO113PDB3       Unassigned
+13               IO113NDB3       Unassigned
+14               IO112PDB3       Unassigned
+15               IO112NDB3       Unassigned
+16               VCC             Reserved
+17               GND             Reserved
+18               VCCIB3          Reserved
+19               IO111PDB3       Unassigned
+20               IO111NDB3       Unassigned
+21               GFC1/IO110PDB3  Special
+22               GFC0/IO110NDB3  Special
+23               GFB1/IO109PDB3  Special
+24               GFB0/IO109NDB3  Special
+25               VCOMPLF         Reserved
+26               GFA0/IO108NPB3  Special
+27               VCCPLF          Reserved
+28               GFA1/IO108PPB3  Special
+29               GND             Reserved
+30               GFA2/IO107PDB3  Special
+31               IO107NDB3       Unassigned
+32               GFB2/IO106PDB3  Special
+33               IO106NDB3       Unassigned
+34               GFC2/IO105PDB3  Special
+35               IO105NDB3       Unassigned
+36               Not Bonded      Unconnected
+37      SW2[6]   IO104PDB3       Assigned     LVCMOS33  ---                ---   None           ---   ---               No           No
+38      LED3[6]  IO104NDB3       Assigned     LVCMOS33  12                 High  None           No    35                No           No
+39               IO103PSB3       Unassigned
+40               VCCIB3          Reserved
+41               GND             Reserved
+42               IO101PDB3       Unassigned
+43               IO101NDB3       Unassigned
+44               GEC1/IO100PDB3  Special
+45               GEC0/IO100NDB3  Special
+46               GEB1/IO99PDB3   Special
+47      SW2[1]   GEB0/IO99NDB3   Special      LVCMOS33  ---                ---   None           ---   ---               No           No
+48      LED3[1]  GEA1/IO98PDB3   Special      LVCMOS33  12                 High  None           No    35                No           No
+49               GEA0/IO98NDB3   Special
+50               VMV3            Reserved
+51               GNDQ            Reserved
+52               GND             Reserved
+53               Not Bonded      Unconnected
+54               Not Bonded      Unconnected
+55               GEA2/IO97RSB2   Special
+56               GEB2/IO96RSB2   Special
+57      SW2[4]   GEC2/IO95RSB2   Special      LVCMOS33  ---                ---   None           ---   ---               No           No
+58      LED3[4]  IO94RSB2        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+59               IO93RSB2        Unassigned
+60               IO92RSB2        Unassigned
+61               IO91RSB2        Unassigned
+62               VCCIB2          Reserved
+63               IO90RSB2        Unassigned
+64               IO89RSB2        Unassigned
+65               GND             Reserved
+66               IO88RSB2        Unassigned
+67               IO87RSB2        Unassigned
+68               IO86RSB2        Unassigned
+69               IO85RSB2        Unassigned
+70      LED1[0]  IO84RSB2        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+71               VCC             Reserved
+72               VCCIB2          Reserved
+73               IO83RSB2        Unassigned
+74               IO82RSB2        Unassigned
+75               IO81RSB2        Unassigned
+76               IO80RSB2        Unassigned
+77      LED1[3]  IO79RSB2        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+78      LED1[6]  IO78RSB2        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+79               IO77RSB2        Unassigned
+80      SW2[7]   IO76RSB2        Assigned     LVCMOS33  ---                ---   None           ---   ---               No           No
+81               GND             Reserved
+82      LED3[7]  IO75RSB2        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+83      LED3[5]  IO74RSB2        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+84      SW2[5]   IO73RSB2        Assigned     LVCMOS33  ---                ---   None           ---   ---               No           No
+85               IO72RSB2        Unassigned
+86               IO71RSB2        Unassigned
+87               IO70RSB2        Unassigned
+88               VCC             Reserved
+89               VCCIB2          Reserved
+90               IO69RSB2        Unassigned
+91               IO68RSB2        Unassigned
+92               IO67RSB2        Unassigned
+93               IO66RSB2        Unassigned
+94               IO65RSB2        Unassigned
+95      SW2[0]   IO64RSB2        Assigned     LVCMOS33  ---                ---   None           ---   ---               No           No
+96      LED3[0]  GDC2/IO63RSB2   Special      LVCMOS33  12                 High  None           No    35                No           No
+97               GND             Reserved
+98               GDB2/IO62RSB2   Special
+99      LED1[5]  GDA2/IO61RSB2   Special      LVCMOS33  12                 High  None           No    35                No           No
+100              GNDQ            Reserved
+101              TCK             Reserved
+102              TDI             Reserved
+103              TMS             Reserved
+104              VMV2            Reserved
+105              GND             Reserved
+106              VPUMP           Reserved
+107              Not Bonded      Unconnected
+108              TDO             Reserved
+109              TRST            Reserved
+110              VJTAG           Reserved
+111     LED1[7]  GDA0/IO60VDB1   Special      LVCMOS33  12                 High  None           No    35                No           No
+112     LED1[4]  GDA1/IO60UDB1   Special      LVCMOS33  12                 High  None           No    35                No           No
+113              GDB0/IO59VDB1   Special
+114              GDB1/IO59UDB1   Special
+115              GDC0/IO58VDB1   Special
+116              GDC1/IO58UDB1   Special
+117              IO57VDB1        Unassigned
+118              IO57UDB1        Unassigned
+119              IO56NDB1        Unassigned
+120              IO56PDB1        Unassigned
+121              IO55RSB1        Unassigned
+122              GND             Reserved
+123              VCCIB1          Reserved
+124              Not Bonded      Unconnected
+125              Not Bonded      Unconnected
+126              VCC             Reserved
+127     LED1[1]  IO53NDB1        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+128              GCC2/IO53PDB1   Special
+129              GCB2/IO52PSB1   Special
+130              GND             Reserved
+131              GCA2/IO51PSB1   Special
+132     LED3[2]  GCA1/IO50PDB1   Special      LVCMOS33  12                 High  None           No    35                No           No
+133     SW2[2]   GCA0/IO50NDB1   Special      LVCMOS33  ---                ---   None           ---   ---               No           No
+134              GCB0/IO49NDB1   Special
+135              GCB1/IO49PDB1   Special
+136              GCC0/IO48NDB1   Special
+137              GCC1/IO48PDB1   Special
+138              IO47NDB1        Unassigned
+139              IO47PDB1        Unassigned
+140              VCCIB1          Reserved
+141              GND             Reserved
+142              VCC             Reserved
+143              IO46RSB1        Unassigned
+144     SW2[3]   IO45NDB1        Assigned     LVCMOS33  ---                ---   None           ---   ---               No           No
+145     LED3[3]  IO45PDB1        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+146              IO44NDB1        Unassigned
+147              IO44PDB1        Unassigned
+148              IO43NDB1        Unassigned
+149              GBC2/IO43PDB1   Special
+150              IO42NDB1        Unassigned
+151              GBB2/IO42PDB1   Special
+152              IO41NDB1        Unassigned
+153              GBA2/IO41PDB1   Special
+154              VMV1            Reserved
+155              GNDQ            Reserved
+156              GND             Reserved
+157              Not Bonded      Unconnected
+158              GBA1/IO40RSB0   Special
+159              GBA0/IO39RSB0   Special
+160              GBB1/IO38RSB0   Special
+161              GBB0/IO37RSB0   Special
+162              GND             Reserved
+163              GBC1/IO36RSB0   Special
+164              GBC0/IO35RSB0   Special
+165              IO34RSB0        Unassigned
+166              IO33RSB0        Unassigned
+167              IO32RSB0        Unassigned
+168              IO31RSB0        Unassigned
+169     LED1[2]  IO30RSB0        Assigned     LVCMOS33  12                 High  None           No    35                No           No
+170              VCCIB0          Reserved
+171              VCC             Reserved
+172              IO29RSB0        Unassigned
+173              IO28RSB0        Unassigned
+174              IO27RSB0        Unassigned
+175              IO26RSB0        Unassigned
+176              IO25RSB0        Unassigned
+177              IO24RSB0        Unassigned
+178              GND             Reserved
+179              IO23RSB0        Unassigned
+180              IO22RSB0        Unassigned
+181              IO21RSB0        Unassigned
+182              IO20RSB0        Unassigned
+183              IO19RSB0        Unassigned
+184              IO18RSB0        Unassigned
+185              IO17RSB0        Unassigned
+186              VCCIB0          Reserved
+187              VCC             Reserved
+188              IO16RSB0        Unassigned
+189              IO15RSB0        Unassigned
+190              IO14RSB0        Unassigned
+191              IO13RSB0        Unassigned
+192              IO12RSB0        Unassigned
+193              IO11RSB0        Unassigned
+194              IO10RSB0        Unassigned
+195              GND             Reserved
+196              IO09RSB0        Unassigned
+197              IO08RSB0        Unassigned
+198              IO07RSB0        Unassigned
+199              IO06RSB0        Unassigned
+200              VCCIB0          Reserved
+201              GAC1/IO05RSB0   Special
+202              GAC0/IO04RSB0   Special
+203              GAB1/IO03RSB0   Special
+204              GAB0/IO02RSB0   Special
+205              GAA1/IO01RSB0   Special
+206              GAA0/IO00RSB0   Special
+207              GNDQ            Reserved
+208              VMV0            Reserved

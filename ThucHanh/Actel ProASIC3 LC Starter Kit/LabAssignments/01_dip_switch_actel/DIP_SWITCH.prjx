@@ -1,0 +1,380 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\bcd7segdecoder\bcd7segdecoder\src"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "6b6bbab6-4cd6-4a48-a25a-87d0abecec90"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS4X4M1"
+KEY VendorTechnology_Package "pq208"
+KEY VendorTechnology_Speed "-2"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD ""
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "A3P250;"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "simple_dip_switch::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1543296013"
+SIZE="437"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1543296014"
+SIZE="413"
+ENDFILE
+VALUE "<project>\component\work\simple_dip_switch\simple_dip_switch.cxf,actgen_cxf"
+STATE="utd"
+TIME="1543296496"
+SIZE="1840"
+ENDFILE
+VALUE "<project>\component\work\simple_dip_switch\simple_dip_switch.vhd,hdl"
+STATE="utd"
+TIME="1543296495"
+SIZE="2412"
+PARENT="<project>\component\work\simple_dip_switch\simple_dip_switch.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\dip_switch.pdc,pdc"
+STATE="utd"
+TIME="1382324282"
+SIZE="344"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideDESIGNER"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch.adb,adb"
+STATE="utd"
+TIME="1543301597"
+SIZE="56832"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch.ide_des,ide_des"
+STATE="utd"
+TIME="1543301597"
+SIZE="1668"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch.pdb,pdb"
+STATE="utd"
+TIME="1543302946"
+SIZE="37587"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_1_fp\simple_dip_switch.pro,pro"
+STATE="utd"
+TIME="1543295935"
+SIZE="1889"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_1_fp_1\simple_dip_switch.pro,pro"
+STATE="utd"
+TIME="1543295935"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_1_fp_2\projectData\simple_dip_switch.pdb,pdb"
+STATE="utd"
+TIME="1467198391"
+SIZE="36457"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_1_fp_2\simple_dip_switch.pro,pro"
+STATE="utd"
+TIME="1543295935"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_compile_log.rpt,log"
+STATE="utd"
+TIME="1543302779"
+SIZE="8027"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_fp\simple_dip_switch.pro,pro"
+STATE="utd"
+TIME="1543295935"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1543302927"
+SIZE="2755"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_prgdata_log.rpt,log"
+STATE="utd"
+TIME="1543302947"
+SIZE="1233"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_switch_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1543302931"
+SIZE="1474"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_to_switch.adb,adb"
+STATE="utd"
+TIME="1543295931"
+SIZE="53248"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_to_switch.pdb,pdb"
+STATE="utd"
+TIME="1382338195"
+SIZE="51200"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_to_switch_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1382338202"
+SIZE="17086"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_to_switch_ba.vhd,ba_hdl"
+STATE="utd"
+TIME="1382338202"
+SIZE="9315"
+ENDFILE
+VALUE "<project>\designer\impl1\simple_dip_to_switch_fp\simple_dip_to_switch.pro,pro"
+STATE="utd"
+TIME="1543295935"
+SIZE="0"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1382326107"
+SIZE="519"
+ENDFILE
+VALUE "<project>\stimulus\mytestbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1382324114"
+SIZE="2080"
+ENDFILE
+VALUE "<project>\synthesis\simple_dip_switch.edn,syn_edn"
+STATE="utd"
+TIME="1543302904"
+SIZE="10929"
+ENDFILE
+VALUE "<project>\synthesis\simple_dip_switch.so,so"
+STATE="utd"
+TIME="1543301147"
+SIZE="365"
+ENDFILE
+VALUE "<project>\synthesis\simple_dip_switch_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1543302904"
+SIZE="310"
+ENDFILE
+VALUE "<project>\synthesis\simple_dip_switch_syn.prj,prj"
+STATE="utd"
+TIME="1543301133"
+SIZE="1617"
+ENDFILE
+VALUE "<project>\synthesis\simple_dip_to_switch.edn,syn_edn"
+STATE="utd"
+TIME="1382337773"
+SIZE="11103"
+ENDFILE
+VALUE "<project>\synthesis\simple_dip_to_switch_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1382337773"
+SIZE="310"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "simple_dip_switch::work"
+FILE "<project>\component\work\simple_dip_switch\simple_dip_switch.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\simple_dip_switch.edn,syn_edn)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\simple_dip_switch.vm,syn_vm)=StateFailure
+ideDESIGNER(<project>\designer\impl1\simple_dip_switch.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\simple_dip_switch_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\simple_dip_switch_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="DCE FlashPro Device"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\FlashPro_v11.6\bin\flashpro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "simple_dip_switch::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\simple_dip_switch.edn,syn_edn)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\simple_dip_switch.vm,syn_vm)=StateFailure
+ideDESIGNER(<project>\designer\impl1\simple_dip_switch.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Programming Data:simple_dip_switch_prgdata_log.rpt
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+ENDLIST
+LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
+ENDLIST
+LIST "simple_dip_switch::work","component\work\simple_dip_switch\simple_dip_switch.vhd","TRUE","FALSE"
+ENDLIST
+LIST "simple_dip_to_switch::work","","FALSE","FALSE"
+ENDLIST
+LIST "testbench::work","stimulus\mytestbench.vhd","FALSE","TRUE"
+SUBBLOCK "simple_dip_to_switch::work","","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

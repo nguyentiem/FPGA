@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>simple_dip_switch</design>
+	<target_edif>W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\synthesis\simple_dip_switch.edn</target_edif>
+</SynplifyOutput>

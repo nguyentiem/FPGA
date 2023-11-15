@@ -1,0 +1,5 @@
+40
+~E 1 "./compile/Demo.vhd" 25 Demo
+~A 1 "./compile/Demo.vhd" 35 Demo
+~E 1 "./src/bcd_7seg_decoder.vhd" 10 DM74LS47
+~A 1 "./src/BCD_7Seg_Decoder.vhd" 29 behaviour

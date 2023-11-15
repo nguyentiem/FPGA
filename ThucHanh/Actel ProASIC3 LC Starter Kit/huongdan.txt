@@ -1,0 +1,6 @@
+﻿
+- Trong thư mục LabAssignments  có các bài thực hành. Mỗi bài thực hành là một nhóm thư mục được đánh số 01_, 02_, 03_
+- Bên trong mỗi thư mục thực hành, có sẵn file pdf hướng dẫn các thao tác
+- Một số bài thực hành được thiết kế trực tiếp trên công cụ Libero của Actel, nên chỉ có 1 thư mục duy nhất
+- Một số bài thực hành được thiết kế trên ActiveHDL, sau đó chuyển mã nguồn sang Libero để nạp lên FPGA, nên có 2 thư mục
+- Sinh viên nên đọc tài liệu KIT Guide để hiểu rõ về Kit phát triển trước khi thực hành

@@ -1,0 +1,83 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=2
+Current Config=compile
+
+[Configurations]
+compile=bcd7segdecoder
+
+[Library]
+bcd7segdecoder=.\bcd7segdecoder.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=MV_ACTEL91
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=Actel ProASIC3
+HESPrepare=0
+fileopenfolder=C:\Actelprj\bcd7segdecoder\bcd7segdecoder\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+bcd7segdecoder=.
+Active_lib=
+xilinxun=
+UnlinkedDesignLibrary=
+DESIGNS=
+
+[IMPLEMENTATION]
+UCF=
+
+[ORDER]
+Synchronize=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=dm74ls47|behaviour|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/BCD_7Seg_Decoder.vhd=-1
+/wareform_demo.asdb=-1
+/wareform_demo.awc=-1
+/Demo.bde=-1
+/Demo2.bde=-1
+
+[Files.Data]
+.\src\BCD_7Seg_Decoder.vhd=VHDL Source Code
+.\src\wareform_demo.asdb=Accelerated Waveform File
+.\src\wareform_demo.awc=Accelerated Waveform Configuration
+.\src\Demo.bde=Block Diagram
+.\src\Demo2.bde=Block Diagram
+
+[file_out:/Demo.bde]
+/..\compile\Demo.vhd=-1
+
+[file_out:/Demo2.bde]
+/..\compile\Demo2.vhd=-1
+

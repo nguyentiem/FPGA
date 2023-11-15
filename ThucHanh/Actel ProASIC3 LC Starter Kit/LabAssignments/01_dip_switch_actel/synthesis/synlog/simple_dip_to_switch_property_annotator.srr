@@ -1,0 +1,12 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+@W: MF463 |Ignoring synthesis effort setting for the design. This is not supported by the current technology.
+
+@N: BN225 |Writing default property annotation file C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\simple_dip_to_switch.sap.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 09:57:04 2013
+
+###########################################################]

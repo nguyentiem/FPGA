@@ -1,0 +1,12 @@
+i<>.\src\Controller.bde
+i<>.\src\Counter.vhd
+i<>.\src\counter1M.vhd
+i<>.\src\counter40.vhd
+i<>.\src\GRegister.vhd
+i<>.\src\ram.vhd
+i<>.\src\Step_Register.vhd
+i<>.\src\top\Led_Matrix_Controller.bde
+i<>.\src\top\Led_Matrix_Controller_ClockDiv.bde
+i<>.\src\top\Led_Matrix_Controller_rom.bde
+i<>.\src\DFF.vhd
+i<>.\src\Single_Key_Controller.bde

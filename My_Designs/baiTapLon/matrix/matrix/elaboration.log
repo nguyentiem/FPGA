@@ -1,0 +1,42 @@
+Active-HDL 10.5.217.6767 2019-11-26 12:35:55
+
+Elaboration top modules:
+Architecture                  test(test)
+
+
+------------------------------------------------------------------------------------------
+Entity    | Architecture | Library | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------
+test      | test         | matrix  |      | 10.5.217.6767 (Windows) | -O3
+xl_byte   | config       | matrix  |      | 10.5.217.6767 (Windows) | -O3
+latch     | arrlatch     | matrix  |      | 10.5.217.6767 (Windows) | -O3
+demux     | ardemux      | matrix  |      | 10.5.217.6767 (Windows) | -O3
+mux_9byte | armux_9byte  | matrix  |      | 10.5.217.6767 (Windows) | -O3
+Dff       | ardff        | matrix  |      | 10.5.217.6767 (Windows) | -O3
+mux_8bit  | mux          | matrix  |      | 10.5.217.6767 (Windows) | -O3
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+VHDL Package             | Library | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------
+standard                 | std     |      |                         | <unavailable>
+TEXTIO                   | std     |      |                         | <unavailable>
+std_logic_1164           | ieee    |      |                         | <unavailable>
+std_logic_arith          | ieee    |      |                         | <unavailable>
+STD_LOGIC_SIGNED         | ieee    |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED       | ieee    |      |                         | <unavailable>
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Library                  | Comment
+------------------------------------------------------------------------------------------
+ieee                     | Standard IEEE packages library
+matrix                   | None
+std                      | Standard VHDL library
+------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+test test test
+
+
+The performance of simulation is reduced. Version Student Edition

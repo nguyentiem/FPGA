@@ -1,0 +1,8 @@
+D:\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\m_proasic.exe  -prodtype synplify_pro -encrypt  -pro  -part A3P250  -package VQFP100  -grade -2   -maxfan 24  -globalthreshold 50 -opcond COMWC    -report_path 0       -top_level_module  work.simple_dip_to_switch  -oedif "C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\simple_dip_to_switch.edn"  -freq 100.000  "C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\simple_dip_to_switch.srs"  -qsap  "C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\simple_dip_to_switch.sap"  -devicelib  D:\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v  -ologparam  "C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\syntmp\simple_dip_to_switch.plg"  -osyn  "C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\simple_dip_to_switch.srm"  -prjdir "C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\"  -log "C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\synlog\simple_dip_to_switch_property_annotator.srr"
+rc:0 success:1
+C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\simple_dip_to_switch.srs|i|1382324222
+C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\simple_dip_to_switch.sap|o|1382324224
+D:\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v|i|1286423504
+"C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\syntmp\simple_dip_to_switch.plg"|o|0
+C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\synthesis\simple_dip_to_switch.srm|o|0
+D:\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\m_proasic.exe|i|1286423482

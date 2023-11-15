@@ -1,0 +1,34 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design simple_dip_switch.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design simple_dip_switch.adb.
+'BA_NAME' set to 'simple_dip_switch_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'W:\OneDrive - Hanoi University of Science and
+Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter
+Kit\LabAssignments\01_dip_switch_actel\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+Wrote timing report to file: simple_dip_switch_maxdelay_timing_report.txt
+
+The Report command succeeded ( 00:00:02 )
+Wrote timing report to file: simple_dip_switch_mindelay_timing_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: simple_dip_switch_maxdelay_timingviolations_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote timing_violations report to file: simple_dip_switch_mindelay_timingviolations_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Design saved to file W:\OneDrive - Hanoi University of Science and
+Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter
+Kit\LabAssignments\01_dip_switch_actel\designer\impl1\simple_dip_switch.adb.
+
+The Execute Script command succeeded ( 00:00:03 )
+Design closed.
+

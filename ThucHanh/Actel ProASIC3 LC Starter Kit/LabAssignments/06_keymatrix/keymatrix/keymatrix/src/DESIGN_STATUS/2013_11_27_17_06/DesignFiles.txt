@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : List of design files displayed in Active-HDL Design Browser
+-- Active-HDL : Student Edition
+-- Workspace  : keymatrix
+-- Design     : keymatrix
+-- Author     : Nguyen Duc Tien
+-- Company    : DCE, SOICT, HUST
+-- Date       : 2013-11-27 17:06:08
+--
+-------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File                               | Comp. | File Status | Design Folder | File Path
+                                   | Order |             |               |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ram.vhd                            |     1 | Compiled    |               | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\ram.vhd
+rom.vhd                            |     2 | Compiled    |               | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\rom.vhd
+Step_Register.vhd                  |     3 | Compiled    |               | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\Step_Register.vhd
+counter40.vhd                      |     4 | Compiled    |               | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\counter40.vhd
+counter1M.vhd                      |     5 | Compiled    |               | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\counter1M.vhd
+Counter.vhd                        |     6 | Compiled    |               | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\Counter.vhd
+GRegister.vhd                      |     7 | Compiled    |               | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\GRegister.vhd
+Controller.bde                     |     8 | Compiled    |               | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\Controller.bde
+Led_Matrix_Controller.bde          |    10 | Modified    | top           | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\top\Led_Matrix_Controller.bde
+Led_Matrix_Controller_ClockDiv.bde |    11 | Modified    | top           | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\top\Led_Matrix_Controller_ClockDiv.bde
+Led_Matrix_Controller_rom.bde      |    12 | Modified    | top           | E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src\top\Led_Matrix_Controller_rom.bde
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,16 @@
+Project Name: DIP_SWITCH
+Location: W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3P250-2PQ208
+Family         : ProASIC3
+Die            : A3P250
+Package        : 208 PQFP
+Speed          : -2
+Core Voltage   : 1.5
+Range          : COM

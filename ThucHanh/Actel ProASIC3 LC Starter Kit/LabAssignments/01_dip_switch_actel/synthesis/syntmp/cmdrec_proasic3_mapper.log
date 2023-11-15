@@ -1,0 +1,13 @@
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\m_proasic.exe  -prodtype synplify_pro -encrypt  -pro  -part A3P250  -package VQFP100  -grade -2   -maxfan 24  -globalthreshold 50 -opcond COMWC    -report_path 0       -top_level_module  work.simple_dip_switch  -mp 1 -prjfile  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\scratchproject.prs  -implementation synthesis -licensetype  synplifypro_actel  -oedif E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.edn  -freq 100.000  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.srs  -sap  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.sap  -otap  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.tap  -omap  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.map  -devicelib  C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v  -sap  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.sap  -ologparam  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\syntmp\simple_dip_switch.plg  -osyn  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.srm  -prjdir E:\workspaces\activehdl\01_dip_switch_actel\synthesis\  -log  E:\workspaces\activehdl\01_dip_switch_actel\synthesis\synlog\simple_dip_switch_ProASIC3_Mapper.srr 
+rc:0 success:1
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\scratchproject.prs|o|1386317010
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.srs|i|1386317010
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.sap|o|0
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.tap|o|0
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.map|o|1386317017
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v|i|1286423504
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.sap|o|0
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\syntmp\simple_dip_switch.plg|o|1386317017
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\simple_dip_switch.srm|o|1386317017
+E:\workspaces\activehdl\01_dip_switch_actel\synthesis\synlog\simple_dip_switch_ProASIC3_Mapper.srr|o|1386317017
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\m_proasic.exe|i|1286423482

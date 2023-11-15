@@ -1,0 +1,22 @@
+v5.1
+Release: v5.1
+Software Version: 7.3.0.25
+STAPL file 'F:\Actel\CD\PA3_test\designer\impl1\TEST.stp' has been loaded successfully.
+DESIGN : TEST;  CHECKSUM : 8BBD;  ALG_VERSION : 11
+Driver : 2.0.4 build 2
+programmer '04448' : FlashPro3
+Opened 'F:\Actel\CD\PA3_test\designer\impl1\TEST_fp\TEST.pro'
+programmer '04448' : Scan Chain...
+Warning: programmer '04448' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '04448' : Scan Chain PASSED.
+programmer '04448' : Executing action PROGRAM
+programmer '04448' : Erase ...
+programmer '04448' : Programming FPGA Array
+programmer '04448' : Verifying FPGA Array
+programmer '04448' :     Verifying FPGA Array -- PASS
+programmer '04448' : Finished: Thu Apr 05 04:49:12 2007 (Elapsed time 00:01:21)
+programmer '04448' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+

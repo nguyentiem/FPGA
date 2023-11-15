@@ -1,0 +1,11 @@
+7
+~E 1 "./../src/code.vhd" 11 Dff
+~A 1 "./../src/code.vhd" 20 arDff
+~E 1 "./../src/code.vhd" 119 latch
+~A 1 "./../src/code.vhd" 77 arrLatch
+~E 1 "./../src/code.vhd" 488 mul_matrix
+~A 1 "./../src/code.vhd" 516 arrMul_matrix
+~E 1 "./../compile/test.vhd" 27 test
+~A 1 "./../compile/test.vhd" 53 test
+~E 1 "./../src/code.vhd" 403 xl_byte
+~A 1 "./../src/code.vhd" 359 config

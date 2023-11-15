@@ -1,0 +1,18 @@
+#add_file options
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix_actel/hdl/GRegister.vhd"
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix_actel/hdl/Counter.vhd"
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix_actel/hdl/Controller.vhd"
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix_actel/hdl/Step_Register.vhd"
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix_actel/hdl/rom.vhd"
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix_actel/hdl/Led_Matrix_Controller_rom.vhd"
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix/ledmatrix/single_matrix/src/counter40.vhd"
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix/ledmatrix/single_matrix/src/counter1M.vhd"
+add_file -vhdl "E:/workspaces/activehdl/05_ledmatrix_actel/hdl/Led_Matrix_Controller_ClockDiv.vhd"
+set_option -top_module work.Led_Matrix_Controller_ClockDiv
+
+#device options
+set_option -technology ProASIC3
+set_option -part A3P250
+
+impl -active "synthesis"
+project -result_file "E:/workspaces/activehdl/05_ledmatrix_actel/synthesis/Led_Matrix_Controller_ClockDiv.edn"

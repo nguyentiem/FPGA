@@ -1,0 +1,42 @@
+@P:  Worst Slack : 993.691
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Estimated Frequency : 208.3 MHz
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Requested Frequency : 1.0 MHz
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Estimated Period : 4.800
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Requested Period : 1000.000
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Slack : 995.200
+@P:  counter1M|adder_value_inferred_clock[14] - Estimated Frequency : 276.3 MHz
+@P:  counter1M|adder_value_inferred_clock[14] - Requested Frequency : 1.0 MHz
+@P:  counter1M|adder_value_inferred_clock[14] - Estimated Period : 3.619
+@P:  counter1M|adder_value_inferred_clock[14] - Requested Period : 1000.000
+@P:  counter1M|adder_value_inferred_clock[14] - Slack : 996.381
+@P:  counter40|adder_value_inferred_clock[6] - Estimated Frequency : 158.5 MHz
+@P:  counter40|adder_value_inferred_clock[6] - Requested Frequency : 1.0 MHz
+@P:  counter40|adder_value_inferred_clock[6] - Estimated Period : 6.309
+@P:  counter40|adder_value_inferred_clock[6] - Requested Period : 1000.000
+@P:  counter40|adder_value_inferred_clock[6] - Slack : 993.691
+@P:  Worst Slack(min analysis) : NA
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Estimated Frequency(min analysis) : 208.3 MHz
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Requested Frequency(min analysis) : 1.0 MHz
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Estimated Period(min analysis) : 4.800
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Requested Period(min analysis) : 1000.000
+@P:  Led_Matrix_Controller_ClockDiv|CLK - Slack(min analysis) : 995.200
+@P:  counter1M|adder_value_inferred_clock[14] - Estimated Frequency(min analysis) : 276.3 MHz
+@P:  counter1M|adder_value_inferred_clock[14] - Requested Frequency(min analysis) : 1.0 MHz
+@P:  counter1M|adder_value_inferred_clock[14] - Estimated Period(min analysis) : 3.619
+@P:  counter1M|adder_value_inferred_clock[14] - Requested Period(min analysis) : 1000.000
+@P:  counter1M|adder_value_inferred_clock[14] - Slack(min analysis) : 996.381
+@P:  counter40|adder_value_inferred_clock[6] - Estimated Frequency(min analysis) : 158.5 MHz
+@P:  counter40|adder_value_inferred_clock[6] - Requested Frequency(min analysis) : 1.0 MHz
+@P:  counter40|adder_value_inferred_clock[6] - Estimated Period(min analysis) : 6.309
+@P:  counter40|adder_value_inferred_clock[6] - Requested Period(min analysis) : 1000.000
+@P:  counter40|adder_value_inferred_clock[6] - Slack(min analysis) : 993.691
+@P:  Total Area : 132.0
+@P:  Total Area : 78.0
+@P:  Total Area : 27.0
+@P:  Total Area : 26.0
+@P:  Total Area : 12.0
+@P:  Total Area : 8.0
+@P:  Total Area : 6.0
+@P:  Total Area : 6.0
+@P:  Total Area : 132.0
+@P:  CPU Time : 0h:00m:02s

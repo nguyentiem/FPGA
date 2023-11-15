@@ -1,0 +1,11 @@
+i<>.\src\Column_Register.vhd
+i<>.\src\IP_CORE\ram\ram.vhd
+i<>.\src\Led_Matrix_Controller.bde
+i<>.\src\Counter.vhd
+i<>.\src\Controller.bde
+i<>.\src\Register.vhd
+i<>.\src\rom.vhd
+i<>.\src\Led_Matrix_Controller_rom.bde
+i<>.\src\Led_Matrix_Controller_ClockDiv.bde
+i<>.\src\counter1M.vhd
+i<>.\src\counter40.vhd

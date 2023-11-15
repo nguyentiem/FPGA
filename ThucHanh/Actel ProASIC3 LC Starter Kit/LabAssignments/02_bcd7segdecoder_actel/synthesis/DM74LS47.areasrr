@@ -1,0 +1,23 @@
+----------------------------------------------------------------------
+Report for cell DM74LS47.behaviour
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1C         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              INBUF         4       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1B         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                               OR3B         2       1.0        2.0
+                               OR3C         6       1.0        6.0
+                             OUTBUF         7       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XO1A         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL             38                 25.0

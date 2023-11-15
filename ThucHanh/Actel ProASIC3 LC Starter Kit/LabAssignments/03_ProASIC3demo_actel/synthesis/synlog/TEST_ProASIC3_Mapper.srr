@@ -1,0 +1,454 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\workspaces\activehdl\03_proasic3demo_actel\hdl\test.vhd":149:4:149:5|Found updn counter in view:work.TEST(def_arch) inst int_count[7:0] 
+@N:"e:\workspaces\activehdl\03_proasic3demo_actel\hdl\test.vhd":216:4:216:5|Found counter in view:work.TEST(def_arch) inst dis_count[3:0]
+@N:"e:\workspaces\activehdl\03_proasic3demo_actel\hdl\test.vhd":170:4:170:5|Found counter in view:work.TEST(def_arch) inst int_flash[2:0]
+Encoding state machine work.TEST(def_arch)-state[0:8]
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+@N: MF238 :"e:\workspaces\activehdl\03_proasic3demo_actel\hdl\test.vhd":131:21:131:36|Found 24 bit incrementor, 'un2_divide_clk[23:0]'
+@N: MF238 :"e:\workspaces\activehdl\03_proasic3demo_actel\hdl\test.vhd":131:21:131:36|Found 23 bit incrementor, 'un2_divide_clk_0[22:0]'
+@N: MF238 :"e:\workspaces\activehdl\03_proasic3demo_actel\hdl\test.vhd":131:21:131:36|Found 22 bit incrementor, 'un2_divide_clk_1[21:0]'
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+RST_pad / Y                    52 : 50 asynchronous set/reset
+=============================================================
+
+@N: FP130 |Promoting Net divide_clk_c[22] on CLKINT  divide_clk_inferred_clock[22] 
+@N: FP130 |Promoting Net RST_c on CLKINT  I_180 
+@N: FP130 |Promoting Net CLK_c on CLKBUF  CLK_pad 
+@N: FP130 |Promoting Net divide_clk_c[21] on CLKINT  divide_clk_inferred_clock[21] 
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Writing Analyst data base E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\TEST.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:02s; Memory used current: 56MB peak: 56MB)
+
+@W: MT420 |Found inferred clock TEST|CLK with period 25.00ns. A user-defined clock should be declared on object "p:CLK"
+
+@W: MT420 |Found inferred clock TEST|divide_clk_inferred_clock[21] with period 25.00ns. A user-defined clock should be declared on object "n:divide_clk[21]"
+
+@W: MT420 |Found inferred clock TEST|divide_clk_inferred_clock[22] with period 25.00ns. A user-defined clock should be declared on object "n:divide_clk[22]"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Nov 24 12:17:16 2013
+#
+
+
+Top view:               TEST
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    40.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 17.911
+
+                                       Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                         Frequency     Frequency     Period        Period        Slack      Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------
+TEST|CLK                               40.0 MHz      152.2 MHz     25.000        6.569         18.431     inferred     Inferred_clkgroup_2
+TEST|divide_clk_inferred_clock[21]     40.0 MHz      329.3 MHz     25.000        3.037         21.963     inferred     Inferred_clkgroup_0
+TEST|divide_clk_inferred_clock[22]     40.0 MHz      141.1 MHz     25.000        7.089         17.911     inferred     Inferred_clkgroup_1
+==========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                            Ending                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+TEST|divide_clk_inferred_clock[21]  TEST|divide_clk_inferred_clock[21]  |  25.000      21.963  |  No paths    -      |  No paths    -      |  No paths    -    
+TEST|divide_clk_inferred_clock[22]  TEST|divide_clk_inferred_clock[22]  |  25.000      17.911  |  No paths    -      |  No paths    -      |  No paths    -    
+TEST|CLK                            TEST|CLK                            |  25.000      18.431  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: TEST|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                           Arrival           
+Instance          Reference     Type       Pin     Net               Time        Slack 
+                  Clock                                                                
+---------------------------------------------------------------------------------------
+divide_clk[1]     TEST|CLK      DFN1C1     Q       divide_clk[1]     0.550       18.431
+divide_clk[0]     TEST|CLK      DFN1C1     Q       divide_clk[0]     0.550       18.453
+divide_clk[2]     TEST|CLK      DFN1C1     Q       divide_clk[2]     0.550       18.482
+divide_clk[4]     TEST|CLK      DFN1C1     Q       divide_clk[4]     0.550       18.562
+divide_clk[3]     TEST|CLK      DFN1C1     Q       divide_clk[3]     0.550       18.592
+=======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                  Required           
+Instance           Reference     Type       Pin     Net      Time         Slack 
+                   Clock                                                        
+--------------------------------------------------------------------------------
+divide_clk[12]     TEST|CLK      DFN1C1     D       I_73     24.598       18.431
+divide_clk[11]     TEST|CLK      DFN1C1     D       I_66     24.598       18.553
+divide_clk[13]     TEST|CLK      DFN1C1     D       I_77     24.598       18.553
+divide_clk[14]     TEST|CLK      DFN1C1     D       I_84     24.598       18.553
+divide_clk[15]     TEST|CLK      DFN1C1     D       I_91     24.598       18.553
+================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      25.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         24.598
+
+    - Propagation time:                      6.166
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 18.431
+
+    Number of logic level(s):                4
+    Starting point:                          divide_clk[1] / Q
+    Ending point:                            divide_clk[12] / D
+    The start point is clocked by            TEST|CLK [rising] on pin CLK
+    The end   point is clocked by            TEST|CLK [rising] on pin CLK
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                   Type       Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+divide_clk[1]                          DFN1C1     Q        Out     0.550     0.550       -         
+divide_clk[1]                          Net        -        -       1.140     -           7         
+un2_divide_clk.I_16                    AND3       B        In      -         1.690       -         
+un2_divide_clk.I_16                    AND3       Y        Out     0.453     2.143       -         
+un2_divide_clk.U1\.DWACT_FINC_E[0]     Net        -        -       1.224     -           8         
+un2_divide_clk.I_62                    AND3       A        In      -         3.367       -         
+un2_divide_clk.I_62                    AND3       Y        Out     0.346     3.713       -         
+un2_divide_clk.U1\.DWACT_FINC_E[6]     Net        -        -       1.140     -           7         
+un2_divide_clk.I_72                    NOR2B      B        In      -         4.853       -         
+un2_divide_clk.I_72                    NOR2B      Y        Out     0.469     5.322       -         
+un2_divide_clk.N_63                    Net        -        -       0.240     -           1         
+un2_divide_clk.I_73                    XOR2       A        In      -         5.562       -         
+un2_divide_clk.I_73                    XOR2       Y        Out     0.365     5.926       -         
+I_73                                   Net        -        -       0.240     -           1         
+divide_clk[12]                         DFN1C1     D        In      -         6.166       -         
+===================================================================================================
+Total path delay (propagation time + setup) of 6.569 is 2.585(39.4%) logic and 3.983(60.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: TEST|divide_clk_inferred_clock[21]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                                   Arrival           
+Instance         Reference                              Type       Pin     Net              Time        Slack 
+                 Clock                                                                                        
+--------------------------------------------------------------------------------------------------------------
+int_flash[0]     TEST|divide_clk_inferred_clock[21]     DFN1C1     Q       int_flash[0]     0.550       21.963
+int_flash[1]     TEST|divide_clk_inferred_clock[21]     DFN1C1     Q       int_flash[1]     0.550       22.020
+int_flash[2]     TEST|divide_clk_inferred_clock[21]     DFN1C1     Q       int_flash[2]     0.550       22.487
+==============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                                                     Required           
+Instance         Reference                              Type       Pin     Net                Time         Slack 
+                 Clock                                                                                           
+-----------------------------------------------------------------------------------------------------------------
+int_flash[2]     TEST|divide_clk_inferred_clock[21]     DFN1C1     D       int_flash_n2       24.598       21.963
+int_flash[1]     TEST|divide_clk_inferred_clock[21]     DFN1C1     D       int_flash_n1       24.598       21.968
+int_flash[0]     TEST|divide_clk_inferred_clock[21]     DFN1C1     D       int_flash_i[0]     24.598       22.289
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      25.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         24.598
+
+    - Propagation time:                      2.635
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 21.963
+
+    Number of logic level(s):                1
+    Starting point:                          int_flash[0] / Q
+    Ending point:                            int_flash[2] / D
+    The start point is clocked by            TEST|divide_clk_inferred_clock[21] [rising] on pin CLK
+    The end   point is clocked by            TEST|divide_clk_inferred_clock[21] [rising] on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                 Type       Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+int_flash[0]         DFN1C1     Q        Out     0.550     0.550       -         
+int_flash[0]         Net        -        -       1.140     -           7         
+int_flash_RNO[2]     AX1C       A        In      -         1.690       -         
+int_flash_RNO[2]     AX1C       Y        Out     0.705     2.395       -         
+int_flash_n2         Net        -        -       0.240     -           1         
+int_flash[2]         DFN1C1     D        In      -         2.635       -         
+=================================================================================
+Total path delay (propagation time + setup) of 3.037 is 1.657(54.6%) logic and 1.380(45.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: TEST|divide_clk_inferred_clock[22]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                                       Arrival           
+Instance         Reference                              Type         Pin     Net                Time        Slack 
+                 Clock                                                                                            
+------------------------------------------------------------------------------------------------------------------
+dis_count[0]     TEST|divide_clk_inferred_clock[22]     DFN1E0C1     Q       dis_count_c0       0.550       17.911
+int_count[0]     TEST|divide_clk_inferred_clock[22]     DFN1C1       Q       int_count_c[0]     0.550       17.960
+int_count[1]     TEST|divide_clk_inferred_clock[22]     DFN1C1       Q       int_count_c[1]     0.550       18.135
+sel_char[0]      TEST|divide_clk_inferred_clock[22]     DFN1C1       Q       sel_char[0]        0.550       18.177
+dis_count[2]     TEST|divide_clk_inferred_clock[22]     DFN1E0C1     Q       dis_count[2]       0.550       18.410
+==================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                            Required           
+Instance        Reference                              Type       Pin     Net       Time         Slack 
+                Clock                                                                                  
+-------------------------------------------------------------------------------------------------------
+DATA_LCD[0]     TEST|divide_clk_inferred_clock[22]     DFN1E0     D       N_189     24.598       17.911
+DATA_LCD[1]     TEST|divide_clk_inferred_clock[22]     DFN1E0     D       N_190     24.598       17.911
+DATA_LCD[2]     TEST|divide_clk_inferred_clock[22]     DFN1E0     D       N_191     24.598       17.911
+DATA_LCD[3]     TEST|divide_clk_inferred_clock[22]     DFN1E0     D       N_192     24.598       17.911
+DATA_LCD[4]     TEST|divide_clk_inferred_clock[22]     DFN1E0     D       N_193     24.598       17.911
+=======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      25.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         24.598
+
+    - Propagation time:                      6.687
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     17.911
+
+    Number of logic level(s):                4
+    Starting point:                          dis_count[0] / Q
+    Ending point:                            DATA_LCD[0] / D
+    The start point is clocked by            TEST|divide_clk_inferred_clock[22] [rising] on pin CLK
+    The end   point is clocked by            TEST|divide_clk_inferred_clock[22] [rising] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+dis_count[0]             DFN1E0C1     Q        Out     0.550     0.550       -         
+dis_count_c0             Net          -        -       1.589     -           15        
+dis_count_RNID08A[1]     OR2B         B        In      -         2.139       -         
+dis_count_RNID08A[1]     OR2B         Y        Out     0.469     2.608       -         
+N_26                     Net          -        -       0.602     -           3         
+dis_count_RNIL6CF[2]     NOR2A        B        In      -         3.210       -         
+dis_count_RNIL6CF[2]     NOR2A        Y        Out     0.288     3.498       -         
+N_27                     Net          -        -       0.884     -           4         
+state_RNIV26G[1]         OR2A         B        In      -         4.382       -         
+state_RNIV26G[1]         OR2A         Y        Out     0.483     4.865       -         
+N_188                    Net          -        -       1.224     -           8         
+DATA_LCD_RNO[0]          MX2C         S        In      -         6.089       -         
+DATA_LCD_RNO[0]          MX2C         Y        Out     0.358     6.447       -         
+N_189                    Net          -        -       0.240     -           1         
+DATA_LCD[0]              DFN1E0       D        In      -         6.687       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 7.089 is 2.550(36.0%) logic and 4.539(64.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P250_VQFP100_-2
+Report for cell TEST.def_arch
+  Core Cell usage:
+              cell count     area count*area
+              AND2     7      1.0        7.0
+              AND3    50      1.0       50.0
+               AO1     2      1.0        2.0
+              AO14     1      1.0        1.0
+              AO16     1      1.0        1.0
+              AOI5     1      1.0        1.0
+              AX1B     2      1.0        2.0
+              AX1C     3      1.0        3.0
+              AXO2     1      1.0        1.0
+              AXO5     1      1.0        1.0
+              AXO6     1      1.0        1.0
+             AXOI4     1      1.0        1.0
+             AXOI5     2      1.0        2.0
+            CLKINT     3      0.0        0.0
+               GND     1      0.0        0.0
+               INV     5      1.0        5.0
+               MX2     5      1.0        5.0
+              MX2A     2      1.0        2.0
+              MX2B     1      1.0        1.0
+              MX2C    28      1.0       28.0
+              NOR2     7      1.0        7.0
+             NOR2A     7      1.0        7.0
+             NOR2B     9      1.0        9.0
+              NOR3     8      1.0        8.0
+             NOR3A     1      1.0        1.0
+             NOR3B     1      1.0        1.0
+             NOR3C     1      1.0        1.0
+              OA1A     1      1.0        1.0
+              OA1B     2      1.0        2.0
+               OR2     6      1.0        6.0
+              OR2A     7      1.0        7.0
+              OR2B     5      1.0        5.0
+               OR3     4      1.0        4.0
+              OR3B     1      1.0        1.0
+               VCC     1      0.0        0.0
+              XA1B     1      1.0        1.0
+              XAI1     1      1.0        1.0
+             XNOR2     3      1.0        3.0
+             XNOR3     1      1.0        1.0
+              XO1A     1      1.0        1.0
+              XOR2    32      1.0       32.0
+              XOR3     2      1.0        2.0
+
+
+            DFN1C1    44      1.0       44.0
+            DFN1E0    10      1.0       10.0
+          DFN1E0C1     4      1.0        4.0
+          DFN1E1C1     1      1.0        1.0
+            DFN1P1     1      1.0        1.0
+                   -----          ----------
+             TOTAL   280               275.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF    15
+            OUTBUF    36
+                   -----
+             TOTAL    52
+
+
+Core Cells         : 275 of 6144 (4%)
+IO Cells           : 52
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:09s realtime, 0h:00m:02s cputime
+# Sun Nov 24 12:17:16 2013
+
+###########################################################]

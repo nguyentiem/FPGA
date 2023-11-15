@@ -1,0 +1,249 @@
+***************************************************************************
+                               Status Report
+                          Tue Nov 27 14:15:25 2018 ***************************************************************************
+
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+File Name: W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\designer\impl1\simple_dip_switch.adb
+Design Name: simple_dip_switch  Design State: layout
+Last Saved: Tue Nov 27 14:15:13 2018
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P250  Package: 208 PQFP
+Speed: -2  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Tue Nov 27 14:15:06 2018:
+        W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\synthesis\simple_dip_switch.edn
+        W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\synthesis\simple_dip_switch_sdc.sdc
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: off
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P250
+Package     : 208 PQFP
+Source      : W:\OneDrive - Hanoi University of Science and
+Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter
+Kit\LabAssignments\01_dip_switch_actel\synthesis\simple_dip_switch.edn
+              W:\OneDrive - Hanoi University of Science and
+Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter
+Kit\LabAssignments\01_dip_switch_actel\synthesis\simple_dip_switch_sdc.sdc
+Format      : EDIF
+Topcell     : simple_dip_switch
+Speed grade : -2
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:      0  Total:   6144   (0.00%)
+    IO (W/ clocks)             Used:     24  Total:    151   (15.89%)
+    Differential IO            Used:      0  Total:     34   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 0      | 6  (0.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 0            | 0
+    SEQ     | 0            | 0
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 8             | 0            | 0
+    Output I/O                            | 16            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS33                        | 3.30v | N/A   | 8     | 16     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :  24 ( 100.00% )
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    1       INT_NET       Net   : SW2_c_c[7]
+                          Driver: SW2_pad[7]
+    1       INT_NET       Net   : SW2_c_c[6]
+                          Driver: SW2_pad[6]
+    1       INT_NET       Net   : SW2_c_c[5]
+                          Driver: SW2_pad[5]
+    1       INT_NET       Net   : SW2_c_c[4]
+                          Driver: SW2_pad[4]
+    1       INT_NET       Net   : SW2_c_c[3]
+                          Driver: SW2_pad[3]
+    1       INT_NET       Net   : SW2_c_c[2]
+                          Driver: SW2_pad[2]
+    1       INT_NET       Net   : SW2_c_c[1]
+                          Driver: SW2_pad[1]
+    1       INT_NET       Net   : SW2_c_c[0]
+                          Driver: SW2_pad[0]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    1       INT_NET       Net   : SW2_c_c[7]
+                          Driver: SW2_pad[7]
+    1       INT_NET       Net   : SW2_c_c[6]
+                          Driver: SW2_pad[6]
+    1       INT_NET       Net   : SW2_c_c[5]
+                          Driver: SW2_pad[5]
+    1       INT_NET       Net   : SW2_c_c[4]
+                          Driver: SW2_pad[4]
+    1       INT_NET       Net   : SW2_c_c[3]
+                          Driver: SW2_pad[3]
+    1       INT_NET       Net   : SW2_c_c[2]
+                          Driver: SW2_pad[2]
+    1       INT_NET       Net   : SW2_c_c[1]
+                          Driver: SW2_pad[1]
+    1       INT_NET       Net   : SW2_c_c[0]
+                          Driver: SW2_pad[0]
+
+
+Layout Output:
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Nov 27 14:15:17 2018
+
+Placer Finished: Tue Nov 27 14:15:18 2018
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: simple_dip_switch               Started: Tue Nov 27 14:15:20 2018
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: simple_dip_switch               
+Finished: Tue Nov 27 14:15:23 2018
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:03
+Total Memory Usage: 160.0 Mbytes
+                        o - o - o - o - o - o
+
+
+

@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: main-board-vr3.PCB   29-Dec-2005  11:45:01
+---------------------------------------------------------------------------
+
+
+
+Layer Pair : TopLayer to BottomLayer
+ASCII File : NCDrillOutput.TXT
+EIA File   : NCDrillOutput.DRL
+
+Tool         Hole Size          Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.8mm (31.496mil)        136              976.33 mm (38.44 Inch)
+T2        1mm (39.37mil)           383              2235.71 mm (88.02 Inch)
+T3        3.2mm (125.984mil)       17               1071.49 mm (42.18 Inch)
+T4        0.9mm (35.433mil)        3                218.10 mm (8.59 Inch)
+T5        0.76mm (29.921mil)       8                368.59 mm (14.51 Inch)
+T6        1.2mm (47.244mil)        12               269.18 mm (10.60 Inch)
+T7        1.5mm (59.055mil)        16               205.76 mm (8.10 Inch)
+T8        0.71mm (27.953mil)       104              1508.58 mm (59.39 Inch)
+---------------------------------------------------------------------------
+Totals                             679              6853.74 mm (269.83 Inch)
+
+Total Processing Time : 00:00:00

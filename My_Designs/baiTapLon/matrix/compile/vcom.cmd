@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/baiTapLon/matrix/compile/matrix.erf -d c:/My_Designs/baiTapLon/matrix/compile -s c:/My_Designs/baiTapLon/library.cfg -j c:/My_Designs/baiTapLon/matrix/projlib.cfg -work matrix -O3 -e 100 -work matrix -2002 c:/My_Designs/baiTapLon/matrix/compile/test.vhd 

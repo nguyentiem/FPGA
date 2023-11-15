@@ -1,0 +1,6 @@
+@N: CD630 :"C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\component\work\simple_dip_to_switch\simple_dip_to_switch.vhd":8:7:8:26|Synthesizing work.simple_dip_to_switch.def_arch 
+@N: CD630 :"D:\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+@N: CD630 :"D:\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+Post processing for work.simple_dip_to_switch.def_arch

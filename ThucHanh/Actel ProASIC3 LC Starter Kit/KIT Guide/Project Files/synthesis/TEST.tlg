@@ -1,0 +1,19 @@
+@N: CD630 :"F:\Actel\CD\PA3_test\hdl\test.vhd":11:7:11:10|Synthesizing work.test.def_arch 
+@N: CD231 :"F:\Actel\CD\PA3_test\hdl\test.vhd":62:16:62:17|Using onehot encoding for type state_type (warmup="100000000")
+@W: CD604 :"F:\Actel\CD\PA3_test\hdl\test.vhd":316:25:316:38|OTHERS clause is not synthesized 
+Post processing for work.test.def_arch
+@W: CL112 :"F:\Actel\CD\PA3_test\hdl\test.vhd":214:4:214:5|Feedback mux created for signal DATA_LCD[7:0]. Did you forget the set/reset assignment for this signal?
+@W: CL112 :"F:\Actel\CD\PA3_test\hdl\test.vhd":214:4:214:5|Feedback mux created for signal dis_complete. Did you forget the set/reset assignment for this signal?
+@W: CL112 :"F:\Actel\CD\PA3_test\hdl\test.vhd":214:4:214:5|Feedback mux created for signal RS_LCD. Did you forget the set/reset assignment for this signal?
+@N: CL201 :"F:\Actel\CD\PA3_test\hdl\test.vhd":214:4:214:5|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000

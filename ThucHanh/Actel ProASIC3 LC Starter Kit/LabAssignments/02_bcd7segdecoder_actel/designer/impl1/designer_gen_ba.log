@@ -1,0 +1,23 @@
+Actel Designer Software
+Version: 9.1.0.18
+Release: v9.1
+
+Info: The design DM74LS47.adb was last modified by software version 9.1.0.18.
+Opened an existing Libero design DM74LS47.adb.
+'BA_NAME' set to 'DM74LS47_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Actel\Libero_v9.1\Designer\bin\7segdecoder\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+Back-annotated to the file(s):
+   .\DM74LS47_ba.sdf
+   .\DM74LS47_ba.vhd
+
+The Back-Annotate command succeeded ( 00:00:01 )
+Design saved to file C:\Actel\Libero_v9.1\Designer\bin\7segdecoder\designer\impl1\DM74LS47.adb.
+
+The Execute Script command succeeded ( 00:00:01 )
+Design closed.
+

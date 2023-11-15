@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : Design Flow Manager settings and simulation libraries
+-- Active-HDL : Student Edition
+-- Workspace  : keymatrix
+-- Design     : keymatrix
+-- Author     : Nguyen Duc Tien
+-- Company    : DCE, SOICT, HUST
+-- Date       : 2013-11-27 17:06:08
+--
+-------------------------------------------------------------------------------
+1. Design Flow Manager Settings
+-------------------------------------------------------------------------------------------------------------------------------
+Language           | VHDL
+Flow Type          | HDL
+C Synthesis        | <none>  
+HDL Synthesis      | Synopsys Synplicity Synplify Pro E-2010.09 for Actel C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin
+Physical Synthesis | <none>  
+Implementation     | Actel Designer 9.1 C:\Actel\Libero_v9.1\Designer\bin
+Family Name        | Actel ProASIC3
+-------------------------------------------------------------------------------------------------------------------------------
+
+2. Working Library: keymatrix
+Active-HDL 9.1.2354.4209  2013-11-27 17:03:19
+
+Elaboration top modules:
+Architecture                  ram_arch(ram)
+
+
+--------------------------------------------------------------------------------------------
+Entity   | Architecture | Library   | Info | Compiler Version         | Compilation Options
+--------------------------------------------------------------------------------------------
+ram      | ram_arch     | keymatrix |      | 9.1.2354.4209  (Windows) | -O3
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+VHDL Package            | Library   | Info | Compiler Version         | Compilation Options
+--------------------------------------------------------------------------------------------
+standard                | std       |      |                          | <unavailable>
+TEXTIO                  | std       |      | 9.1.2354.4209  (Windows) |  -2008
+std_logic_1164          | ieee      |      | 9.1.2354.4209  (Windows) |  -2008
+std_logic_arith         | ieee      |      | 9.1.2354.4209  (Windows) | 
+STD_LOGIC_UNSIGNED      | ieee      |      | 9.1.2354.4209  (Windows) | 
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+Library                 | Comment
+--------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+keymatrix               | None
+std                     | Standard VHDL library
+--------------------------------------------------------------------------------------------
+
+

@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Tue Nov 27 12:28:16 2018
+Project   :  W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel
+Component :  simple_dip_switch
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    W:/OneDrive - Hanoi University of Science and Technology/TaiLieuMonHoc/IT4251_ThietKeIC/ThucHanh/Actel ProASIC3 LC Starter Kit/LabAssignments/01_dip_switch_actel/component/work/simple_dip_switch/simple_dip_switch.vhd
+

@@ -1,0 +1,5 @@
+﻿
+- Trong thư mục LabAssignments  có các bài thực hành. Mỗi bài thực hành là một nhóm thư mục được đánh số 01_, 02_, 03_
+- Có file hướng dẫn thực hành chung, nằm ở thư mục gốc, hướng dẫn các thao tác, và chứa mã nguồn HDL cho tất cả các bài thực hành
+- Một số bài thực hành được thiết kế trực tiếp trên công cụ Libero của Actel, nên chỉ có 1 thư mục duy nhất
+- Sinh viên nên đọc tài liệu KIT Guide để hiểu rõ về Kit phát triển trước khi thực hành

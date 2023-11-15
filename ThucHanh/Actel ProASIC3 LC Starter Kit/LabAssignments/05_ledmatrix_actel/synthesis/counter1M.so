@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>counter1M</design>
+	<target_edif>E:\workspaces\activehdl\05_ledmatrix_actel\synthesis\counter1M.edn</target_edif>
+</SynplifyOutput>

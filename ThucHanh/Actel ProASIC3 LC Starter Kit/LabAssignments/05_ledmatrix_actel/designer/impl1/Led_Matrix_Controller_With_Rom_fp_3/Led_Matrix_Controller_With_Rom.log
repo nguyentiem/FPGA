@@ -1,0 +1,29 @@
+FlashPro
+Version: 9.1.0.18
+Release: v9.1
+
+Software Version: 9.1.0.18
+Created new project 'C:\Documents and
+Settings\ktmt\Desktop\05_ledmatrix_actel\designer\impl1\Led_Matrix_Controller_With_Rom_fp_3\Led\
+_Matrix_Controller_With_Rom.pro'
+PDB file 'C:\Documents and
+Settings\ktmt\Desktop\05_ledmatrix_actel\designer\impl1\Led_Matrix_Controller_With_Rom.pdb' has
+been loaded successfully.
+DESIGN : Led_Matrix_Controller_With_Rom;  CHECKSUM : BB00;  PDB_VERSION : 1.6
+programmer 'FPBBALTLPT1' : Para2Buff
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+programmer 'FPBBALTLPT1' : Executing action PROGRAM
+programmer 'FPBBALTLPT1' : EXPORT FSN[48] = 80debb087cb4
+programmer 'FPBBALTLPT1' : Erase ...
+programmer 'FPBBALTLPT1' : Completed erase
+programmer 'FPBBALTLPT1' : Programming FPGA Array
+programmer 'FPBBALTLPT1' : Verifying FPGA Array
+programmer 'FPBBALTLPT1' :         Verifying FPGA Array -- pass
+programmer 'FPBBALTLPT1' : Finished: Mon Nov 25 14:00:14 2013 (Elapsed time 00:03:49)
+programmer 'FPBBALTLPT1' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'Led_Matrix_Controller_With_Rom' has been modified. Do you want to save it?
+         [NO]

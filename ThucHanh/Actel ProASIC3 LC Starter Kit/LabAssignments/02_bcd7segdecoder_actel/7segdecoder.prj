@@ -1,0 +1,201 @@
+KEY LIBERO "9.1"
+KEY CAPTURE "9.1.0.18"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\bcd7segdecoder\bcd7segdecoder\src"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "42892871-89e7-4e79-ae98-cc66c72526c5"
+KEY HDLTechnology "VHDL"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS4X4M1"
+KEY VendorTechnology_Package "pq208"
+KEY ProjectLocation "E:\workspaces\activehdl\02_bcd7segdecoder_actel"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "DM74LS47::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\DM74LS47.adb,adb"
+STATE="utd"
+TIME="1382940828"
+SIZE="55296"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47.pdb,pdb"
+STATE="ood"
+TIME="1382940808"
+SIZE="52224"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47_1_fp\DM74LS47.pro,pro"
+STATE="utd"
+TIME="1385447296"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47_1_fp_1\DM74LS47.pro,pro"
+STATE="utd"
+TIME="1385447296"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47_1_fp_2\DM74LS47.pro,pro"
+STATE="utd"
+TIME="1385447296"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47_1_fp_3\DM74LS47.pro,pro"
+STATE="utd"
+TIME="1385447296"
+SIZE="1629"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47_1_fp_4\DM74LS47.pro,pro"
+STATE="utd"
+TIME="1385447296"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1382584032"
+SIZE="18177"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47_ba.vhd,ba_hdl"
+STATE="ood"
+TIME="1382584032"
+SIZE="10959"
+ENDFILE
+VALUE "<project>\designer\impl1\DM74LS47_fp\DM74LS47.pro,pro"
+STATE="utd"
+TIME="1385447296"
+SIZE="0"
+ENDFILE
+VALUE "<project>\hdl\BCD_7Seg_Decoder.vhd,hdl"
+STATE="utd"
+TIME="1382939706"
+SIZE="3071"
+ENDFILE
+VALUE "<project>\synthesis\DM74LS47.edn,syn_edn"
+STATE="utd"
+TIME="1383641294"
+SIZE="22061"
+ENDFILE
+VALUE "<project>\synthesis\DM74LS47_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1383641294"
+SIZE="310"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "DM74LS47::work"
+FILE "<project>\hdl\BCD_7Seg_Decoder.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\DM74LS47.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Actel\Libero_v9.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Actel\Libero_v9.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "DM74LS47::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\DM74LS47.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+DESIGNFLOW:
+FILE:<project>\hdl\BCD_7Seg_Decoder.vhd,hdl
+ACTIVE_VIEW:1
+ENDLIST

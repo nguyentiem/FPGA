@@ -1,0 +1,27 @@
+# Actel Physical design constraints file
+# Generated file
+
+# Version: 9.1 9.1.0.18
+# Family: ProASIC3 , Die: A3P250 , Package: 208 PQFP
+# Date generated: Mon Oct 21 09:58:02 2013 
+
+
+# 
+# IO banks setting
+# 
+
+
+# 
+# I/O constraints
+# 
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+

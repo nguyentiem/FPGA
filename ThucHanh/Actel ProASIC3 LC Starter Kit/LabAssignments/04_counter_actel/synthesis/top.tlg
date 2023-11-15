@@ -1,0 +1,12 @@
+@N: CD630 :"E:\workspaces\activehdl\04_counter_actel\hdl\top.vhd":25:7:25:9|Synthesizing work.top.top 
+@N: CD630 :"E:\workspaces\activehdl\04_counter_actel\hdl\BCD_7Seg_Decoder.vhd":10:7:10:14|Synthesizing work.dm74ls47.behaviour 
+@W: CD604 :"E:\workspaces\activehdl\04_counter_actel\hdl\BCD_7Seg_Decoder.vhd":59:10:59:23|OTHERS clause is not synthesized 
+Post processing for work.dm74ls47.behaviour
+@N: CD630 :"E:\workspaces\activehdl\04_counter_actel\hdl\counter.vhd":29:7:29:13|Synthesizing work.counter.behavior 
+Post processing for work.counter.behavior
+@N: CD630 :"E:\workspaces\activehdl\04_counter_actel\hdl\counter40.vhd":32:7:32:15|Synthesizing work.counter40.behavior 
+@W: CD638 :"E:\workspaces\activehdl\04_counter_actel\hdl\counter40.vhd":44:7:44:16|Signal load_value is undriven 
+Post processing for work.counter40.behavior
+@N: CD630 :"E:\workspaces\activehdl\04_counter_actel\hdl\counter1M.vhd":31:7:31:15|Synthesizing work.counter1m.behavior 
+Post processing for work.counter1m.behavior
+Post processing for work.top.top

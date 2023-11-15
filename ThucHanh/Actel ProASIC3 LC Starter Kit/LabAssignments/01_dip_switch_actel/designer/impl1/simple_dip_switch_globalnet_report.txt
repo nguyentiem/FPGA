@@ -1,0 +1,28 @@
+********************************************************************
+                            Global Net Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Tue Nov 27 14:15:25 2018
+Design Name: simple_dip_switch  Family: ProASIC3  Die: A3P250  Package: 208 PQFP
+
+
+Automatic Global Net Placement Result:
+Status: Global net placement completed successfully
+
+
+Global Nets Information:
+
+        |-----------------------------------------------------|
+        |Global Nets         |Loads                           |
+        |-----------------------------------------------------|
+        |Name                |Core      |IO        |RAM       |
+        |-----------------------------------------------------|
+
+Summary of Global Net Placement:
+
+        |------------------------------------------------------------------------|
+        |Global Net          |Assignment          |Violation                     |
+        |------------------------------------------------------------------------|

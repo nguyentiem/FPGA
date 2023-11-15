@@ -1,0 +1,39 @@
+License checkout: synplify_pc
+
+Starting:    C:\Libero\Synplify\Synplify_862H\bin\mbin\synplify.exe
+Install:     C:\Libero\Synplify\Synplify_862H
+Date:        Thu Apr 05 03:31:55 2007
+Version:     8.6.2H
+
+
+Arguments:   TEST_syn.prj
+ProductType: synplify
+
+License: synplify_pc node-locked 
+
+
+
+Running synthesis on TEST_syn:synthesis
+
+log file: "F:\Actel\CD\PA3_test\synthesis\TEST.srr"
+
+
+Running Vhdl Compiler...
+
+Vhdl Compiler Completed
+
+
+Total: 0 errors, 4 warnings, 5 notes
+
+
+Running ProASIC3 Mapper...
+
+ProASIC3 Mapper Completed
+
+
+Total: 0 errors, 4 warnings, 10 notes
+
+
+exit status=0
+
+

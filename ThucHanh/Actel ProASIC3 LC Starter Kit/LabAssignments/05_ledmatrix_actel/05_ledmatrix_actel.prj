@@ -1,0 +1,276 @@
+KEY LIBERO "9.1"
+KEY CAPTURE "9.1.0.18"
+KEY DEFAULT_IMPORT_LOC "G:\05_ledmatrix\ledmatrix\single_matrix\src"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "6020d898-f899-4dd0-bf03-2751292de8b6"
+KEY HDLTechnology "VHDL"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS4X4M1"
+KEY VendorTechnology_Package "pq208"
+KEY ProjectLocation "E:\workspaces\activehdl\05_ledmatrix_actel"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "Led_Matrix_Controller_ClockDiv::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_ClockDiv.adb,adb"
+STATE="ood"
+TIME="1385447070"
+SIZE="113664"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_ClockDiv.pdb,pdb"
+STATE="ood"
+TIME="1386318647"
+SIZE="57344"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_ClockDiv_1_fp\Led_Matrix_Controller_ClockDiv.pro,pro"
+STATE="utd"
+TIME="1386318682"
+SIZE="1703"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_ClockDiv_1_fp_1\Led_Matrix_Controller_ClockDiv.pro,pro"
+STATE="utd"
+TIME="1386318791"
+SIZE="1707"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_ClockDiv_fp\Led_Matrix_Controller_ClockDiv.pro,pro"
+STATE="utd"
+TIME="1385623289"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_With_Rom.adb,adb"
+STATE="ood"
+TIME="1385362564"
+SIZE="79360"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_With_Rom.pdb,pdb"
+STATE="ood"
+TIME="1385362530"
+SIZE="52736"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_With_Rom_fp_2\Led_Matrix_Controller_With_Rom.pro,pro"
+STATE="utd"
+TIME="1385623289"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_With_Rom_fp_3\Led_Matrix_Controller_With_Rom.pro,pro"
+STATE="utd"
+TIME="1385623289"
+SIZE="0"
+ENDFILE
+VALUE "<project>\designer\impl1\Led_Matrix_Controller_With_Rom_fp_4\Led_Matrix_Controller_With_Rom.pro,pro"
+STATE="utd"
+TIME="1385623289"
+SIZE="1703"
+ENDFILE
+VALUE "<project>\hdl\Controller.vhd,hdl"
+STATE="utd"
+TIME="1384929712"
+SIZE="2595"
+ENDFILE
+VALUE "<project>\hdl\Counter.vhd,hdl"
+STATE="utd"
+TIME="1384929702"
+SIZE="1168"
+ENDFILE
+VALUE "<project>\hdl\GRegister.vhd,hdl"
+STATE="utd"
+TIME="1384929702"
+SIZE="1458"
+ENDFILE
+VALUE "<project>\hdl\Led_Matrix_Controller_rom.vhd,hdl"
+STATE="utd"
+TIME="1384959914"
+SIZE="3964"
+ENDFILE
+VALUE "<project>\hdl\rom.vhd,hdl"
+STATE="utd"
+TIME="1385361896"
+SIZE="1277"
+ENDFILE
+VALUE "<project>\hdl\Step_Register.vhd,hdl"
+STATE="utd"
+TIME="1384959184"
+SIZE="1781"
+ENDFILE
+VALUE "<project>\synthesis\counter1M.edn,syn_edn"
+STATE="ood"
+TIME="1385440060"
+SIZE="31141"
+ENDFILE
+VALUE "<project>\synthesis\counter1M_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1385440060"
+SIZE="376"
+ENDFILE
+VALUE "<project>\synthesis\Led_Matrix_Controller_ClockDiv.edn,syn_edn"
+STATE="ood"
+TIME="1385623359"
+SIZE="86647"
+ENDFILE
+VALUE "<project>\synthesis\Led_Matrix_Controller_ClockDiv_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1385623359"
+SIZE="380"
+ENDFILE
+VALUE "<project>\synthesis\Led_Matrix_Controller_With_Rom.edn,syn_edn"
+STATE="utd"
+TIME="1385446354"
+SIZE="31711"
+ENDFILE
+VALUE "<project>\synthesis\Led_Matrix_Controller_With_Rom_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1385446354"
+SIZE="380"
+ENDFILE
+VALUE "E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\compile\Led_Matrix_Controller_ClockDiv.vhd,hdl"
+STATE="utd"
+TIME="1385546583"
+SIZE="2951"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src\counter1M.vhd,hdl"
+STATE="utd"
+TIME="1385546566"
+SIZE="2646"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src\counter40.vhd,hdl"
+STATE="utd"
+TIME="1385316140"
+SIZE="2168"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "G:\05_ledmatrix\ledmatrix\single_matrix\src\counter1M.vhd,hdl"
+STATE="utd"
+TIME="1385316730"
+SIZE="2646"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "G:\05_ledmatrix\ledmatrix\single_matrix\src\counter40.vhd,hdl"
+STATE="utd"
+TIME="1385316140"
+SIZE="2168"
+IS_READONLY="TRUE"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "Led_Matrix_Controller_With_Rom::work"
+FILE "<project>\hdl\Led_Matrix_Controller_rom.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\Led_Matrix_Controller_With_Rom.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Actel\Libero_v9.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Actel\Libero_v9.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "Led_Matrix_Controller_With_Rom::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\Led_Matrix_Controller_With_Rom.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+DESIGNFLOW:
+FILE:E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\compile\Led_Matrix_Controller_ClockDiv.vhd,hdl
+ACTIVE_VIEW:1
+ENDLIST

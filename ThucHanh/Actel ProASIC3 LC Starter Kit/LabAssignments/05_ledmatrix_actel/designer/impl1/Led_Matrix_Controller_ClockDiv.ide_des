@@ -1,0 +1,20 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_FAMILY "ProASIC3"
+KEY IDE_DES_DIE "IS4X4M1"
+KEY IDE_DES_PACKAGE "pq208"
+KEY IDE_DES_TOP_CELL_NAME "Led_Matrix_Controller_ClockDiv"
+KEY IDE_DES_KEEP_PHY_CONSTR "TRUE"
+KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
+KEY IDE_DES_LAYOUT_DONE "TRUE"
+KEY IDE_DES_BA_EXPORTED "FALSE"
+KEY IDE_DES_ERROR_FOUND "FALSE"
+KEY IDE_DES_ADB_PATH "E:\workspaces\activehdl\05_ledmatrix_actel\designer\impl1\Led_Matrix_Controller_ClockDiv.adb"
+LIST SOURCE_FILES
+VALUE "E:\workspaces\activehdl\05_ledmatrix_actel\synthesis\Led_Matrix_Controller_ClockDiv.edn;edn"
+VALUE "E:\workspaces\activehdl\05_ledmatrix_actel\synthesis\Led_Matrix_Controller_ClockDiv_sdc.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "E:\workspaces\activehdl\05_ledmatrix_actel\synthesis\Led_Matrix_Controller_ClockDiv_sdc.sdc;Used"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

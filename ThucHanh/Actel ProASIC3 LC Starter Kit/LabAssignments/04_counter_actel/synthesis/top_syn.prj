@@ -1,0 +1,14 @@
+#add_file options
+add_file -vhdl "E:/workspaces/activehdl/04_counter_actel/hdl/counter1M.vhd"
+add_file -vhdl "E:/workspaces/activehdl/04_counter_actel/hdl/counter.vhd"
+add_file -vhdl "E:/workspaces/activehdl/04_counter_actel/hdl/BCD_7Seg_Decoder.vhd"
+add_file -vhdl "E:/workspaces/activehdl/04_counter_actel/hdl/counter40.vhd"
+add_file -vhdl "E:/workspaces/activehdl/04_counter_actel/hdl/top.vhd"
+set_option -top_module work.top
+
+#device options
+set_option -technology ProASIC3
+set_option -part A3P250
+
+impl -active "synthesis"
+project -result_file "E:/workspaces/activehdl/04_counter_actel/synthesis/top.edn"

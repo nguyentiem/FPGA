@@ -1,0 +1,39 @@
+@P:  Worst Slack : 989.326
+@P:  counter40|adder_value_inferred_clock[6] - Estimated Frequency : 93.7 MHz
+@P:  counter40|adder_value_inferred_clock[6] - Requested Frequency : 1.0 MHz
+@P:  counter40|adder_value_inferred_clock[6] - Estimated Period : 10.674
+@P:  counter40|adder_value_inferred_clock[6] - Requested Period : 1000.000
+@P:  counter40|adder_value_inferred_clock[6] - Slack : 989.326
+@P:  top|CLK - Estimated Frequency : 206.7 MHz
+@P:  top|CLK - Requested Frequency : 1.0 MHz
+@P:  top|CLK - Estimated Period : 4.837
+@P:  top|CLK - Requested Period : 1000.000
+@P:  top|CLK - Slack : 995.163
+@P:  top|Key - Estimated Frequency : 240.7 MHz
+@P:  top|Key - Requested Frequency : 1.0 MHz
+@P:  top|Key - Estimated Period : 4.155
+@P:  top|Key - Requested Period : 1000.000
+@P:  top|Key - Slack : 995.845
+@P:  Worst Slack(min analysis) : NA
+@P:  counter40|adder_value_inferred_clock[6] - Estimated Frequency(min analysis) : 93.7 MHz
+@P:  counter40|adder_value_inferred_clock[6] - Requested Frequency(min analysis) : 1.0 MHz
+@P:  counter40|adder_value_inferred_clock[6] - Estimated Period(min analysis) : 10.674
+@P:  counter40|adder_value_inferred_clock[6] - Requested Period(min analysis) : 1000.000
+@P:  counter40|adder_value_inferred_clock[6] - Slack(min analysis) : 989.326
+@P:  top|CLK - Estimated Frequency(min analysis) : 206.7 MHz
+@P:  top|CLK - Requested Frequency(min analysis) : 1.0 MHz
+@P:  top|CLK - Estimated Period(min analysis) : 4.837
+@P:  top|CLK - Requested Period(min analysis) : 1000.000
+@P:  top|CLK - Slack(min analysis) : 995.163
+@P:  top|Key - Estimated Frequency(min analysis) : 240.7 MHz
+@P:  top|Key - Requested Frequency(min analysis) : 1.0 MHz
+@P:  top|Key - Estimated Period(min analysis) : 4.155
+@P:  top|Key - Requested Period(min analysis) : 1000.000
+@P:  top|Key - Slack(min analysis) : 995.845
+@P:  Total Area : 111.0
+@P:  Total Area : 23.0
+@P:  Total Area : 9.0
+@P:  Total Area : 32.0
+@P:  Total Area : 46.0
+@P:  Total Area : 111.0
+@P:  CPU Time : 0h:00m:01s

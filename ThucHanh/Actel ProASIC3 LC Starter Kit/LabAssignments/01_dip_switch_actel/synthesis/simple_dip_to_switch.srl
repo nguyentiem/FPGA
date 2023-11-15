@@ -1,0 +1,101 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version comp520rcp1, Build 028R from Synplicity, Inc.
+# Copyright 1994-2010 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Mon Oct 21 13:42:51 2013
+#
+#
+#OPTIONS:"|-top|work.simple_dip_to_switch|-nram|-fixsmult|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"D:\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\bin\\c_vhdl.exe":1286423480
+#CUR:"D:\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vhd\\location.map":1286423506
+#CUR:"D:\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vhd\\std.vhd":1286423506
+#CUR:"C:\\Documents and Settings\\ktmt\\Desktop\\DIP_SWITCH\\component\\work\\simple_dip_to_switch\\simple_dip_to_switch.vhd":1382337709
+#CUR:"D:\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vhd\\std1164.vhd":1286423506
+#CUR:"D:\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\proasic3.vhd":1286423504
+f "D:\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Documents and Settings\ktmt\Desktop\DIP_SWITCH\component\work\simple_dip_to_switch\simple_dip_to_switch.vhd"; # file 1
+af .is_vhdl 1;
+f "D:\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+f "D:\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd"; # file 3
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@.d:(:..4.j:(:..4b.Rs#FNHROdeRBB#_$MLODN	F_LGN;
+PCR3Gs0CMRND4N;
+PHR3#8PED;R4
+RNP3_H#PDE8R
+4;N3PRFosHhCNlRB"eB
+";N3PR#_$Mks#CL4LR;P
+NR$3#MH_DLC_OD4DR;P
+NRM#$_NLDOL	_F4GR;
+
+
+
+@FR@.d:(:.c4.6:(:.c4Y6RR
+Y;N3HRs_0DFosHMCNlR""Y;H
+NR$3#MF_MNH##oCMlM40R;R
+b@:@j4::44R:.0CskRk0sCsR0k
+C;b@R@j::44::4.NRVDR#CV#NDCNRVD;#C
+@bR@.d:(:.c4.6:(:.c486RORRYYy;
+---------------------------------@-
+ 
+
+
+
+ftell;
+@E@MR@4d:(:U.44j:(:U.4b.Rs#FNHROdtRh7#_$MLODN	F_LGN;
+PCR3Gs0CMRND4N;
+PHR3#8PED;R4
+RNP3_H#PDE8R
+4;N3PRFosHhCNlRh"t7
+";N3PR#_$Mks#CL4LR;P
+NR$3#MH_DLC_OD4DR;P
+NRM#$_NLDOL	_F4GR;
+
+
+
+@FR@4d:(:Uc446:(:Uc4Y6RR
+Y;N3HRs_0DFosHMCNlR""Y;H
+NR$3#MF_MNH##oCMlM40R;R
+b@:@j4::44R:.0CskRk0sCsR0k
+C;b@R@j::44::4.NRVDR#CV#NDCNRVD;#C
+@bR@4d:(:Uc446:(:Uc486RORRYYy;
+---------------------------------@-
+ 
+
+
+
+ftell;
+@E@MR@U4::U(::R.nI	FsRl#Hb_DC8_Hb0#F_IOH0ECR8Vs_NO
+E;N3PRHE#P84DR;P
+NR#3H_8PED;R4
+RNP3M#$_NVlbIR"FRs	\:"B\F\7OCklM\0#R8NM\CR10M0Ho\#\	00l\C\7#F	0b7\\Q1u_WBQa]O\\FFlbM0CM\F\Is\	\#bHlD8C_H0b_FI_#HE0O\H\#lCbD_b8H__0F#0IHOPE3E"8\
+
+";
+@HR@44:jj:4::4j41.RWj.r:R(91rW.j9:(;H
+NR03sDs_FHNoMl"CR1"W.;
+
+
+
+@FR@44:4j:4::444pdR r74j9:(R7th_0MC,BeB_0MC,7th_0MC,BeB_0MC,7th_0MC,BeB_0MC,7th_0MC,BeB_0MC;H
+NR03sDs_FHNoMl"CRp4 7"
+;
+
+@FR@44:.j:4::4.4u.RQjhr:R(9urQhj9:(;H
+NR03sDs_FHNoMl"CRu"Qh;R
+s@:@4ncj:::njUsRbFHN#OedRB#BR$LM_D	NO_GLFRe\\B\B\
+=SYe_BBM;C0
+@sR@n4:d::cnUd:RFbsNO#HdhRt7$R#MD_LN_O	LRFG\h\t7
+\\StY=hM7_C
+0;b@R@4j:4::4j44j:.kRLVQRuh:rj(u9RQjhr:R(91rW.j9:(;R
+b@:@j4::44R:.0CskRk0sCsR0k
+C;b@R@j::44::4.NRVDR#CV#NDCNRVD;#C
+
+C;

@@ -1,0 +1,240 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 53MB peak: 55MB)
+
+@N:"g:\05_ledmatrix_actel\hdl\gregister.vhd":41:8:41:9|Found counter in view:work.Controller(controller) inst U1.Q[2:0]
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@N: FP130 |Promoting Net CLK_c on CLKBUF  CLK_pad 
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@A: BN291 :"g:\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Boundary register ROW_VALUE_ROM.Q_1[1] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"g:\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Boundary register ROW_VALUE_ROM.Q_1[2] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"g:\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Boundary register ROW_VALUE_ROM.Q_1[3] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"g:\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Boundary register ROW_VALUE_ROM.Q_1[4] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"g:\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Boundary register ROW_VALUE_ROM.Q_1[5] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"g:\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Boundary register ROW_VALUE_ROM.Q_1[6] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base G:\05_ledmatrix_actel\synthesis\Led_Matrix_Controller_With_Rom.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@W: MT420 |Found inferred clock Led_Matrix_Controller_With_Rom|CLK with period 1000.00ns. A user-defined clock should be declared on object "p:CLK"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Nov 26 13:12:32 2013
+#
+
+
+Top view:               Led_Matrix_Controller_With_Rom
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 996.381
+
+                                       Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                         Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------
+Led_Matrix_Controller_With_Rom|CLK     1.0 MHz       276.3 MHz     1000.000      3.619         996.381     inferred     Inferred_clkgroup_0
+===========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                  |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                            Ending                              |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Led_Matrix_Controller_With_Rom|CLK  Led_Matrix_Controller_With_Rom|CLK  |  1000.000    996.381  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: Led_Matrix_Controller_With_Rom|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                    Arrival            
+Instance                 Reference                              Type       Pin     Net               Time        Slack  
+                         Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------------
+ADDR_AUTOINC.U1.Q[1]     Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       BUS2202[1]        0.550       996.381
+ADDR_AUTOINC.U1.Q[2]     Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       BUS2202[2]        0.550       996.418
+ADDR_AUTOINC.U1.Q[0]     Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       BUS2202[0]        0.550       996.697
+ROW_SCAN_REG.Q[0]        Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       RowIndex_c[0]     0.550       998.733
+ROW_SCAN_REG.Q[1]        Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       RowIndex_c[1]     0.550       998.733
+ROW_SCAN_REG.Q[2]        Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       RowIndex_c[2]     0.550       998.733
+ROW_SCAN_REG.Q[3]        Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       RowIndex_c[3]     0.550       998.733
+ROW_SCAN_REG.Q[4]        Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       RowIndex_c[4]     0.550       998.733
+ROW_SCAN_REG.Q[5]        Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       RowIndex_c[5]     0.550       998.733
+ROW_SCAN_REG.Q[6]        Led_Matrix_Controller_With_Rom|CLK     DFN1C1     Q       RowIndex_c[6]     0.550       998.733
+========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                    Required            
+Instance                 Reference                              Type       Pin     Net               Time         Slack  
+                         Clock                                                                                           
+-------------------------------------------------------------------------------------------------------------------------
+ROW_VALUE_ROM.Q_1[1]     Led_Matrix_Controller_With_Rom|CLK     DFI1       D       Q_5_i[1]          999.572      996.381
+ROW_VALUE_ROM.Q_1[3]     Led_Matrix_Controller_With_Rom|CLK     DFI1       D       Q_5[3]            999.572      996.868
+ROW_VALUE_ROM.Q_1[5]     Led_Matrix_Controller_With_Rom|CLK     DFI1       D       Q_5[5]            999.572      996.904
+ROW_VALUE_ROM.Q_1[6]     Led_Matrix_Controller_With_Rom|CLK     DFI1       D       Q_5[6]            999.572      996.904
+ROW_VALUE_ROM.Q_1[4]     Led_Matrix_Controller_With_Rom|CLK     DFI1       D       Q_5[1]            999.598      996.919
+ADDR_AUTOINC.U1.Q[2]     Led_Matrix_Controller_With_Rom|CLK     DFN1C1     D       Q_n2              999.598      996.943
+ADDR_AUTOINC.U1.Q[1]     Led_Matrix_Controller_With_Rom|CLK     DFN1C1     D       Q_n1              999.598      996.968
+ROW_VALUE_ROM.Q_1[2]     Led_Matrix_Controller_With_Rom|CLK     DFI1       D       N_5_i_0           999.598      997.045
+ADDR_AUTOINC.U1.Q[0]     Led_Matrix_Controller_With_Rom|CLK     DFN1C1     D       BUS2202_i[0]      999.598      997.289
+ROW_SCAN_REG.Q[0]        Led_Matrix_Controller_With_Rom|CLK     DFN1C1     D       RowIndex_c[7]     999.572      998.733
+=========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.572
+
+    - Propagation time:                      3.190
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     996.381
+
+    Number of logic level(s):                2
+    Starting point:                          ADDR_AUTOINC.U1.Q[1] / Q
+    Ending point:                            ROW_VALUE_ROM.Q_1[1] / D
+    The start point is clocked by            Led_Matrix_Controller_With_Rom|CLK [rising] on pin CLK
+    The end   point is clocked by            Led_Matrix_Controller_With_Rom|CLK [rising] on pin CLK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                                Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+ADDR_AUTOINC.U1.Q[1]                DFN1C1     Q        Out     0.550     0.550       -         
+BUS2202[1]                          Net        -        -       1.140     -           7         
+ROW_VALUE_ROM.Q_5_6_1_.m3           ZOR3       B        In      -         1.690       -         
+ROW_VALUE_ROM.Q_5_6_1_.m3           ZOR3       Y        Out     0.701     2.391       -         
+Q_5[1]                              Net        -        -       0.288     -           2         
+ROW_VALUE_ROM.Q_5_6_1_.Q_5_i[1]     INV        A        In      -         2.679       -         
+ROW_VALUE_ROM.Q_5_6_1_.Q_5_i[1]     INV        Y        Out     0.271     2.950       -         
+Q_5_i[1]                            Net        -        -       0.240     -           1         
+ROW_VALUE_ROM.Q_1[1]                DFI1       D        In      -         3.190       -         
+================================================================================================
+Total path delay (propagation time + setup) of 3.619 is 1.951(53.9%) logic and 1.668(46.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P250_VQFP100_-2
+Report for cell Led_Matrix_Controller_With_Rom.led_matrix_controller_with_rom
+  Core Cell usage:
+              cell count     area count*area
+              AO16     3      1.0        3.0
+              AX1C     1      1.0        1.0
+               GND     5      0.0        0.0
+               INV     2      1.0        2.0
+               VCC     5      0.0        0.0
+              XOR2     2      1.0        2.0
+              ZOR3     1      1.0        1.0
+
+
+              DFI1     6      1.0        6.0
+            DFN1C1    10      1.0       10.0
+            DFN1P1     1      1.0        1.0
+                   -----          ----------
+             TOTAL    36                26.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF    16
+                   -----
+             TOTAL    18
+
+
+Core Cells         : 26 of 6144 (0%)
+IO Cells           : 18
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:12s realtime, 0h:00m:01s cputime
+# Tue Nov 26 13:12:37 2013
+
+###########################################################]

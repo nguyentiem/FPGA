@@ -1,0 +1,36 @@
+FlashPro
+Version: 11.6.0.32
+Release: v11.6
+
+Software Version: 11.6.0.32
+PDB file 'W:\workspaces\activehdl\01_dip_switch_actel\designer\impl1\simple_dip_switch.pdb' has
+been loaded successfully.
+DESIGN : simple_dip_switch;  CHECKSUM : 1347;  PDB_VERSION : 1.6
+programmer '012XEOK' : FlashPro5
+Warning: The programmer with id '012XEGW' in the project file cannot be detected and connected.
+Opened
+'W:\workspaces\activehdl\01_dip_switch_actel\designer\impl1\simple_dip_switch_1_fp_2\simple_dip\
+_switch.pro'
+Checking for software updates...
+Warning: The version of the software you are running is not a recognized release.
+         Please contact Microsemi SoC Products Group Technical Support for more information.
+Rescanning for Programmers...
+programmer '012XEOK' : FlashPro5
+Rescanning for Programmers DONE.
+programmer '012XEOK' : Scan Chain...
+programmer '012XEOK' : Scan Chain PASSED.
+programmer '012XEOK' : Executing action PROGRAM
+programmer '012XEOK' : EXPORT FSN[48] = 80debb087cb4
+programmer '012XEOK' : Erase ...
+programmer '012XEOK' : Completed erase
+programmer '012XEOK' : EXPORT CHECKSUM: [16] = 1347
+programmer '012XEOK' : Programming FPGA Array
+programmer '012XEOK' : Verifying FPGA Array
+programmer '012XEOK' :         Verifying FPGA Array -- pass
+programmer '012XEOK' : Finished: Wed Jun 29 18:13:25 2016 (Elapsed time 00:00:35)
+programmer '012XEOK' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'simple_dip_switch' has been modified. Do you want to save it? [NO]
+Project closed.

@@ -1,0 +1,59 @@
+FlashPro
+Version: 9.1.0.18
+Release: v9.1
+
+Software Version: 9.1.0.18
+Created new project 'C:\Documents and
+Settings\ktmt\Desktop\DIP_SWITCH\designer\impl1\simple_dip_to_switch_fp\simple_dip_to_switch.pr\
+o'
+PDB file 'C:\Documents and
+Settings\ktmt\Desktop\DIP_SWITCH\designer\impl1\simple_dip_to_switch.pdb' has been loaded
+successfully.
+DESIGN : simple_dip_to_switch;  CHECKSUM : E47A;  PDB_VERSION : 1.6
+This program can detect if an updated version of the software is available by
+ checking the Actel web-site.
+
+Would you like to have this check automatically done when you startup the program?
+
+(To change this setting later, go to the File menu and select Preferences.
+From the Updates tab, you can change your selection.) [NO]
+programmer 'FPBBALTLPT1' : Para2Buff
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+programmer 'FPBBALTLPT1' : Executing action PROGRAM
+programmer 'FPBBALTLPT1' : EXPORT FSN[48] = 80debb087cb4
+programmer 'FPBBALTLPT1' : Erase ...
+programmer 'FPBBALTLPT1' : Completed erase
+programmer 'FPBBALTLPT1' : Programming FPGA Array
+programmer 'FPBBALTLPT1' : Verifying FPGA Array
+programmer 'FPBBALTLPT1' : Verify 0 failed at row 1949.
+programmer 'FPBBALTLPT1' : EXPORT ERROR_CODE[16] = 8059
+programmer 'FPBBALTLPT1' : Finished: Mon Oct 21 13:54:50 2013 (Elapsed time 00:02:56)
+Error: programmer 'FPBBALTLPT1' : Executing action PROGRAM FAILED, EXIT 11, refer to FlashPro
+       online help for details.
+
+                        o - o - o - o - o - o
+
+Rescanning for Programmers...
+programmer 'FPBBALTLPT1' : Para2Buff
+Rescanning for Programmers DONE.
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Found 8 instruction register bits.
+programmer 'FPBBALTLPT1' : Checking IDCODEs...
+programmer 'FPBBALTLPT1' : Device 1: 32A141CF Mfr: Actel Part: A3P(L|N)/AGL(N)250(Z)
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+programmer 'FPBBALTLPT1' : Executing action PROGRAM
+programmer 'FPBBALTLPT1' : EXPORT FSN[48] = 80debb087cb4
+programmer 'FPBBALTLPT1' : Erase ...
+programmer 'FPBBALTLPT1' : Completed erase
+programmer 'FPBBALTLPT1' : Programming FPGA Array
+programmer 'FPBBALTLPT1' : Verifying FPGA Array
+programmer 'FPBBALTLPT1' :         Verifying FPGA Array -- pass
+programmer 'FPBBALTLPT1' : Finished: Mon Oct 21 14:01:00 2013 (Elapsed time 00:03:55)
+programmer 'FPBBALTLPT1' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'simple_dip_to_switch' has been modified. Do you want to save it? [NO]

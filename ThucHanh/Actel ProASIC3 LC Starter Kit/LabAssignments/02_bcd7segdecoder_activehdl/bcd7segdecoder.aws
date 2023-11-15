@@ -1,0 +1,12 @@
+[Version]
+Version=9.1
+[Designs]
+bcd7segdecoder=.\bcd7segdecoder\bcd7segdecoder.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+bcd7segdecoder=1

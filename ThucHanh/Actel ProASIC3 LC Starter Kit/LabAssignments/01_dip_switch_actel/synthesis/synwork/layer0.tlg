@@ -1,0 +1,3 @@
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\component\work\simple_dip_switch\simple_dip_switch.vhd":17:7:17:23|Synthesizing work.simple_dip_switch.rtl.
+Post processing for work.simple_dip_switch.rtl

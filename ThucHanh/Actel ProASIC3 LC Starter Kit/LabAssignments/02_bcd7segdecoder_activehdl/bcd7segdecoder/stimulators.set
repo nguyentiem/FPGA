@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+ <document type="stimulators" version="1">
+  <set name="ASDB Stimulators 1" active="1">
+   <stimulator>
+    <signal_path value="/DM74LS47/Ain"/>
+    <rawdescription value="CLK:FRM:Override:1.000000;3;1;0;50;1:Clock:1:"/>
+   </stimulator>
+   <stimulator>
+    <signal_path value="/DM74LS47/Bin"/>
+    <rawdescription value="CLK:FRM:Override:500.000000;2;1;0;50;1:Clock:0:"/>
+   </stimulator>
+   <stimulator>
+    <signal_path value="/DM74LS47/Cin"/>
+    <rawdescription value="CLK:FRM:Override:250.000000;2;1;0;50;1:Clock:1:"/>
+   </stimulator>
+   <stimulator>
+    <signal_path value="/DM74LS47/Din"/>
+    <rawdescription value="CLK:FRM:Override:125.000000;2;1;0;50;1:Clock:1:"/>
+   </stimulator>
+  </set>
+ </document>
+</XML>

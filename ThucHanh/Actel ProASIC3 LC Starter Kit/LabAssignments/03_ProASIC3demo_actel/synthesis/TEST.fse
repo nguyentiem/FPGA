@@ -1,0 +1,22 @@
+
+fsm_encoding {121642161} onehot
+
+fsm_state_encoding {121642161} warmup {000000001}
+
+fsm_state_encoding {121642161} setfunc {000000010}
+
+fsm_state_encoding {121642161} dis_shift {000000100}
+
+fsm_state_encoding {121642161} dis_on_off {000001000}
+
+fsm_state_encoding {121642161} dis_mode {000010000}
+
+fsm_state_encoding {121642161} dis_clear {000100000}
+
+fsm_state_encoding {121642161} dis_set_add {001000000}
+
+fsm_state_encoding {121642161} dis_write {010000000}
+
+fsm_state_encoding {121642161} home {100000000}
+
+fsm_registers {121642161} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]}  {state[6]}  {state[7]}  {state[8]} 

@@ -1,0 +1,272 @@
+<html><body><samp><pre>
+<!@TC:1385315784>
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: TIENND7
+
+#Implementation: synthesis
+
+#Mon Nov 25 00:56:24 2013
+
+<a name=compilerReport26>$ Start of Compile</a>
+#Mon Nov 25 00:56:24 2013
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N: : <!@TM:1385315784> | Running in 32-bit mode 
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N:<a href="@N:CD720:@XP_HELP">CD720</a> : <a href="C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd:123:18:123:22:@N:CD720:@XP_MSG">std.vhd(123)</a><!@TM:1385315784> | Setting time resolution to ns
+@N: : <a href="E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd:31:7:31:16:@N::@XP_MSG">counter40.vhd(31)</a><!@TM:1385315784> | Top entity is set to counter40.
+VHDL syntax check successful!
+File E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd changed - recompiling
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd:31:7:31:16:@N:CD630:@XP_MSG">counter40.vhd(31)</a><!@TM:1385315784> | Synthesizing work.counter40.behavior 
+<font color=#A52A2A>@W:<a href="@W:CG296:@XP_HELP">CG296</a> : <a href="E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd:45:4:45:11:@W:CG296:@XP_MSG">counter40.vhd(45)</a><!@TM:1385315784> | Incomplete sensitivity list - assuming completeness</font>
+<font color=#A52A2A>@W:<a href="@W:CG290:@XP_HELP">CG290</a> : <a href="E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd:48:33:48:43:@W:CG290:@XP_MSG">counter40.vhd(48)</a><!@TM:1385315784> | Referenced variable load_value is not in sensitivity list</font>
+<font color=#A52A2A>@W:<a href="@W:CD638:@XP_HELP">CD638</a> : <a href="E:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd:43:8:43:18:@W:CD638:@XP_MSG">counter40.vhd(43)</a><!@TM:1385315784> | Signal load_value is undriven </font>
+Post processing for work.counter40.behavior
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 25 00:56:24 2013
+
+###########################################################]
+
+</pre></samp></body></html>
+<a name=mapperReport27>Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00</a>
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N:<a href="@N:MF249:@XP_HELP">MF249</a> : <!@TM:1385315795> | Running in 32-bit mode. 
+@N:<a href="@N:MF258:@XP_HELP">MF258</a> : <!@TM:1385315795> | Gated clock conversion disabled  
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 53MB peak: 55MB)
+
+@N:<a href="@N:MF238:@XP_HELP">MF238</a> : <a href="e:\workspaces\activehdl\03_counter\slow_counter\src\counter40.vhd:50:27:50:42:@N:MF238:@XP_MSG">counter40.vhd(50)</a><!@TM:1385315795> | Found 7 bit incrementor, 'un6_adder_value[6:0]'
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@N:<a href="@N:FP130:@XP_HELP">FP130</a> : <!@TM:1385315795> | Promoting Net CLK_c on CLKBUF  CLK_pad  
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base E:\workspaces\activehdl\03_counter_actel\synthesis\counter40.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1385315795> | Found inferred clock counter40|CLK with period 10.00ns. A user-defined clock should be declared on object "p:CLK"</font> 
+
+
+
+<a name=timingReport28>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Mon Nov 25 00:56:34 2013
+#
+
+
+Top view:               counter40
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1385315795> | This timing report estimates place and route data. Please look at the place and route timing report for final timing.. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1385315795> | Clock constraints cover only FF-to-FF paths associated with the clock.. 
+
+
+
+<a name=performanceSummary29>Performance Summary </a>
+*******************
+
+
+Worst slack in design: 4.993
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+counter40|CLK      100.0 MHz     199.7 MHz     10.000        5.007         4.993     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+<a name=clockRelationships30>Clock Relationships</a>
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+counter40|CLK  counter40|CLK  |  10.000      4.993  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo31>Interface Information </a>
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+<a name=clockReport32>Detailed Report for Clock: counter40|CLK</a>
+====================================
+
+
+
+<a name=startingSlack33>Starting Points with Worst Slack</a>
+********************************
+
+                   Starting                                                  Arrival          
+Instance           Reference         Type       Pin     Net                  Time        Slack
+                   Clock                                                                      
+----------------------------------------------------------------------------------------------
+adder_value[0]     counter40|CLK     DFN1C1     Q       adder_value[0]       0.550       4.993
+adder_value[1]     counter40|CLK     DFN1C1     Q       adder_value[1]       0.550       4.994
+adder_value[2]     counter40|CLK     DFN1C1     Q       adder_value[2]       0.550       5.040
+adder_value[3]     counter40|CLK     DFN1P1     Q       adder_value[3]       0.550       6.134
+adder_value[4]     counter40|CLK     DFN1P1     Q       adder_value[4]       0.550       6.157
+adder_value[5]     counter40|CLK     DFN1C1     Q       adder_value[5]       0.550       7.091
+adder_value[6]     counter40|CLK     DFN1C1     Q       adder_value_c[6]     0.550       7.819
+==============================================================================================
+
+
+<a name=endingSlack34>Ending Points with Worst Slack</a>
+******************************
+
+                   Starting                                                  Required          
+Instance           Reference         Type       Pin     Net                  Time         Slack
+                   Clock                                                                       
+-----------------------------------------------------------------------------------------------
+adder_value[4]     counter40|CLK     DFN1P1     D       adder_value_5[4]     9.598        4.993
+adder_value[5]     counter40|CLK     DFN1C1     D       I_24                 9.598        5.844
+adder_value[6]     counter40|CLK     DFN1C1     D       I_31                 9.598        5.844
+adder_value[3]     counter40|CLK     DFN1P1     D       adder_value_5[3]     9.572        6.004
+adder_value[2]     counter40|CLK     DFN1C1     D       I_9                  9.598        6.671
+adder_value[1]     counter40|CLK     DFN1C1     D       I_5                  9.598        7.152
+adder_value[0]     counter40|CLK     DFN1C1     D       I_4                  9.598        7.365
+===============================================================================================
+
+
+
+<a name=worstPaths35>Worst Path Information</a>
+<a href="E:\workspaces\activehdl\03_counter_actel\synthesis\counter40.srr:fp:9918:11448:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      4.605
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     4.993
+
+    Number of logic level(s):                4
+    Starting point:                          adder_value[0] / Q
+    Ending point:                            adder_value[4] / D
+    The start point is clocked by            counter40|CLK [rising] on pin CLK
+    The end   point is clocked by            counter40|CLK [rising] on pin CLK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+adder_value[0]                          DFN1C1     Q        Out     0.550     0.550       -         
+adder_value[0]                          Net        -        -       1.063     -           6         
+un6_adder_value.I_16                    AND3       A        In      -         1.613       -         
+un6_adder_value.I_16                    AND3       Y        Out     0.346     1.960       -         
+un6_adder_value.U1\.DWACT_FINC_E[0]     Net        -        -       0.602     -           3         
+un6_adder_value.I_19                    NOR2B      B        In      -         2.562       -         
+un6_adder_value.I_19                    NOR2B      Y        Out     0.469     3.031       -         
+un6_adder_value.N_12                    Net        -        -       0.240     -           1         
+un6_adder_value.I_20                    XOR2       A        In      -         3.271       -         
+un6_adder_value.I_20                    XOR2       Y        Out     0.365     3.636       -         
+I_20                                    Net        -        -       0.240     -           1         
+adder_value_RNO[4]                      AO1        C        In      -         3.876       -         
+adder_value_RNO[4]                      AO1        Y        Out     0.489     4.365       -         
+adder_value_5[4]                        Net        -        -       0.240     -           1         
+adder_value[4]                          DFN1P1     D        In      -         4.605       -         
+====================================================================================================
+Total path delay (propagation time + setup) of 5.007 is 2.622(52.4%) logic and 2.386(47.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P250_VQFP100_-2
+<a name=cellreport36>Report for cell counter40.behavior</a>
+  Core Cell usage:
+              cell count     area count*area
+              AND2     1      1.0        1.0
+              AND3     4      1.0        4.0
+               AO1     2      1.0        2.0
+               GND     1      0.0        0.0
+               INV     1      1.0        1.0
+             NOR2B     4      1.0        4.0
+             NOR3C     1      1.0        1.0
+               VCC     1      0.0        0.0
+              XOR2     6      1.0        6.0
+
+
+            DFN1C1     5      1.0        5.0
+            DFN1P1     2      1.0        2.0
+                   -----          ----------
+             TOTAL    28                26.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF     1
+                   -----
+             TOTAL     3
+
+
+Core Cells         : 26 of 6144 (0%)
+IO Cells           : 3
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:09s realtime, 0h:00m:01s cputime
+# Mon Nov 25 00:56:34 2013
+
+###########################################################]
+
+</pre></samp></body></html>

@@ -1,0 +1,31 @@
+FlashPro
+Version: 9.1.0.18
+Release: v9.1
+
+Software Version: 9.1.0.18
+Created new project 'C:\Documents and
+Settings\ktmt\Desktop\DIP_SWITCH\designer\impl1\simple_dip_switch_1_fp\simple_dip_switch.pro'
+PDB file 'C:\Documents and
+Settings\ktmt\Desktop\DIP_SWITCH\designer\impl1\simple_dip_switch.pdb' has been loaded
+successfully.
+DESIGN : simple_dip_switch;  CHECKSUM : 1347;  PDB_VERSION : 1.6
+programmer 'FPBBALTLPT1' : Para2Buff
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Found 8 instruction register bits.
+programmer 'FPBBALTLPT1' : Checking IDCODEs...
+programmer 'FPBBALTLPT1' : Device 1: 32A141CF Mfr: Actel Part: A3P(L|N)/AGL(N)250(Z)
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+programmer 'FPBBALTLPT1' :  Pinging Programmer...
+programmer 'FPBBALTLPT1' :  Programmer Found.
+Error: This feature is not supported.
+Error: programmer 'FPBBALTLPT1' : Self Test FAILED. Make sure the programmer is connected to the
+       Loopback Test Board.
+Error: Failed to run self-test on the programmer 'FPBBALTLPT1'.
+programmer 'FPBBALTLPT1' :  Pinging Programmer...
+programmer 'FPBBALTLPT1' :  Programmer Found.
+programmer 'FPBBALTLPT1' : Scan Chain...
+programmer 'FPBBALTLPT1' : Found 8 instruction register bits.
+programmer 'FPBBALTLPT1' : Checking IDCODEs...
+programmer 'FPBBALTLPT1' : Device 1: 32A141CF Mfr: Actel Part: A3P(L|N)/AGL(N)250(Z)
+programmer 'FPBBALTLPT1' : Scan Chain PASSED.
+Warning: Project 'simple_dip_switch' has been modified. Do you want to save it? [NO]

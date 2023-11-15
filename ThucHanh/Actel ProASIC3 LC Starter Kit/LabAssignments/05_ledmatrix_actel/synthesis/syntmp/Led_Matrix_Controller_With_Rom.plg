@@ -1,0 +1,19 @@
+@P:  Worst Slack : 996.381
+@P:  Led_Matrix_Controller_With_Rom|CLK - Estimated Frequency : 276.3 MHz
+@P:  Led_Matrix_Controller_With_Rom|CLK - Requested Frequency : 1.0 MHz
+@P:  Led_Matrix_Controller_With_Rom|CLK - Estimated Period : 3.619
+@P:  Led_Matrix_Controller_With_Rom|CLK - Requested Period : 1000.000
+@P:  Led_Matrix_Controller_With_Rom|CLK - Slack : 996.381
+@P:  Worst Slack(min analysis) : NA
+@P:  Led_Matrix_Controller_With_Rom|CLK - Estimated Frequency(min analysis) : 276.3 MHz
+@P:  Led_Matrix_Controller_With_Rom|CLK - Requested Frequency(min analysis) : 1.0 MHz
+@P:  Led_Matrix_Controller_With_Rom|CLK - Estimated Period(min analysis) : 3.619
+@P:  Led_Matrix_Controller_With_Rom|CLK - Requested Period(min analysis) : 1000.000
+@P:  Led_Matrix_Controller_With_Rom|CLK - Slack(min analysis) : 996.381
+@P:  Total Area : 26.0
+@P:  Total Area : 12.0
+@P:  Total Area : 8.0
+@P:  Total Area : 6.0
+@P:  Total Area : 6.0
+@P:  Total Area : 26.0
+@P:  CPU Time : 0h:00m:01s

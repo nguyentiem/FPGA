@@ -1,0 +1,870 @@
+﻿/* A simple Browser Reset */
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+img
+{
+	border: 0;
+}
+/*****hover*********************/
+a
+{
+	/* visited link */
+	color: black;
+	text-decoration: none;
+}
+a:visited
+{
+	/* visited link */
+	color: black;
+	text-decoration: none;
+}
+a:focus
+{
+	color: black;
+	text-decoration: underline;
+}
+a:hover
+{
+	/* mouse over link */
+	color: black;
+	text-decoration: underline;
+}
+a:active
+{
+	/* selected link */
+	color: black;
+	text-decoration: underline;
+}
+
+/* General Layout
+________________________________*/
+
+body
+{
+	/*canh giữa cho layout*/
+	margin: 0 auto;
+	font-family: Tahoma;
+	font-size: 12px;
+	width: 960px; /*SET WIDTH CHO TOÀN BỘ BODY*/
+	background-image: url('images/bg-page.gif');
+	background-repeat: repeat-x;
+}
+#header
+{
+	clear: both;
+	position: relative;
+	z-index: 2; /*không đổi*/
+	margin-bottom: 20px;
+	height: 192px;
+}
+#page
+{
+	/*div lớn của toàn bộ layout*/
+	min-height: 100%;
+	position: absolute;
+	width: 960px; /*SET WIDTH CHO LAYOUT, = WIDTH BODY*/
+}
+#footer
+{
+	position:relative;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+	clear: both; /*không đổi*/
+	background-color: #d5d5d5;
+	height: 80px;
+}
+/* We have to set the z-index of the real content to 2 to bring it back on top of the columns. As the actual 
+content is not positionned absolutelly, the footer still behave normally and is pushed down by it. */
+
+#content
+{
+	/*center, do not change anything*/
+	float: left;
+	width: 100%;
+	margin-right: -100%;
+	position: relative;
+	z-index: 2;
+}
+.column
+{
+	float: left;
+	padding: 0 0 20px; /*SET PADDING BOTTOM = HEIGHT FOOTER + PADDING MONG MUỐN*/
+}
+/* -- compensating the padding on sidebars -- multiply the padding of columns by 2, and remove
+it from the width of each sidebar. */
+
+#left
+{
+	position: relative;
+	z-index: 2;
+	width: 211px; /*SET WIDTH CỦA LEFT = WIDTH(.LEFT) - [PADDING + MARGIN + (BORDER WIDTH x 2)] nếu có */
+}
+#right
+{
+	position: relative;
+	z-index: 2;
+	width: 218px; /* SET WIDTH CỦA RIGHT = WIDTH(.RIGHT) - [PADDING + MARGIN + (BORDER WIDTH x 2)] nếu có */
+	border: 1px lime solid;
+}
+
+/* You can easily change the layout proportions by just changing the matching values. For example,
+to have a 100px left sidebar, I just have to change all the 220 to 100 (and the -220 to -100).*/
+
+#content-inner
+{
+	float: none;
+	min-height: 100%;
+	margin-left: 195px; /* SET LEFT Sidebar width, = WIDTH TRONG .LEFT + MARGIN (nếu có) 190 +5 */
+	margin-right: 225px; /* SET RIGHT Sidebar width, = WIDTH TRONG .RIGHT + MARGIN (nếu có) 220 + 5 */ /*  	border:1px orange solid;*/
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#content-inner1
+{
+	float: none;
+	min-height: 100%;
+	margin-left: 211px; /* SET LEFT Sidebar width, = WIDTH TRONG .LEFT + MARGIN (nếu có) 190 +5 */
+	margin-right: 0; /* SET RIGHT Sidebar width, = WIDTH TRONG .RIGHT + MARGIN (nếu có) 220 + 5 */ /*  	border:1px orange solid;*/
+	padding-left: 12px;
+}
+.left
+{
+	width: 211px; /* LEFT Sidebar width, CỘNG CẢ PADDING, MARGIN VÀ BORDER CỦA LEFT COL */
+	margin-right: -0px; /* LEFT Sidebar width, = WIDTH .LEFT */
+}
+.right
+{
+	float: right;
+	width: 220px; /* RIGHT Sidebar width, CỘNG CẢ PADDING, MARGIN VÀ BORDER CỦA RIGHT COL */
+}
+
+/* Equal Height Columns 
+________________________________*/
+
+/* The columns are created using empty DIV that have to be inside the main wrapper (#page) and should be 
+positionned relative. Each DIV have the same width as its corresponding columns (done by using class), and by 
+postionning them absolutelly (bottom) and giving them a height of 100%, the DIVs fill the entire space that the 
+columns should fill.*/
+
+.bg
+{
+	/*do not change anything*/
+	position: absolute;
+	bottom: 0;
+	height: 100%;
+}
+#bgleft
+{
+	left: 0;
+	background-color: #d7ecff; /*SET BG COLOR CHO LEFT COLUMN*/
+}
+#bgright
+{
+	right: 0;
+	background-color: #fff2d7; /*SET BG COLOR CHO RIGHT COLUMN*/
+}
+#bgcenter
+{
+	right: 0;
+	width: 100%; /*    background-color:#969; SET BG COLOR CHO CENTER*/
+}
+
+/******************border cong***********************/
+.border
+{
+	padding: 0;
+	background-color: #FDF;
+	margin: 0;
+}
+p
+{
+	padding: 0 10px;
+	margin: 0;
+}
+.border1
+{
+	text-align: right;
+	background: #fdf url('images/p1botleft.gif') left bottom no-repeat;
+}
+.border2
+{
+	text-align: left;
+	background: #fdf url('images/p1topleft.gif') right top no-repeat;
+}
+h2
+{
+	margin: 0;
+	padding: 0;
+	background: #fdf url('images/p2toprt.gif') top right no-repeat;
+	font-size: 11px;
+}
+/**************************contact & about us***************************/
+.contact-tbox
+{
+	width: 250px;
+	margin-left: 10px;
+}
+.required
+{
+	background-color: #fbe0b3;
+}
+.aboutus
+{
+	padding: 0 5px 10px 5px;
+	line-height: 1.6em;
+	text-align: justify;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+/******************************************************************************/
+.top-menu
+{
+	float:left;
+}
+.top-menu ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 36px;
+}
+.top-menu li
+{
+	display: inline;
+	display: -moz-inline-stack;
+	display: inline-block; zoom:1;     *display:inline;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+.top-menu li a
+{
+	color: #fff;
+	float: left;
+	padding: 9px 25px 0 30px;
+	margin-top:0px;
+	*margin-top:-2px;
+	background-image: url('images/line-menu.gif');
+	background-repeat: no-repeat;
+}
+.top-menu li a:hover
+{
+	color: #fff;
+	text-decoration:underline;
+}
+
+.top-menu li a.current_
+{
+	color: #fff;
+	text-decoration:underline;
+}
+
+.bg-cart
+{
+	background-image:url('images/img-cart.gif');
+	background-repeat:no-repeat;
+	float:right;
+	padding:9px 0 0 38px;
+	height:27px;
+	margin-top:0px;
+	*margin-top:-2px;
+	color:#fff;
+}
+.menu-footer
+{
+	float: left;
+	padding: 20px 0 0 20px;
+}
+.menu-footer a
+{
+	color: #000;
+	padding: 0 10px;
+}
+.text-footer
+{
+	float: right;
+	padding: 20px 20px 0 0;
+	text-align: right;
+	line-height: 1.5em;
+	color: #000;
+}
+.categories-b
+{
+	background:url('images/boder-b1.gif') no-repeat left bottom;
+	padding-bottom:11px;
+	background-color:#403d3e;
+}
+.categories
+{
+	background-image:url('images/boder-t1.gif');
+	background-repeat:no-repeat;
+	padding:9px 9px 0 9px;
+}
+.title-categories
+{	
+	color:#fff;
+	font-size:18px;
+	line-height:2em;
+	text-align:center;
+	display:block;
+	padding:0px 0;
+}
+#menu-left, .support
+{
+	background:url('images/boder-b2.gif') no-repeat left bottom;
+	padding-bottom:8px;
+	background-color:#fff;
+}
+ul.menu-left 
+{
+	list-style: none;
+	background-image:url('images/boder-t2.gif');
+	background-repeat:no-repeat;
+	padding:10px 10px 2px 10px;
+}
+ul.menu-left li
+{
+	list-style-type: none;
+	padding: 7px 0;
+}
+ul.menu-left li a
+{
+	text-decoration: none;
+	color: #a71212;
+	display: block;
+	border: none;
+	font-weight:bold;
+}
+ul.menu-left li a:hover
+{
+	text-decoration:none;
+	color:#000;
+}
+ul.sub
+{
+	list-style: none;
+	margin-left: 5px;
+	display:block;
+}
+ul.sub li
+{
+	list-style-type: none;
+	padding:7px 0;
+}
+ul.sub li a
+{
+	color: #000;
+	text-decoration:none;
+	padding-left: 10px;
+	border-left:solid 2px #a71212;
+	font-weight:normal;
+}
+ul.sub li a:hover
+{
+	color: #626262;
+	text-decoration: none;
+}
+.margintop7px
+{
+	margin-top:7px;
+}
+
+.supportyahoo
+{
+    background-image:url('images/boder-t2.gif');
+	background-repeat:no-repeat;
+	padding:10px 10px 2px 10px;
+	text-align:center;
+}
+.bg-counter
+{
+	background-image:url('images/bg-counter.gif');
+	background-repeat:no-repeat;
+	height:52px;
+	padding:10px 15px;
+	color:#fff;
+	font-size:13px;
+	margin-top:15px;
+}
+.bg-title
+{
+	background-image:url('images/bg-title.gif');
+	background-repeat:no-repeat;
+	height:29px;
+	padding:5px 0 0 15px;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.bg-title1
+{
+	background-image:url('images/bg-title1.gif');
+	background-repeat:no-repeat;
+	height:29px;
+	padding:5px 0 0 15px;
+	color:#323131;
+	font-size:14px;
+	font-weight:bold;
+	margin:10px 0;
+}
+.product
+{
+	width:168px;
+	float:left;
+	margin-bottom:10px;
+	font-size:13px;
+}
+.product h1
+{
+	font-size:14px;
+	color:#a71212;
+	padding:5px 0;
+}
+.imgproduct
+{
+	height:156px;
+	width:168px;
+	border:solid 1px #d8d8d8;
+}
+.btn-dathang a
+{
+	background-image:url('images/dathang.gif');
+	background-repeat:no-repeat;
+	float:left;
+	height:18px;
+	width:73px;
+	text-align:center;
+	padding-top:2px;
+	color:#fff;
+	font-size:12px;
+	text-decoration:none;
+	margin:5px 5px 15px 10px;
+	line-height:1.5em;
+}
+.btn-dathang a:hover
+{
+	background-image:url('images/dathang-hover.gif');
+	background-repeat:no-repeat;
+	text-decoration:none;
+}
+.btn-chitiet a
+{
+	background-image:url('images/chitiet.gif');
+	background-repeat:no-repeat;
+	float:left;
+	height:18px;
+	width:73px;
+	text-align:center;
+	padding-top:2px;
+	color:#000;
+	font-size:12px;
+	margin-top:5px;
+	text-decoration:none;
+}
+.btn-chitiet a:hover
+{
+	background-image:url('images/chitiet-hover.gif');
+	background-repeat:no-repeat;
+	text-decoration:none;
+}
+.margin-r18px
+{
+	margin-right:18px;
+}
+.about
+{
+	padding:10px;
+	text-align:justify;
+	line-height:1.5em;
+}
+.download
+{
+	width:100%;
+	border:solid 1px #dddddd;
+	border-bottom:none;
+	line-height:1.5em;
+}
+.download td
+{
+	padding:5px;
+	border-bottom:solid 1px #dddddd;
+	vertical-align:top;
+}
+.download a
+{
+	color:#a71212;
+	text-decoration:underline;
+}
+.background-td
+{
+	background-color:#818181;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+}
+.color
+{
+	color:#5c5c5c;
+}
+.product1
+{
+	padding:10px 0;
+	border-bottom:solid 1px #dad9d9;
+	min-height:136px;
+	text-align:justify;
+	line-height:1.5em;
+}
+.imgproduct1 
+{
+	height:136px;
+	width:164px;
+	border:solid 1px #dad9d9;
+	/*float:left;*/
+	
+}
+.product1 h1
+{
+	font-size:14px;
+	color:#a71212;
+	margin-bottom:10px;
+}
+.price
+{
+	float:right;
+	width:160px;
+	padding-left:10px;
+	border-left:solid 1px #dad9d9;
+	height:136px;
+	line-height:2em;
+}
+.float-l
+{
+	float:left;
+}
+.float-r
+{
+	float:right;
+}
+.paging
+{
+	display:block;
+	margin:15px 0;
+	text-align:center;
+}
+.paging a
+{
+	padding:5px;
+	color:#8b8d86;
+	text-decoration:none;
+}
+
+.focus_
+{
+	padding:5px;
+	text-decoration:underline;
+}
+
+.paging a:hover
+{
+	padding:5px;
+	color:#000;
+	text-decoration:none;
+}
+.product-detail
+{
+	width:164px;
+	margin:0 35px 0 25px;
+	float:left;
+}
+.product-detail img
+{
+	width:170px;
+	margin-bottom:10px;
+	border:solid 1px #dad9d9;
+	max-height:160px;
+}
+
+.zoom_img img
+{
+    border:none;
+    padding-left: 50px;
+	padding-right:5px;
+	float:left;
+	width:20px;
+}
+.phongto
+{
+    padding-top:5px;
+}
+
+.product-detail a
+{
+	background-image:url('images/img-zoom.gif');
+	background-repeat:no-repeat;
+	margin-left:30px;
+	padding-left:25px;
+	color:#a71212;
+	display:block;
+}
+.detail
+{
+	width:500px;
+	text-align:justify;
+	line-height:1.5em;
+}
+.detail h1
+{
+	font-size:16px;
+	font-weight:bold;
+	color:#a71212;
+}
+.detail td
+{
+	vertical-align:top;
+	padding:7px;
+	border-bottom:dotted 1px #c3c3c3;
+}
+.box-soluong
+{
+	float:left;
+	width:80px;
+	margin-right:10px;
+	margin-top:5px;
+}
+.bg-diachi
+{
+	background-image:url('images/img-1.gif');
+	background-repeat:no-repeat;
+	padding-left:80px;
+	float:left;
+	line-height:1.5em;
+}
+.table-contact
+{
+	 background-image:url('images/img-2.gif');
+	 background-repeat:no-repeat;
+	 padding:17px 30px 10px 35px;
+	 color:#a71212;
+	 font-weight:bold;
+	 margin:15px 30px;
+	 display:block;
+}
+.contact
+{
+	vertical-align:top;
+	color:#000;
+	padding:10px 0 10px 30px;
+	border-bottom:solid 1px #dbdbdb;
+	border-right:solid 1px #dbdbdb;
+	width:130px;
+}
+.boder
+{
+	border-bottom:solid 1px #dbdbdb;
+}
+.text-box
+{
+	 border:solid 1px #dbdbdb;
+	 width:260px;
+	 height:20px;
+}
+.padding-left
+{
+	padding-left:30px;
+}
+.text-box2
+{
+	width:420px;
+	margin:10px 0;
+	border:solid 1px #dbdbdb;
+}
+
+.picture_default
+{
+    width:100%;
+    height:100%;   
+}
+
+
+/************************************ phan gio hang **********************************/
+.cart-space
+{
+	padding:10px;
+}
+.cart-space-header
+{
+
+}
+	
+.cart-header
+{
+	background-color: #e4d5b6;
+	color: #5c3913;
+	font-weight:bold;padding:5px 10px;
+}
+
+.width-price
+{
+	width:70px;
+}
+
+.cart-border-bottom
+{
+	border-bottom:solid 1px #5c3913
+}
+.width-size
+{
+	width:40px;
+}
+
+.cart-img
+{
+	width:60px;
+	height:80px;
+	margin-bottom:9px;
+	border:solid 1px #5c3913;
+}
+
+.remove
+{
+	display:block;
+	margin-top:50px;
+}
+
+.width-img
+{
+	width:62px;
+}
+
+.v-top
+{
+	vertical-align: top;
+}
+
+.btn-muahang a
+{
+	background-image:url('images/dathang.gif');
+	background-repeat:repeat-x;
+	float:left;
+	height:18px;
+	width:73px;
+	text-align:center;
+	padding-top:2px;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	margin:5px 5px 15px 10px;
+	line-height:1.5em;
+}
+
+.right150px
+{
+    padding-right:150px;
+}
+
+.float_right250px
+{
+	float:right;
+	padding-right:250px;
+}
+/***********************************************Them cho phan tin tuc***************************************************/
+
+.bordercentent
+{
+	padding: 0;
+	background-color: White;
+	margin-bottom: 10px;
+}
+
+.bordercentent-right-column
+{
+	padding: 3px 10px;
+}
+
+.hotnews1
+{
+	padding-bottom: 4px;
+	border-bottom: dashed 1px #d7ebfb;
+}
+
+.hinhtintuc
+{
+	height: 110px;
+	width: 160px;
+	padding-top: 5px;
+	padding-right: 7px;
+	float: left;
+}
+.float
+{
+	float: left;
+}
+
+.fontsize12px
+{
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.bottom-10px
+{
+	margin-bottom: 10px;
+}
+
+.bottom-5px
+{
+	margin-bottom: 5px;
+}
+
+.fontsize18px
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 5px;
+	color: #a71212;
+}
+
+.fontsize16px
+{
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 5px;
+	color: #294db9;
+}
+
+.tinlienquan
+{
+	padding-left: 30px;
+}
+
+.tinlienquan ul
+{
+	list-style: none;
+}
+.tinlienquan li
+{
+	line-height: 2.5em;
+}
+
+.welcome
+{
+	color: #373737;
+	padding-top: 10px;
+	text-align: justify;
+	line-height: 1.5em;
+	min-height:120px;
+}
+
+.tieude
+{
+	font-weight: bold;
+	font-size:14px;
+	padding-left: 5px;
+}

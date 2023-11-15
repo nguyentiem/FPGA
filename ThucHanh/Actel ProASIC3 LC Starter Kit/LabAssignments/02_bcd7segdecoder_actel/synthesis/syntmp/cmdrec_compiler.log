@@ -1,0 +1,4 @@
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\c_vhdl.exe  -osyn E:\workspaces\ws_actel\02_bcd7segdecoder_actel\synthesis\DM74LS47.srs  -top work.DM74LS47  -nram -fixsmult  -encrypt  -pro  -dmgen  E:\workspaces\ws_actel\02_bcd7segdecoder_actel\synthesis\dm  -lite -ll 2000   -ui -fid2 -ram -sharing on -autosm -ignore_undefined_lib  -lib work E:\workspaces\ws_actel\02_bcd7segdecoder_actel\hdl\BCD_7Seg_Decoder.vhd -loga "E:\workspaces\ws_actel\02_bcd7segdecoder_actel\synthesis\DM74LS47.srr"
+rc:0 success:1
+E:\workspaces\ws_actel\02_bcd7segdecoder_actel\synthesis\dm|o|1382942640
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\c_vhdl.exe|i|1286423480

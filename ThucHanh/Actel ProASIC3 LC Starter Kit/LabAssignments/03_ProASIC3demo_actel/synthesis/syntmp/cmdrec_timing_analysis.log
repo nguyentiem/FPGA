@@ -1,0 +1,6 @@
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\m_proasic.exe  -encrypt  -pro  -part A3P250  -package VQFP100  -grade -2   -maxfan 24  -globalthreshold 50 -opcond COMWC    -report_path 0       -top_level_module  work.TEST  -ta_num_points 5  -freq 40.000  -taquery  E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\TEST_syn.ta.rpt   -inld  E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\TEST.srd  -devicelib  C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v  -osyn E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\TEST_ta.srm  -prjdir E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\  -log "E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\TEST_syn.ta"
+rc:2 success:0
+E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\TEST_syn.ta.rpt|i|1385270151
+E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\TEST.srd|i|1379909926
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.v|i|1286423504
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\m_proasic.exe|i|1286423482

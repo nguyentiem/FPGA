@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="1">
+			<stimulator>
+				<signal_path value="/test/Clk"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/Sl1"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/Sl2"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:0:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/Sl_A"/>
+				<rawdescription value="VAL:FRM:Override:1:&lt;= 1:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in1"/>
+				<rawdescription value="VAL:FRM:Override:00000001:&lt;= 00000001:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in2"/>
+				<rawdescription value="VAL:FRM:Override:00000010:&lt;= 00000010:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in3"/>
+				<rawdescription value="VAL:FRM:Override:00000011:&lt;= 00000011:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in4"/>
+				<rawdescription value="VAL:FRM:Override:00000100:&lt;= 00000100:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in5"/>
+				<rawdescription value="VAL:FRM:Override:00000101:&lt;= 00000101:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in6"/>
+				<rawdescription value="VAL:FRM:Override:00000110:&lt;= 00000110:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in7"/>
+				<rawdescription value="VAL:FRM:Override:00000111:&lt;= 00000111:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in8"/>
+				<rawdescription value="VAL:FRM:Override:00001000:&lt;= 00001000:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/test/in9"/>
+				<rawdescription value="VAL:FRM:Override:00001001:&lt;= 00001001:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>

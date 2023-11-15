@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>DM74LS47</design>
+	<target_edif>E:\workspaces\ws_actel\02_bcd7segdecoder_actel\synthesis\DM74LS47.edn</target_edif>
+</SynplifyOutput>

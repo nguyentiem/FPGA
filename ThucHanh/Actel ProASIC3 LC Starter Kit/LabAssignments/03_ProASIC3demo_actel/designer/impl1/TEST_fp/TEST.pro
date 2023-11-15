@@ -1,0 +1,57 @@
+<project name="TEST" version="1.0">
+    <ProjectDirectory>
+        E:\workspaces\activehdl\03_ProASIC3demo_actel\designer\impl1\TEST_fp
+    </ProjectDirectory>
+    <View>
+        SingleSTAPLView
+    </View>
+    <LogFile>
+        E:\workspaces\activehdl\03_ProASIC3demo_actel\designer\impl1\TEST_fp\TEST.log
+    </LogFile>
+    <programmer status="enable" type="FlashPro3" revision="UndefRev" connection="usb2.0">
+        <name>
+            04448
+        </name>
+        <id>
+            04448
+        </id>
+    </programmer>
+    <configuration>
+        <Hardware>
+            <FlashPro>
+                <TCK>
+                    0
+                </TCK>
+                <Vpp/>
+                <Vpn/>
+                <Vddl/>
+                <Vdd>
+2500                </Vdd>
+            </FlashPro>
+            <FlashProLite>
+                <TCK>
+                    0
+                </TCK>
+                <Vpp/>
+                <Vpn/>
+            </FlashProLite>
+            <FlashPro3>
+                <TCK>
+                    0
+                </TCK>
+                <Vpump/>
+            </FlashPro3>
+        </Hardware>
+        <Algo type="STAPL">
+            <filename>
+                E:\workspaces\activehdl\03_ProASIC3demo_actel\designer\impl1\TEST.stp
+            </filename>
+            <local>
+                projectData\TEST.stp
+            </local>
+            <SelectedAction>
+                PROGRAM
+            </SelectedAction>
+        </Algo>
+    </configuration>
+</project>

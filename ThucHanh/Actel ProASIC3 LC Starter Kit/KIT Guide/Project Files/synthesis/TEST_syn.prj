@@ -1,0 +1,16 @@
+#add_file options
+add_file -vhdl "F:/Actel/CD/PA3_test/hdl/test.vhd"
+
+#device options
+set_option -technology ProASIC3
+set_option -part A3P250
+
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+impl -active "synthesis"
+project -result_file "F:/Actel/CD/PA3_test/synthesis/TEST.edn"

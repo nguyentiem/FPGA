@@ -1,0 +1,834 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "TEST")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "9.0.0, Build 368R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "TEST")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_dis_complete_1_sqmuxa_0_0_a2/B  un1_dis_complete_1_sqmuxa_0_0_a2/Y  un1_dis_complete_1_sqmuxa_0_0/B  un1_dis_complete_1_sqmuxa_0_0/Y  un1_dis_count_1_I_1/B  un1_dis_count_1_I_1/Y  un1_dis_count_1_I_19/A  un1_dis_count_1_I_19/Y  un1_dis_count_1_I_21/A  un1_dis_count_1_I_21/Y  un1_dis_count_1_I_17/B  un1_dis_count_1_I_17/Y  dis_count_5_i\[3\]/B  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state_0\[1\]/CLK  state_0\[1\]/Q  un1_dis_complete_1_sqmuxa_0_0_a2/A  un1_dis_complete_1_sqmuxa_0_0_a2/Y  un1_dis_complete_1_sqmuxa_0_0/B  un1_dis_complete_1_sqmuxa_0_0/Y  un1_dis_count_1_I_1/B  un1_dis_count_1_I_1/Y  un1_dis_count_1_I_19/A  un1_dis_count_1_I_19/Y  un1_dis_count_1_I_21/A  un1_dis_count_1_I_21/Y  un1_dis_count_1_I_17/B  un1_dis_count_1_I_17/Y  dis_count_5_i\[3\]/B  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_dis_complete_1_sqmuxa_0_0_a2/B  un1_dis_complete_1_sqmuxa_0_0_a2/Y  un1_dis_complete_1_sqmuxa_0_0/B  un1_dis_complete_1_sqmuxa_0_0/Y  un1_dis_count_1_I_1/B  un1_dis_count_1_I_1/Y  un1_dis_count_1_I_19/A  un1_dis_count_1_I_19/Y  un1_dis_count_1_I_18/B  un1_dis_count_1_I_18/Y  dis_count_5_i\[2\]/B  dis_count_5_i\[2\]/Y  dis_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_dis_complete_1_sqmuxa_0_0_a2/B  un1_dis_complete_1_sqmuxa_0_0_a2/Y  un1_dis_complete_1_sqmuxa_0_0/B  un1_dis_complete_1_sqmuxa_0_0/Y  un1_dis_count_1_I_1/B  un1_dis_count_1_I_1/Y  un1_dis_count_1_I_19/A  un1_dis_count_1_I_19/Y  un1_dis_count_1_I_18/B  un1_dis_count_1_I_18/Y  dis_count_5_i\[2\]/B  dis_count_5_i\[2\]/Y  dis_count_0\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  un2_dis_char_2_1\[1\]/A  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  DATA_LCD_8_sqmuxa_0_a4_0_a2/B  DATA_LCD_8_sqmuxa_0_a4_0_a2/Y  sel_char_1/B  sel_char_1/Y  sel_char\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  DATA_LCD_8_sqmuxa_0_a4_0_a2/B  DATA_LCD_8_sqmuxa_0_a4_0_a2/Y  sel_char_1/B  sel_char_1/Y  sel_char_0\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_1_a2_1\[4\]/A  un2_dis_char_1_a2_1\[4\]/Y  un2_dis_char_0_o7\[6\]/C  un2_dis_char_0_o7\[6\]/Y  un2_dis_char_0_3\[0\]/B  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[7\]/CLK  state\[7\]/Q  un1_dis_complete_1_sqmuxa_0_0_o7/B  un1_dis_complete_1_sqmuxa_0_0_o7/Y  un1_dis_complete_1_sqmuxa_0_0/A  un1_dis_complete_1_sqmuxa_0_0/Y  un1_dis_count_1_I_1/B  un1_dis_count_1_I_1/Y  un1_dis_count_1_I_19/A  un1_dis_count_1_I_19/Y  un1_dis_count_1_I_21/A  un1_dis_count_1_I_21/Y  un1_dis_count_1_I_17/B  un1_dis_count_1_I_17/Y  dis_count_5_i\[3\]/B  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  un1_int_count_I_5/A  un1_int_count_I_5/Y  un1_int_count_I_35/C  un1_int_count_I_35/Y  un1_int_count_I_36/B  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  un2_dis_char_1_a7_4\[4\]/B  un2_dis_char_1_a7_4\[4\]/Y  un2_dis_char_1_2\[4\]/C  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  dis_count_5_i_a2\[0\]/B  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[2\]/A  dis_count_5_i\[2\]/Y  dis_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  dis_count_5_i_a2\[0\]/B  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[0\]/B  dis_count_5_i\[0\]/Y  dis_count\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  dis_count_5_i_a2\[0\]/B  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[0\]/B  dis_count_5_i\[0\]/Y  dis_count_0\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  DATA_LCD_8_sqmuxa_0_a4_0_a2/B  DATA_LCD_8_sqmuxa_0_a4_0_a2/Y  un2_dis_char_i\[2\]/B  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  un1_int_count_I_12/A  un1_int_count_I_12/Y  un1_int_count_I_35/A  un1_int_count_I_35/Y  un1_int_count_I_36/B  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_1_a2_1\[4\]/A  un2_dis_char_1_a2_1\[4\]/Y  un2_dis_char_1_0\[4\]/A  un2_dis_char_1_0\[4\]/Y  un2_dis_char_1_3\[4\]/C  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[0\]/B  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_0_a7_2_1\[3\]/A  un2_dis_char_0_a7_2_1\[3\]/Y  un2_dis_char_i_0\[2\]/A  un2_dis_char_i_0\[2\]/Y  un2_dis_char_i_5\[2\]/B  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[2\]/CLK  int_count\[2\]/Q  un1_int_count_I_6/A  un1_int_count_I_6/Y  un1_int_count_I_37/B  un1_int_count_I_37/Y  un1_int_count_I_36/C  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[1\]/CLK  state\[1\]/Q  un2_dis_char_0_o2_1\[0\]/A  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  un2_dis_char_2_1\[1\]/A  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_0_a7_3\[0\]/C  un2_dis_char_0_a7_3\[0\]/Y  un2_dis_char_i_0\[2\]/C  un2_dis_char_i_0\[2\]/Y  un2_dis_char_i_5\[2\]/B  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_0_a7_3\[0\]/C  un2_dis_char_0_a7_3\[0\]/Y  un2_dis_char_0_0\[0\]/C  un2_dis_char_0_0\[0\]/Y  un2_dis_char_0_2\[0\]/C  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  dis_count_5_i_a2\[0\]/B  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[1\]/A  dis_count_5_i\[1\]/Y  dis_count\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  dis_count_5_i_a2\[0\]/B  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[3\]/A  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[3\]/CLK  int_count\[3\]/Q  un1_int_count_I_15/A  un1_int_count_I_15/Y  un1_int_count_I_37/A  un1_int_count_I_37/Y  un1_int_count_I_36/C  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[3\]/CLK  int_count\[3\]/Q  un1_int_count_I_15/A  un1_int_count_I_15/Y  un1_int_count_I_47/B  un1_int_count_I_47/Y  un1_int_count_I_36/A  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_o2_1\[2\]/A  un2_dis_char_i_o2_1\[2\]/Y  un1_state_inv_i_0_o2_0/B  un1_state_inv_i_0_o2_0/Y  un2_dis_char_2_1\[1\]/A  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_2_a7_4\[1\]/C  un2_dis_char_2_a7_4\[1\]/Y  un2_dis_char_2_1\[1\]/C  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_2_a7_4\[1\]/C  un2_dis_char_2_a7_4\[1\]/Y  un2_dis_char_1_0\[4\]/C  un2_dis_char_1_0\[4\]/Y  un2_dis_char_1_3\[4\]/C  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[3\]/CLK  int_count\[3\]/Q  un1_int_count_I_11/A  un1_int_count_I_11/Y  un1_int_count_I_37/C  un1_int_count_I_37/Y  un1_int_count_I_36/C  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[2\]/CLK  int_count\[2\]/Q  un1_int_count_I_18/A  un1_int_count_I_18/Y  un1_int_count_I_47/A  un1_int_count_I_47/Y  un1_int_count_I_36/A  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[0\]/B  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_i_a7_4_1\[2\]/A  un2_dis_char_i_a7_4_1\[2\]/Y  un2_dis_char_i_1\[2\]/A  un2_dis_char_i_1\[2\]/Y  un2_dis_char_i_4\[2\]/C  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[8\]/CLK  state\[8\]/Q  un1_dis_complete_1_sqmuxa_0_0_o7/A  un1_dis_complete_1_sqmuxa_0_0_o7/Y  un1_dis_complete_1_sqmuxa_0_0/A  un1_dis_complete_1_sqmuxa_0_0/Y  un1_dis_count_1_I_1/B  un1_dis_count_1_I_1/Y  un1_dis_count_1_I_19/A  un1_dis_count_1_I_19/Y  un1_dis_count_1_I_21/A  un1_dis_count_1_I_21/Y  un1_dis_count_1_I_17/B  un1_dis_count_1_I_17/Y  dis_count_5_i\[3\]/B  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[0\]/CLK  dis_count\[0\]/Q  un2_dis_char_0_o2_3\[0\]/A  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  dis_count_5_i_a2\[0\]/B  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[2\]/A  dis_count_5_i\[2\]/Y  dis_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state_0\[1\]/CLK  state_0\[1\]/Q  un2_dis_char_0_a2_0\[0\]/A  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_0_a7_2_1\[3\]/A  un2_dis_char_0_a7_2_1\[3\]/Y  un2_dis_char_i_0\[2\]/A  un2_dis_char_i_0\[2\]/Y  un2_dis_char_i_5\[2\]/B  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[0\]/B  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_0_o7\[6\]/A  un2_dis_char_0_o7\[6\]/Y  un2_dis_char_0_3\[0\]/B  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  un1_state_inv_i_0_a7/B  un1_state_inv_i_0_a7/Y  un1_state_inv_i_0/A  un1_state_inv_i_0/Y  dis_complete/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[0\]/CLK  dis_count\[0\]/Q  un2_dis_char_i_o2_1\[2\]/B  un2_dis_char_i_o2_1\[2\]/Y  un1_state_inv_i_0_o2_0/B  un1_state_inv_i_0_o2_0/Y  un2_dis_char_2_1\[1\]/A  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_o2_1\[2\]/A  un2_dis_char_i_o2_1\[2\]/Y  un2_dis_char_0_a7_2_1\[3\]/B  un2_dis_char_0_a7_2_1\[3\]/Y  un2_dis_char_i_0\[2\]/A  un2_dis_char_i_0\[2\]/Y  un2_dis_char_i_5\[2\]/B  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_1_a2_0\[4\]/B  un2_dis_char_1_a2_0\[4\]/Y  un2_dis_char_1_2\[4\]/B  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_2_o2_0\[1\]/B  un2_dis_char_2_o2_0\[1\]/Y  un2_dis_char_1_a2_1\[4\]/C  un2_dis_char_1_a2_1\[4\]/Y  un2_dis_char_0_o7\[6\]/C  un2_dis_char_0_o7\[6\]/Y  un2_dis_char_0_3\[0\]/B  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  un2_dis_char_i_a7_1\[2\]/C  un2_dis_char_i_a7_1\[2\]/Y  un2_dis_char_i_2\[2\]/C  un2_dis_char_i_2\[2\]/Y  un2_dis_char_i_5\[2\]/C  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_dis_complete_1_sqmuxa_0_0_a2/B  un1_dis_complete_1_sqmuxa_0_0_a2/Y  un1_dis_complete_1_sqmuxa_0_0/B  un1_dis_complete_1_sqmuxa_0_0/Y  un1_dis_count_1_I_1/B  un1_dis_count_1_I_1/Y  un1_dis_count_1_I_15/B  un1_dis_count_1_I_15/Y  dis_count_5_i\[1\]/B  dis_count_5_i\[1\]/Y  dis_count\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  un1_int_count_I_5/A  un1_int_count_I_5/Y  un1_int_count_I_35/C  un1_int_count_I_35/Y  un1_int_count_I_36/B  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_27/B  un1_int_count_I_27/Y  int_count_6\[6\]/B  int_count_6\[6\]/Y  int_count\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[0\]/CLK  int_count\[0\]/Q  un1_int_count_I_35/B  un1_int_count_I_35/Y  un1_int_count_I_36/B  un1_int_count_I_36/Y  un1_int_count_I_39/B  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_1_a2_1\[4\]/A  un2_dis_char_1_a2_1\[4\]/Y  un2_dis_char_0_o7\[6\]/C  un2_dis_char_0_o7\[6\]/Y  un2_dis_char_i\[7\]/A  un2_dis_char_i\[7\]/Y  DATA_LCD\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  state_ns_a4_0_a7\[2\]/B  state_ns_a4_0_a7\[2\]/Y  un1_state_inv_i_0/C  un1_state_inv_i_0/Y  dis_complete/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_2_a2\[1\]/A  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_2_a7_4\[1\]/B  un2_dis_char_2_a7_4\[1\]/Y  un2_dis_char_2_1\[1\]/C  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_2_a2\[1\]/B  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_2_a7_4\[1\]/B  un2_dis_char_2_a7_4\[1\]/Y  un2_dis_char_2_1\[1\]/C  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_2_o2_0\[1\]/A  un2_dis_char_2_o2_0\[1\]/Y  un2_dis_char_1_a2_1\[4\]/C  un2_dis_char_1_a2_1\[4\]/Y  un2_dis_char_0_o7\[6\]/C  un2_dis_char_0_o7\[6\]/Y  un2_dis_char_0_3\[0\]/B  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_1_a2_1\[4\]/A  un2_dis_char_1_a2_1\[4\]/Y  un2_dis_char_0_o7\[6\]/C  un2_dis_char_0_o7\[6\]/Y  un2_dis_char_0\[6\]/A  un2_dis_char_0\[6\]/Y  DATA_LCD\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_2_a2\[1\]/B  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_2_a7_0_0\[1\]/C  un2_dis_char_2_a7_0_0\[1\]/Y  un2_dis_char_2_0\[1\]/A  un2_dis_char_2_0\[1\]/Y  un2_dis_char_2_3\[1\]/A  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_1_a2_0\[4\]/B  un2_dis_char_1_a2_0\[4\]/Y  un2_dis_char_i_1_0\[7\]/C  un2_dis_char_i_1_0\[7\]/Y  un2_dis_char_0\[6\]/B  un2_dis_char_0\[6\]/Y  DATA_LCD\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_1_a2_0\[4\]/B  un2_dis_char_1_a2_0\[4\]/Y  un2_dis_char_i_1_0\[7\]/C  un2_dis_char_i_1_0\[7\]/Y  un2_dis_char_i\[7\]/B  un2_dis_char_i\[7\]/Y  DATA_LCD\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_2_a2\[1\]/A  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_0_o7\[6\]/B  un2_dis_char_0_o7\[6\]/Y  un2_dis_char_0_3\[0\]/B  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[0\]/B  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_i_a7_2\[2\]/B  un2_dis_char_i_a7_2\[2\]/Y  un2_dis_char_i_1\[2\]/C  un2_dis_char_i_1\[2\]/Y  un2_dis_char_i_4\[2\]/C  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  un2_dis_char_2_a7_3\[1\]/C  un2_dis_char_2_a7_3\[1\]/Y  un2_dis_char_2_0\[1\]/C  un2_dis_char_2_0\[1\]/Y  un2_dis_char_2_3\[1\]/A  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  state_ns_i_0_o2_0\[0\]/A  state_ns_i_0_o2_0\[0\]/Y  state_ns_i_0_o2\[0\]/A  state_ns_i_0_o2\[0\]/Y  dis_count_5_i_a2\[0\]/B  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[2\]/A  dis_count_5_i\[2\]/Y  dis_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[1\]/CLK  divide_clk\[1\]/Q  un2_divide_clk_I_16/B  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_76/A  un2_divide_clk_I_76/Y  un2_divide_clk_I_77/A  un2_divide_clk_I_77/Y  divide_clk\[13\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_83/A  un2_divide_clk_I_83/Y  un2_divide_clk_I_84/A  un2_divide_clk_I_84/Y  divide_clk\[14\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_90/A  un2_divide_clk_I_90/Y  un2_divide_clk_I_91/A  un2_divide_clk_I_91/Y  divide_clk\[15\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_97/A  un2_divide_clk_I_97/Y  un2_divide_clk_I_98/A  un2_divide_clk_I_98/Y  divide_clk\[16\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_104/A  un2_divide_clk_I_104/Y  un2_divide_clk_I_105/A  un2_divide_clk_I_105/Y  divide_clk\[17\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_65/A  un2_divide_clk_I_65/Y  un2_divide_clk_I_66/A  un2_divide_clk_I_66/Y  divide_clk\[11\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  un1_int_count_I_5/A  un1_int_count_I_5/Y  un1_int_count_I_35/C  un1_int_count_I_35/Y  un1_int_count_I_36/B  un1_int_count_I_36/Y  un1_int_count_I_42/B  un1_int_count_I_42/Y  un1_int_count_I_33/B  un1_int_count_I_33/Y  int_count_6\[5\]/B  int_count_6\[5\]/Y  int_count\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  DATA_LCD_8_sqmuxa_0_a4_0_a2/B  DATA_LCD_8_sqmuxa_0_a4_0_a2/Y  sel_char\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un1_state_inv_i_0_o2_0/A  un1_state_inv_i_0_o2_0/Y  DATA_LCD_8_sqmuxa_0_a4_0_a2/B  DATA_LCD_8_sqmuxa_0_a4_0_a2/Y  sel_char_0\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state_0\[1\]/CLK  state_0\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/A  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_1_a2_0\[4\]/B  un2_dis_char_1_a2_0\[4\]/Y  un2_dis_char_1_2\[4\]/B  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_2_a2\[1\]/B  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_2_a7_3\[1\]/B  un2_dis_char_2_a7_3\[1\]/Y  un2_dis_char_2_0\[1\]/C  un2_dis_char_2_0\[1\]/Y  un2_dis_char_2_3\[1\]/A  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_2_0\[1\]/B  un2_dis_char_2_0\[1\]/Y  un2_dis_char_2_3\[1\]/A  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[2\]/CLK  divide_clk\[2\]/Q  un2_divide_clk_I_16/C  un2_divide_clk_I_16/Y  un2_divide_clk_I_62/A  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_2_a2\[1\]/B  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_i_a7_2\[2\]/C  un2_dis_char_i_a7_2\[2\]/Y  un2_dis_char_i_1\[2\]/C  un2_dis_char_i_1\[2\]/Y  un2_dis_char_i_4\[2\]/C  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_0_a7_3\[5\]/C  un2_dis_char_0_a7_3\[5\]/Y  un2_dis_char_0_1\[5\]/B  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_0_a7_4\[0\]/C  un2_dis_char_0_a7_4\[0\]/Y  un2_dis_char_0_2\[0\]/A  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[0\]/B  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_0_a7_2_1\[3\]/A  un2_dis_char_0_a7_2_1\[3\]/Y  un2_dis_char_0_a7_2\[3\]/B  un2_dis_char_0_a7_2\[3\]/Y  un2_dis_char_0\[3\]/B  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_0_a7_2\[5\]/C  un2_dis_char_0_a7_2\[5\]/Y  un2_dis_char_0_1\[5\]/A  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_34/A  un2_divide_clk_I_34/Y  un2_divide_clk_I_62/B  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_111/A  un2_divide_clk_I_111/Y  un2_divide_clk_I_114/A  un2_divide_clk_I_114/Y  un2_divide_clk_I_115/A  un2_divide_clk_I_115/Y  divide_clk\[18\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_111/A  un2_divide_clk_I_111/Y  un2_divide_clk_I_121/A  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_111/A  un2_divide_clk_I_111/Y  un2_divide_clk_I_128/A  un2_divide_clk_I_128/Y  un2_divide_clk_I_129/A  un2_divide_clk_I_129/Y  divide_clk\[20\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_111/A  un2_divide_clk_I_111/Y  un2_divide_clk_I_135/A  un2_divide_clk_I_135/Y  un2_divide_clk_I_136/A  un2_divide_clk_I_136/Y  divide_clk\[21\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_2_o2_0\[1\]/B  un2_dis_char_2_o2_0\[1\]/Y  un2_dis_char_i_a7_4_1\[2\]/B  un2_dis_char_i_a7_4_1\[2\]/Y  un2_dis_char_i_1\[2\]/A  un2_dis_char_i_1\[2\]/Y  un2_dis_char_i_4\[2\]/C  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_0_a7_5\[0\]/A  un2_dis_char_0_a7_5\[0\]/Y  un2_dis_char_0_2\[0\]/B  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[0\]/B  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_i_a7_4_1\[2\]/A  un2_dis_char_i_a7_4_1\[2\]/Y  un2_dis_char_2_a7_1\[1\]/A  un2_dis_char_2_a7_1\[1\]/Y  un2_dis_char_2\[1\]/B  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[0\]/B  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_1_a7_3\[4\]/B  un2_dis_char_1_a7_3\[4\]/Y  un2_dis_char_1_3\[4\]/B  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_i_a7_0\[2\]/A  un2_dis_char_i_a7_0\[2\]/Y  un2_dis_char_i_5\[2\]/A  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[4\]/CLK  int_count\[4\]/Q  un1_int_count_I_7/A  un1_int_count_I_7/Y  un1_int_count_I_40/B  un1_int_count_I_40/Y  un1_int_count_I_39/C  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_0_a7_1\[0\]/B  un2_dis_char_0_a7_1\[0\]/Y  un2_dis_char_0_3\[0\]/C  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[4\]/CLK  divide_clk\[4\]/Q  un2_divide_clk_I_34/B  un2_divide_clk_I_34/Y  un2_divide_clk_I_62/B  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  un2_dis_char_0_a7_5\[0\]/C  un2_dis_char_0_a7_5\[0\]/Y  un2_dis_char_0_2\[0\]/B  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[5\]/CLK  int_count\[5\]/Q  un1_int_count_I_14/A  un1_int_count_I_14/Y  un1_int_count_I_40/A  un1_int_count_I_40/Y  un1_int_count_I_39/C  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_1\[0\]/A  un2_dis_char_0_a2_1\[0\]/Y  un2_dis_char_i_2\[2\]/B  un2_dis_char_i_2\[2\]/Y  un2_dis_char_i_5\[2\]/C  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_1\[0\]/A  un2_dis_char_0_a2_1\[0\]/Y  un2_dis_char_0_0\[0\]/A  un2_dis_char_0_0\[0\]/Y  un2_dis_char_0_2\[0\]/C  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[5\]/CLK  int_count\[5\]/Q  un1_int_count_I_14/A  un1_int_count_I_14/Y  un1_int_count_I_48/B  un1_int_count_I_48/Y  un1_int_count_I_39/A  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_o2_1\[0\]/B  un2_dis_char_0_o2_1\[0\]/Y  un2_dis_char_1_a7_1\[4\]/A  un2_dis_char_1_a7_1\[4\]/Y  un2_dis_char_1_3\[4\]/A  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  un2_dis_char_0_a7_4\[0\]/B  un2_dis_char_0_a7_4\[0\]/Y  un2_dis_char_0_2\[0\]/A  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[5\]/CLK  int_count\[5\]/Q  un1_int_count_I_9/A  un1_int_count_I_9/Y  un1_int_count_I_40/C  un1_int_count_I_40/Y  un1_int_count_I_39/C  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[0\]/B  un2_dis_char_0_a2_0\[0\]/Y  un2_dis_char_0_a7\[5\]/A  un2_dis_char_0_a7\[5\]/Y  un2_dis_char_0_1\[5\]/C  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_o2_1\[2\]/A  un2_dis_char_i_o2_1\[2\]/Y  un2_dis_char_0_o2\[0\]/A  un2_dis_char_0_o2\[0\]/Y  un2_dis_char_1_a7\[4\]/C  un2_dis_char_1_a7\[4\]/Y  un2_dis_char_1\[4\]/C  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_dis_complete_1_sqmuxa_0_0_a2/B  un1_dis_complete_1_sqmuxa_0_0_a2/Y  un1_dis_complete_1_sqmuxa_0_0/B  un1_dis_complete_1_sqmuxa_0_0/Y  un1_dis_count_1_I_11/B  un1_dis_count_1_I_11/Y  dis_count_5_i\[0\]/A  dis_count_5_i\[0\]/Y  dis_count\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[4\]/CLK  int_count\[4\]/Q  un1_int_count_I_17/A  un1_int_count_I_17/Y  un1_int_count_I_48/A  un1_int_count_I_48/Y  un1_int_count_I_39/A  un1_int_count_I_39/Y  un1_int_count_I_45/B  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_o2_1\[2\]/A  un2_dis_char_i_o2_1\[2\]/Y  un2_dis_char_0_o2\[0\]/A  un2_dis_char_0_o2\[0\]/Y  un2_dis_char_0_a7_1\[5\]/B  un2_dis_char_0_a7_1\[5\]/Y  un2_dis_char_0\[5\]/C  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[5\]/CLK  divide_clk\[5\]/Q  un2_divide_clk_I_34/C  un2_divide_clk_I_34/Y  un2_divide_clk_I_62/B  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  un2_dis_char_1_a7_1\[4\]/C  un2_dis_char_1_a7_1\[4\]/Y  un2_dis_char_1_3\[4\]/A  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_o2_1\[2\]/A  un2_dis_char_i_o2_1\[2\]/Y  un2_dis_char_0_o2\[0\]/A  un2_dis_char_0_o2\[0\]/Y  un2_dis_char_2_a7_2\[1\]/A  un2_dis_char_2_a7_2\[1\]/Y  un2_dis_char_2\[1\]/C  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_o2_1\[2\]/A  un2_dis_char_i_o2_1\[2\]/Y  un2_dis_char_0_o2\[0\]/A  un2_dis_char_0_o2\[0\]/Y  un2_dis_char_0_a7_2\[0\]/A  un2_dis_char_0_a7_2\[0\]/Y  un2_dis_char_0\[0\]/C  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un2_dis_char_2_a7_4_0\[1\]/A  un2_dis_char_2_a7_4_0\[1\]/Y  un2_dis_char_2_a7_4\[1\]/A  un2_dis_char_2_a7_4\[1\]/Y  un2_dis_char_2_1\[1\]/C  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_2_a2\[1\]/B  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_1_a7_3\[4\]/C  un2_dis_char_1_a7_3\[4\]/Y  un2_dis_char_1_3\[4\]/B  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_34/A  un2_divide_clk_I_34/Y  un2_divide_clk_I_111/B  un2_divide_clk_I_111/Y  un2_divide_clk_I_114/A  un2_divide_clk_I_114/Y  un2_divide_clk_I_115/A  un2_divide_clk_I_115/Y  divide_clk\[18\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  state_ns_a4_0_a7\[2\]/B  state_ns_a4_0_a7\[2\]/Y  state\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  state_ns_i_0\[0\]/B  state_ns_i_0\[0\]/Y  state\[8\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0\[0\]/B  un2_dis_char_0_a2_0_0\[0\]/Y  un2_dis_char_0_o2\[0\]/B  un2_dis_char_0_o2\[0\]/Y  un2_dis_char_1_a7\[4\]/C  un2_dis_char_1_a7\[4\]/Y  un2_dis_char_1\[4\]/C  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  un1_int_count_I_5/A  un1_int_count_I_5/Y  un1_int_count_I_35/C  un1_int_count_I_35/Y  un1_int_count_I_36/B  un1_int_count_I_36/Y  un1_int_count_I_28/B  un1_int_count_I_28/Y  int_count_6\[4\]/B  int_count_6\[4\]/Y  int_count\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  RS_LCD_2_r/A  RS_LCD_2_r/Y  RS_LCD_3/A  RS_LCD_3/Y  un2_dis_char_0_0\[3\]/B  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_2_a2\[1\]/B  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_i_a7_0\[7\]/B  un2_dis_char_i_a7_0\[7\]/Y  un2_dis_char_i_1_1\[7\]/C  un2_dis_char_i_1_1\[7\]/Y  un2_dis_char_i\[7\]/C  un2_dis_char_i\[7\]/Y  DATA_LCD\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un2_dis_char_0_a2_0_0\[0\]/A  un2_dis_char_0_a2_0_0\[0\]/Y  un2_dis_char_0_o2\[0\]/B  un2_dis_char_0_o2\[0\]/Y  un2_dis_char_1_a7\[4\]/C  un2_dis_char_1_a7\[4\]/Y  un2_dis_char_1\[4\]/C  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_48/A  un2_divide_clk_I_48/Y  un2_divide_clk_I_51/B  un2_divide_clk_I_51/Y  un2_divide_clk_I_52/A  un2_divide_clk_I_52/Y  divide_clk\[9\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[0\]/CLK  dis_count\[0\]/Q  un1_dis_count_1_I_1/A  un1_dis_count_1_I_1/Y  un1_dis_count_1_I_19/A  un1_dis_count_1_I_19/Y  un1_dis_count_1_I_21/A  un1_dis_count_1_I_21/Y  un1_dis_count_1_I_17/B  un1_dis_count_1_I_17/Y  dis_count_5_i\[3\]/B  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un2_dis_char_0_a7_0_0\[0\]/A  un2_dis_char_0_a7_0_0\[0\]/Y  un2_dis_char_0_0\[0\]/B  un2_dis_char_0_0\[0\]/Y  un2_dis_char_0_2\[0\]/C  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_1\[0\]/A  un2_dis_char_0_a2_1\[0\]/Y  un2_dis_char_2_a7_0\[1\]/A  un2_dis_char_2_a7_0\[1\]/Y  un2_dis_char_2_3\[1\]/B  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_118/A  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_118/A  un2_divide_clk_I_118/Y  un2_divide_clk_I_128/B  un2_divide_clk_I_128/Y  un2_divide_clk_I_129/A  un2_divide_clk_I_129/Y  divide_clk\[20\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_118/A  un2_divide_clk_I_118/Y  un2_divide_clk_I_135/B  un2_divide_clk_I_135/Y  un2_divide_clk_I_136/A  un2_divide_clk_I_136/Y  divide_clk\[21\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_48/A  un2_divide_clk_I_48/Y  un2_divide_clk_I_55/A  un2_divide_clk_I_55/Y  un2_divide_clk_I_56/A  un2_divide_clk_I_56/Y  divide_clk\[10\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_3\[0\]/B  un2_dis_char_0_o2_3\[0\]/Y  state_ns_i_0_o2\[0\]/B  state_ns_i_0_o2\[0\]/Y  state_ns_i_0\[1\]/S  state_ns_i_0\[1\]/Y  state\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0_0_0\[0\]/B  un2_dis_char_0_a2_0_0_0\[0\]/Y  un2_dis_char_0_a7\[3\]/B  un2_dis_char_0_a7\[3\]/Y  un2_dis_char_0\[3\]/C  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[8\]/CLK  divide_clk\[8\]/Q  un2_divide_clk_I_59/C  un2_divide_clk_I_59/Y  un2_divide_clk_I_62/C  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[1\]/CLK  state\[1\]/Q  un2_dis_char_0_a2_1\[0\]/B  un2_dis_char_0_a2_1\[0\]/Y  un2_dis_char_i_2\[2\]/B  un2_dis_char_i_2\[2\]/Y  un2_dis_char_i_5\[2\]/C  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[10\]/CLK  divide_clk\[10\]/Q  un2_divide_clk_I_69/B  un2_divide_clk_I_69/Y  un2_divide_clk_I_118/A  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_i_o2\[2\]/B  un2_dis_char_i_o2\[2\]/Y  un2_dis_char_1_a2_0\[4\]/C  un2_dis_char_1_a2_0\[4\]/Y  un2_dis_char_1_2\[4\]/B  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_o2_1\[2\]/A  un2_dis_char_i_o2_1\[2\]/Y  un2_dis_char_i_o2_0\[2\]/A  un2_dis_char_i_o2_0\[2\]/Y  un2_dis_char_i_4\[2\]/A  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_2_o2_0\[1\]/B  un2_dis_char_2_o2_0\[1\]/Y  un2_dis_char_i_2\[2\]/A  un2_dis_char_i_2\[2\]/Y  un2_dis_char_i_5\[2\]/C  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[6\]/CLK  divide_clk\[6\]/Q  un2_divide_clk_I_59/A  un2_divide_clk_I_59/Y  un2_divide_clk_I_62/C  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un2_dis_char_2_a7_0_0\[1\]/A  un2_dis_char_2_a7_0_0\[1\]/Y  un2_dis_char_2_0\[1\]/A  un2_dis_char_2_0\[1\]/Y  un2_dis_char_2_3\[1\]/A  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_1_a2\[4\]/A  un2_dis_char_1_a2\[4\]/Y  un2_dis_char_1_a2_0\[4\]/A  un2_dis_char_1_a2_0\[4\]/Y  un2_dis_char_1_2\[4\]/B  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_i_o2\[2\]/A  un2_dis_char_i_o2\[2\]/Y  un2_dis_char_1_a2_0\[4\]/C  un2_dis_char_1_a2_0\[4\]/Y  un2_dis_char_1_2\[4\]/B  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un1_dis_count_1_I_19/B  un1_dis_count_1_I_19/Y  un1_dis_count_1_I_21/A  un1_dis_count_1_I_21/Y  un1_dis_count_1_I_17/B  un1_dis_count_1_I_17/Y  dis_count_5_i\[3\]/B  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un2_dis_char_2_a7_5_0\[1\]/C  un2_dis_char_2_a7_5_0\[1\]/Y  un2_dis_char_2_1\[1\]/B  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[6\]/A  un2_dis_char_0_a2_0\[6\]/Y  un2_dis_char_0_a7_1\[3\]/C  un2_dis_char_0_a7_1\[3\]/Y  un2_dis_char_0_0\[3\]/C  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[7\]/CLK  divide_clk\[7\]/Q  un2_divide_clk_I_59/B  un2_divide_clk_I_59/Y  un2_divide_clk_I_62/C  un2_divide_clk_I_62/Y  un2_divide_clk_I_72/B  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  un1_int_count_I_5/A  un1_int_count_I_5/Y  un1_int_count_I_35/C  un1_int_count_I_35/Y  un1_int_count_I_44/B  un1_int_count_I_44/Y  un1_int_count_I_30/B  un1_int_count_I_30/Y  int_count_6\[3\]/B  int_count_6\[3\]/Y  int_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[0\]/CLK  dis_count\[0\]/Q  un2_dis_char_0_a2_1\[0\]/C  un2_dis_char_0_a2_1\[0\]/Y  un2_dis_char_i_2\[2\]/B  un2_dis_char_i_2\[2\]/Y  un2_dis_char_i_5\[2\]/C  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[11\]/CLK  divide_clk\[11\]/Q  un2_divide_clk_I_69/C  un2_divide_clk_I_69/Y  un2_divide_clk_I_118/A  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_1_a2_1\[4\]/B  un2_dis_char_1_a2_1\[4\]/Y  un2_dis_char_0_o7\[6\]/C  un2_dis_char_0_o7\[6\]/Y  un2_dis_char_0_3\[0\]/B  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[0\]/CLK  sel_char_0\[0\]/Q  un2_dis_char_0_a7_0_0\[0\]/B  un2_dis_char_0_a7_0_0\[0\]/Y  un2_dis_char_0_0\[0\]/B  un2_dis_char_0_0\[0\]/Y  un2_dis_char_0_2\[0\]/C  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un2_dis_char_0_a7_3\[0\]/B  un2_dis_char_0_a7_3\[0\]/Y  un2_dis_char_i_0\[2\]/C  un2_dis_char_i_0\[2\]/Y  un2_dis_char_i_5\[2\]/B  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_34/A  un2_divide_clk_I_34/Y  un2_divide_clk_I_48/B  un2_divide_clk_I_48/Y  un2_divide_clk_I_51/B  un2_divide_clk_I_51/Y  un2_divide_clk_I_52/A  un2_divide_clk_I_52/Y  divide_clk\[9\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_94/A  un2_divide_clk_I_94/Y  un2_divide_clk_I_97/B  un2_divide_clk_I_97/Y  un2_divide_clk_I_98/A  un2_divide_clk_I_98/Y  divide_clk\[16\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_94/A  un2_divide_clk_I_94/Y  un2_divide_clk_I_104/B  un2_divide_clk_I_104/Y  un2_divide_clk_I_105/A  un2_divide_clk_I_105/Y  divide_clk\[17\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_94/A  un2_divide_clk_I_94/Y  un2_divide_clk_I_114/B  un2_divide_clk_I_114/Y  un2_divide_clk_I_115/A  un2_divide_clk_I_115/Y  divide_clk\[18\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_2\[0\]/B  un2_dis_char_0_o2_2\[0\]/Y  un2_dis_char_0_a7_1\[0\]/A  un2_dis_char_0_a7_1\[0\]/Y  un2_dis_char_0_3\[0\]/C  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[8\]/CLK  divide_clk\[8\]/Q  un2_divide_clk_I_59/C  un2_divide_clk_I_59/Y  un2_divide_clk_I_111/C  un2_divide_clk_I_111/Y  un2_divide_clk_I_114/A  un2_divide_clk_I_114/Y  un2_divide_clk_I_115/A  un2_divide_clk_I_115/Y  divide_clk\[18\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[3\]/CLK  dis_count\[3\]/Q  state_ns_i_0_o2_0\[0\]/B  state_ns_i_0_o2_0\[0\]/Y  state_ns_i_0_o2\[0\]/A  state_ns_i_0_o2\[0\]/Y  dis_count_5_i_a2\[0\]/B  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[2\]/A  dis_count_5_i\[2\]/Y  dis_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un12_dis_char_3_i_x2_0_o2\[56\]/B  un12_dis_char_3_i_x2_0_o2\[56\]/Y  un2_dis_char_2_a7_0\[1\]/B  un2_dis_char_2_a7_0\[1\]/Y  un2_dis_char_2_3\[1\]/B  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[12\]/CLK  divide_clk\[12\]/Q  un2_divide_clk_I_87/A  un2_divide_clk_I_87/Y  un2_divide_clk_I_118/B  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_2_a2\[1\]/B  un2_dis_char_2_a2\[1\]/Y  un2_dis_char_0_a7\[3\]/C  un2_dis_char_0_a7\[3\]/Y  un2_dis_char_0\[3\]/C  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[0\]/CLK  dis_count\[0\]/Q  un2_dis_char_1_a2\[4\]/B  un2_dis_char_1_a2\[4\]/Y  un2_dis_char_1_a2_0\[4\]/A  un2_dis_char_1_a2_0\[4\]/Y  un2_dis_char_1_2\[4\]/B  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_2_a7_4_0\[1\]/B  un2_dis_char_2_a7_4_0\[1\]/Y  un2_dis_char_2_a7_4\[1\]/A  un2_dis_char_2_a7_4\[1\]/Y  un2_dis_char_2_1\[1\]/C  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[0\]/CLK  sel_char_0\[0\]/Q  un2_dis_char_2_a7_5_0\[1\]/B  un2_dis_char_2_a7_5_0\[1\]/Y  un2_dis_char_2_1\[1\]/B  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_a2_0\[6\]/C  un2_dis_char_0_a2_0\[6\]/Y  un2_dis_char_0_a7_1\[3\]/C  un2_dis_char_0_a7_1\[3\]/Y  un2_dis_char_0_0\[3\]/C  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[13\]/CLK  divide_clk\[13\]/Q  un2_divide_clk_I_87/B  un2_divide_clk_I_87/Y  un2_divide_clk_I_118/B  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_dis_complete_1_sqmuxa_0_0_a2/B  un1_dis_complete_1_sqmuxa_0_0_a2/Y  un2_dis_char_i_1_0\[7\]/B  un2_dis_char_i_1_0\[7\]/Y  un2_dis_char_0\[6\]/B  un2_dis_char_0\[6\]/Y  DATA_LCD\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_i_o2\[2\]/B  un2_dis_char_i_o2\[2\]/Y  un2_dis_char_i_a7_0\[2\]/C  un2_dis_char_i_a7_0\[2\]/Y  un2_dis_char_i_5\[2\]/A  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_1\[0\]/A  un2_dis_char_0_a2_1\[0\]/Y  un2_dis_char_0_a7_0\[5\]/B  un2_dis_char_0_a7_0\[5\]/Y  un2_dis_char_0\[5\]/B  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state_0\[1\]/CLK  state_0\[1\]/Q  RS_LCD_2_r/C  RS_LCD_2_r/Y  RS_LCD_3/A  RS_LCD_3/Y  un2_dis_char_0_0\[3\]/B  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[15\]/CLK  divide_clk\[15\]/Q  un2_divide_clk_I_108/A  un2_divide_clk_I_108/Y  un2_divide_clk_I_118/C  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_1_a2\[4\]/A  un2_dis_char_1_a2\[4\]/Y  un2_dis_char_1_a7_3\[4\]/A  un2_dis_char_1_a7_3\[4\]/Y  un2_dis_char_1_3\[4\]/B  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un2_dis_char_0_a7_3_0\[5\]/B  un2_dis_char_0_a7_3_0\[5\]/Y  un2_dis_char_0_a7_3\[5\]/B  un2_dis_char_0_a7_3\[5\]/Y  un2_dis_char_0_1\[5\]/B  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[1\]/CLK  state\[1\]/Q  un2_dis_char_0_a2_0\[6\]/B  un2_dis_char_0_a2_0\[6\]/Y  un2_dis_char_0_a7_1\[3\]/C  un2_dis_char_0_a7_1\[3\]/Y  un2_dis_char_0_0\[3\]/C  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un12_dis_char_3_i_x2_0_o2\[56\]/A  un12_dis_char_3_i_x2_0_o2\[56\]/Y  un2_dis_char_2_a7_0\[1\]/B  un2_dis_char_2_a7_0\[1\]/Y  un2_dis_char_2_3\[1\]/B  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_2_a7_0_0\[1\]/B  un2_dis_char_2_a7_0_0\[1\]/Y  un2_dis_char_2_0\[1\]/A  un2_dis_char_2_0\[1\]/Y  un2_dis_char_2_3\[1\]/A  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[0\]/CLK  state\[0\]/Q  un2_dis_char_i_a7_1_0\[2\]/B  un2_dis_char_i_a7_1_0\[2\]/Y  un2_dis_char_i_a7_2_0\[2\]/A  un2_dis_char_i_a7_2_0\[2\]/Y  un2_dis_char_i_4\[2\]/B  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[14\]/CLK  divide_clk\[14\]/Q  un2_divide_clk_I_87/C  un2_divide_clk_I_87/Y  un2_divide_clk_I_118/B  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[16\]/CLK  divide_clk\[16\]/Q  un2_divide_clk_I_108/B  un2_divide_clk_I_108/Y  un2_divide_clk_I_118/C  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un2_dis_char_1_a7_4_0\[4\]/A  un2_dis_char_1_a7_4_0\[4\]/Y  un2_dis_char_1_a7_4\[4\]/A  un2_dis_char_1_a7_4\[4\]/Y  un2_dis_char_1_2\[4\]/C  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[0\]/CLK  sel_char_0\[0\]/Q  un2_dis_char_0_a7_3\[0\]/A  un2_dis_char_0_a7_3\[0\]/Y  un2_dis_char_i_0\[2\]/C  un2_dis_char_i_0\[2\]/Y  un2_dis_char_i_5\[2\]/B  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_0_o2\[5\]/A  un2_dis_char_0_o2\[5\]/Y  un2_dis_char_0_a7\[5\]/C  un2_dis_char_0_a7\[5\]/Y  un2_dis_char_0_1\[5\]/C  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[0\]/CLK  sel_char_0\[0\]/Q  un2_dis_char_0_a7_3_0\[5\]/A  un2_dis_char_0_a7_3_0\[5\]/Y  un2_dis_char_0_a7_3\[5\]/B  un2_dis_char_0_a7_3\[5\]/Y  un2_dis_char_0_1\[5\]/B  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[1\]/CLK  sel_char_0\[1\]/Q  un2_dis_char_0_a7_0_0\[0\]/C  un2_dis_char_0_a7_0_0\[0\]/Y  un2_dis_char_0_0\[0\]/B  un2_dis_char_0_0\[0\]/Y  un2_dis_char_0_2\[0\]/C  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[1\]/CLK  sel_char_0\[1\]/Q  un2_dis_char_2_a7_5_0\[1\]/A  un2_dis_char_2_a7_5_0\[1\]/Y  un2_dis_char_2_1\[1\]/B  un2_dis_char_2_1\[1\]/Y  un2_dis_char_2_3\[1\]/C  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_19/B  un2_divide_clk_I_19/Y  un2_divide_clk_I_20/A  un2_divide_clk_I_20/Y  divide_clk\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_i_o2\[2\]/B  un2_dis_char_i_o2\[2\]/Y  un2_dis_char_0_a7_2\[5\]/A  un2_dis_char_0_a7_2\[5\]/Y  un2_dis_char_0_1\[5\]/A  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[12\]/CLK  divide_clk\[12\]/Q  un2_divide_clk_I_87/A  un2_divide_clk_I_87/Y  un2_divide_clk_I_94/B  un2_divide_clk_I_94/Y  un2_divide_clk_I_97/B  un2_divide_clk_I_97/Y  un2_divide_clk_I_98/A  un2_divide_clk_I_98/Y  divide_clk\[16\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_2\[0\]/B  un2_dis_char_0_o2_2\[0\]/Y  un2_dis_char_2_a7_1\[1\]/B  un2_dis_char_2_a7_1\[1\]/Y  un2_dis_char_2\[1\]/B  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[7\]/CLK  state\[7\]/Q  un1_dis_complete_1_sqmuxa_0_0_o7/B  un1_dis_complete_1_sqmuxa_0_0_o7/Y  dis_count_5_i_a2\[0\]/A  dis_count_5_i_a2\[0\]/Y  dis_count_5_i\[2\]/A  dis_count_5_i\[2\]/Y  dis_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state_0\[1\]/CLK  state_0\[1\]/Q  un2_dis_char_0_o2\[0\]/C  un2_dis_char_0_o2\[0\]/Y  un2_dis_char_1_a7\[4\]/C  un2_dis_char_1_a7\[4\]/Y  un2_dis_char_1\[4\]/C  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_30/A  un2_divide_clk_I_30/Y  un2_divide_clk_I_31/A  un2_divide_clk_I_31/Y  divide_clk\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_37/A  un2_divide_clk_I_37/Y  un2_divide_clk_I_38/A  un2_divide_clk_I_38/Y  divide_clk\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_44/A  un2_divide_clk_I_44/Y  un2_divide_clk_I_45/A  un2_divide_clk_I_45/Y  divide_clk\[8\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_23/A  un2_divide_clk_I_23/Y  un2_divide_clk_I_24/A  un2_divide_clk_I_24/Y  divide_clk\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_o2_2\[0\]/B  un2_dis_char_0_o2_2\[0\]/Y  un2_dis_char_0_a7\[3\]/A  un2_dis_char_0_a7\[3\]/Y  un2_dis_char_0\[3\]/C  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[17\]/CLK  divide_clk\[17\]/Q  un2_divide_clk_I_108/C  un2_divide_clk_I_108/Y  un2_divide_clk_I_118/C  un2_divide_clk_I_118/Y  un2_divide_clk_I_121/B  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_0_o2\[5\]/B  un2_dis_char_0_o2\[5\]/Y  un2_dis_char_0_a7\[5\]/C  un2_dis_char_0_a7\[5\]/Y  un2_dis_char_0_1\[5\]/C  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[0\]/CLK  sel_char_0\[0\]/Q  un2_dis_char_1_a7_4_0\[4\]/B  un2_dis_char_1_a7_4_0\[4\]/Y  un2_dis_char_1_a7_4\[4\]/A  un2_dis_char_1_a7_4\[4\]/Y  un2_dis_char_1_2\[4\]/C  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  un1_int_count_I_5/A  un1_int_count_I_5/Y  un1_int_count_I_35/C  un1_int_count_I_35/Y  un1_int_count_I_32/B  un1_int_count_I_32/Y  int_count_6\[2\]/B  int_count_6\[2\]/Y  int_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[1\]/CLK  state\[1\]/Q  un2_dis_char_i_a7_1\[2\]/B  un2_dis_char_i_a7_1\[2\]/Y  un2_dis_char_i_2\[2\]/C  un2_dis_char_i_2\[2\]/Y  un2_dis_char_i_5\[2\]/C  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[6\]/A  un2_dis_char_0_a2_0\[6\]/Y  un2_dis_char_i_1_1\[7\]/A  un2_dis_char_i_1_1\[7\]/Y  un2_dis_char_i\[7\]/C  un2_dis_char_i\[7\]/Y  DATA_LCD\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un2_dis_char_1_0\[4\]/B  un2_dis_char_1_0\[4\]/Y  un2_dis_char_1_3\[4\]/C  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_a7_2\[2\]/A  un2_dis_char_i_a7_2\[2\]/Y  un2_dis_char_i_1\[2\]/C  un2_dis_char_i_1\[2\]/Y  un2_dis_char_i_4\[2\]/C  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[0\]/CLK  dis_count\[0\]/Q  un2_dis_char_0_o2_2\[0\]/A  un2_dis_char_0_o2_2\[0\]/Y  un2_dis_char_0_a7_1\[0\]/A  un2_dis_char_0_a7_1\[0\]/Y  un2_dis_char_0_3\[0\]/C  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un1_dis_count_1_I_21/B  un1_dis_count_1_I_21/Y  un1_dis_count_1_I_17/B  un1_dis_count_1_I_17/Y  dis_count_5_i\[3\]/B  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_i_o2_0\[2\]/B  un2_dis_char_i_o2_0\[2\]/Y  un2_dis_char_i_4\[2\]/A  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[5\]/CLK  state\[5\]/Q  un2_dis_char_0_a7_2_1_0\[0\]/B  un2_dis_char_0_a7_2_1_0\[0\]/Y  un2_dis_char_0_a7_2_1_1\[0\]/C  un2_dis_char_0_a7_2_1_1\[0\]/Y  un2_dis_char_2_a7_2\[1\]/B  un2_dis_char_2_a7_2\[1\]/Y  un2_dis_char_2\[1\]/C  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[5\]/CLK  state\[5\]/Q  un2_dis_char_0_a7_2_1_0\[0\]/B  un2_dis_char_0_a7_2_1_0\[0\]/Y  un2_dis_char_0_a7_2_1_1\[0\]/C  un2_dis_char_0_a7_2_1_1\[0\]/Y  un2_dis_char_0_a7_2\[0\]/B  un2_dis_char_0_a7_2\[0\]/Y  un2_dis_char_0\[0\]/C  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_0_o2\[5\]/A  un2_dis_char_0_o2\[5\]/Y  un2_dis_char_i_1_0\[7\]/A  un2_dis_char_i_1_0\[7\]/Y  un2_dis_char_0\[6\]/B  un2_dis_char_0\[6\]/Y  DATA_LCD\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  DATA_LCD_8_sqmuxa_0_a4_0_a2/A  DATA_LCD_8_sqmuxa_0_a4_0_a2/Y  sel_char_1/B  sel_char_1/Y  sel_char\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[2\]/CLK  int_count\[2\]/Q  un1_int_count_I_6/A  un1_int_count_I_6/Y  un1_int_count_I_44/C  un1_int_count_I_44/Y  un1_int_count_I_30/B  un1_int_count_I_30/Y  int_count_6\[3\]/B  int_count_6\[3\]/Y  int_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[4\]/CLK  int_count\[4\]/Q  un1_int_count_I_7/A  un1_int_count_I_7/Y  un1_int_count_I_42/C  un1_int_count_I_42/Y  un1_int_count_I_33/B  un1_int_count_I_33/Y  int_count_6\[5\]/B  int_count_6\[5\]/Y  int_count\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT RS_LCD/CLK  RS_LCD/Q  RS_LCD_2_r/B  RS_LCD_2_r/Y  RS_LCD_3/A  RS_LCD_3/Y  un2_dis_char_0_0\[3\]/B  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un2_dis_char_2_a7_0\[1\]/C  un2_dis_char_2_a7_0\[1\]/Y  un2_dis_char_2_3\[1\]/B  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[6\]/CLK  divide_clk\[6\]/Q  un2_divide_clk_I_41/A  un2_divide_clk_I_41/Y  un2_divide_clk_I_48/C  un2_divide_clk_I_48/Y  un2_divide_clk_I_51/B  un2_divide_clk_I_51/Y  un2_divide_clk_I_52/A  un2_divide_clk_I_52/Y  divide_clk\[9\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_i_a7_1\[2\]/A  un2_dis_char_i_a7_1\[2\]/Y  un2_dis_char_i_2\[2\]/C  un2_dis_char_i_2\[2\]/Y  un2_dis_char_i_5\[2\]/C  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_2_o2_0\[1\]/B  un2_dis_char_2_o2_0\[1\]/Y  un2_dis_char_0_a7_0\[5\]/A  un2_dis_char_0_a7_0\[5\]/Y  un2_dis_char_0\[5\]/B  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_34/A  un2_divide_clk_I_34/Y  un2_divide_clk_I_44/B  un2_divide_clk_I_44/Y  un2_divide_clk_I_45/A  un2_divide_clk_I_45/Y  divide_clk\[8\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_34/A  un2_divide_clk_I_34/Y  un2_divide_clk_I_37/B  un2_divide_clk_I_37/Y  un2_divide_clk_I_38/A  un2_divide_clk_I_38/Y  divide_clk\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[0\]/CLK  sel_char_0\[0\]/Q  un2_dis_char_i_0\[2\]/B  un2_dis_char_i_0\[2\]/Y  un2_dis_char_i_5\[2\]/B  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[1\]/CLK  state\[1\]/Q  un2_dis_char_2_a7_3\[1\]/A  un2_dis_char_2_a7_3\[1\]/Y  un2_dis_char_2_0\[1\]/C  un2_dis_char_2_0\[1\]/Y  un2_dis_char_2_3\[1\]/A  un2_dis_char_2_3\[1\]/Y  un2_dis_char_2\[1\]/A  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[2\]/CLK  int_count\[2\]/Q  un1_int_count_I_18/A  un1_int_count_I_18/Y  un1_int_count_I_44/A  un1_int_count_I_44/Y  un1_int_count_I_30/B  un1_int_count_I_30/Y  int_count_6\[3\]/B  int_count_6\[3\]/Y  int_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[4\]/CLK  int_count\[4\]/Q  un1_int_count_I_17/A  un1_int_count_I_17/Y  un1_int_count_I_42/A  un1_int_count_I_42/Y  un1_int_count_I_33/B  un1_int_count_I_33/Y  int_count_6\[5\]/B  int_count_6\[5\]/Y  int_count\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[7\]/CLK  divide_clk\[7\]/Q  un2_divide_clk_I_41/B  un2_divide_clk_I_41/Y  un2_divide_clk_I_48/C  un2_divide_clk_I_48/Y  un2_divide_clk_I_51/B  un2_divide_clk_I_51/Y  un2_divide_clk_I_52/A  un2_divide_clk_I_52/Y  divide_clk\[9\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_a7\[5\]/B  un2_dis_char_0_a7\[5\]/Y  un2_dis_char_0_1\[5\]/C  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_i_a7_0\[2\]/B  un2_dis_char_i_a7_0\[2\]/Y  un2_dis_char_i_5\[2\]/A  un2_dis_char_i_5\[2\]/Y  un2_dis_char_i\[2\]/C  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un2_dis_char_0_a7_3\[5\]/A  un2_dis_char_0_a7_3\[5\]/Y  un2_dis_char_0_1\[5\]/B  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[6\]/CLK  int_count\[6\]/Q  un1_int_count_I_10/A  un1_int_count_I_10/Y  un1_int_count_I_45/C  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[2\]/CLK  state\[2\]/Q  un2_dis_char_0_a7_2_1_0\[0\]/A  un2_dis_char_0_a7_2_1_0\[0\]/Y  un2_dis_char_0_a7_2_1_1\[0\]/C  un2_dis_char_0_a7_2_1_1\[0\]/Y  un2_dis_char_2_a7_2\[1\]/B  un2_dis_char_2_a7_2\[1\]/Y  un2_dis_char_2\[1\]/C  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[5\]/CLK  state\[5\]/Q  un2_dis_char_i_a7_1_0\[2\]/A  un2_dis_char_i_a7_1_0\[2\]/Y  un2_dis_char_i_a7_2_0\[2\]/A  un2_dis_char_i_a7_2_0\[2\]/Y  un2_dis_char_i_4\[2\]/B  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[0\]/CLK  sel_char_0\[0\]/Q  un2_dis_char_0_a7_5\[0\]/B  un2_dis_char_0_a7_5\[0\]/Y  un2_dis_char_0_2\[0\]/B  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[7\]/CLK  state\[7\]/Q  un2_dis_char_0_a7_2_1_1\[0\]/B  un2_dis_char_0_a7_2_1_1\[0\]/Y  un2_dis_char_2_a7_2\[1\]/B  un2_dis_char_2_a7_2\[1\]/Y  un2_dis_char_2\[1\]/C  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_83/B  un2_divide_clk_I_83/Y  un2_divide_clk_I_84/A  un2_divide_clk_I_84/Y  divide_clk\[14\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_90/B  un2_divide_clk_I_90/Y  un2_divide_clk_I_91/A  un2_divide_clk_I_91/Y  divide_clk\[15\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_76/B  un2_divide_clk_I_76/Y  un2_divide_clk_I_77/A  un2_divide_clk_I_77/Y  divide_clk\[13\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_dis_complete_1_sqmuxa_0_0_a2/B  un1_dis_complete_1_sqmuxa_0_0_a2/Y  state_ns_0\[7\]/C  state_ns_0\[7\]/Y  state\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_dis_complete_1_sqmuxa_0_0_a2/B  un1_dis_complete_1_sqmuxa_0_0_a2/Y  state_ns_0\[7\]/C  state_ns_0\[7\]/Y  state_0\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un2_dis_char_0_a2_0\[6\]/A  un2_dis_char_0_a2_0\[6\]/Y  un2_dis_char_0\[6\]/C  un2_dis_char_0\[6\]/Y  DATA_LCD\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[6\]/CLK  int_count\[6\]/Q  un1_int_count_I_16/A  un1_int_count_I_16/Y  un1_int_count_I_45/A  un1_int_count_I_45/Y  un1_int_count_I_34/B  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[1\]/CLK  state\[1\]/Q  un2_dis_char_i_o2_0\[2\]/C  un2_dis_char_i_o2_0\[2\]/Y  un2_dis_char_i_4\[2\]/A  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state_0\[1\]/CLK  state_0\[1\]/Q  un2_dis_char_i_a7\[7\]/B  un2_dis_char_i_a7\[7\]/Y  un2_dis_char_i_1_1\[7\]/B  un2_dis_char_i_1_1\[7\]/Y  un2_dis_char_i\[7\]/C  un2_dis_char_i\[7\]/Y  DATA_LCD\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_72/A  un2_divide_clk_I_72/Y  un2_divide_clk_I_73/A  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[1\]/CLK  state\[1\]/Q  un2_dis_char_i_a7_0\[7\]/A  un2_dis_char_i_a7_0\[7\]/Y  un2_dis_char_i_1_1\[7\]/C  un2_dis_char_i_1_1\[7\]/Y  un2_dis_char_i\[7\]/C  un2_dis_char_i\[7\]/Y  DATA_LCD\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0/A  un1_rst_0/Y  DATA_LCD\[7\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0/A  un1_rst_0/Y  DATA_LCD\[6\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0/A  un1_rst_0/Y  DATA_LCD\[5\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0/A  un1_rst_0/Y  DATA_LCD\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0/A  un1_rst_0/Y  DATA_LCD\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0/A  un1_rst_0/Y  DATA_LCD\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0/A  un1_rst_0/Y  DATA_LCD\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0/A  un1_rst_0/Y  DATA_LCD\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_i_a7_0\[7\]/C  un2_dis_char_i_a7_0\[7\]/Y  un2_dis_char_i_1_1\[7\]/C  un2_dis_char_i_1_1\[7\]/Y  un2_dis_char_i\[7\]/C  un2_dis_char_i\[7\]/Y  DATA_LCD\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[1\]/CLK  sel_char_0\[1\]/Q  un2_dis_char_1_a7_1\[4\]/B  un2_dis_char_1_a7_1\[4\]/Y  un2_dis_char_1_3\[4\]/A  un2_dis_char_1_3\[4\]/Y  un2_dis_char_1\[4\]/A  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[0\]/CLK  dis_count_0\[0\]/Q  un2_dis_char_i_1\[2\]/B  un2_dis_char_i_1\[2\]/Y  un2_dis_char_i_4\[2\]/C  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[1\]/CLK  sel_char_0\[1\]/Q  un2_dis_char_0_a7_2\[5\]/B  un2_dis_char_0_a7_2\[5\]/Y  un2_dis_char_0_1\[5\]/A  un2_dis_char_0_1\[5\]/Y  un2_dis_char_0\[5\]/A  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[1\]/CLK  sel_char_0\[1\]/Q  un2_dis_char_0_a7_1\[0\]/C  un2_dis_char_0_a7_1\[0\]/Y  un2_dis_char_0_3\[0\]/C  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[0\]/CLK  sel_char_0\[0\]/Q  un2_dis_char_0_a7_1\[3\]/A  un2_dis_char_0_a7_1\[3\]/Y  un2_dis_char_0_0\[3\]/C  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  un2_dis_char_0_a2_0\[3\]/B  un2_dis_char_0_a2_0\[3\]/Y  un2_dis_char_0_a7_2\[3\]/A  un2_dis_char_0_a7_2\[3\]/Y  un2_dis_char_0\[3\]/B  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un2_dis_char_0_3\[0\]/A  un2_dis_char_0_3\[0\]/Y  un2_dis_char_0\[0\]/A  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[1\]/CLK  sel_char_0\[1\]/Q  un2_dis_char_0_a7_1\[3\]/B  un2_dis_char_0_a7_1\[3\]/Y  un2_dis_char_0_0\[3\]/C  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state_0\[1\]/CLK  state_0\[1\]/Q  un1_rst_0/B  un1_rst_0/Y  DATA_LCD\[7\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count_0\[2\]/CLK  dis_count_0\[2\]/Q  un1_dis_count_1_I_18/A  un1_dis_count_1_I_18/Y  dis_count_5_i\[2\]/B  dis_count_5_i\[2\]/Y  dis_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[6\]/CLK  state\[6\]/Q  un2_dis_char_i_a7_2_0\[2\]/C  un2_dis_char_i_a7_2_0\[2\]/Y  un2_dis_char_i_4\[2\]/B  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_0_a7_4\[0\]/A  un2_dis_char_0_a7_4\[0\]/Y  un2_dis_char_0_2\[0\]/A  un2_dis_char_0_2\[0\]/Y  un2_dis_char_0\[0\]/B  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[6\]/CLK  state\[6\]/Q  un2_dis_char_0_a7_2_1_1\[0\]/A  un2_dis_char_0_a7_2_1_1\[0\]/Y  un2_dis_char_2_a7_2\[1\]/B  un2_dis_char_2_a7_2\[1\]/Y  un2_dis_char_2\[1\]/C  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un2_dis_char_0_a2_0\[3\]/A  un2_dis_char_0_a2_0\[3\]/Y  un2_dis_char_0_a7_2\[3\]/A  un2_dis_char_0_a7_2\[3\]/Y  un2_dis_char_0\[3\]/B  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[18\]/CLK  divide_clk\[18\]/Q  un2_divide_clk_I_132/A  un2_divide_clk_I_132/Y  un2_divide_clk_I_135/C  un2_divide_clk_I_135/Y  un2_divide_clk_I_136/A  un2_divide_clk_I_136/Y  divide_clk\[21\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[12\]/CLK  divide_clk\[12\]/Q  un2_divide_clk_I_87/A  un2_divide_clk_I_87/Y  un2_divide_clk_I_90/C  un2_divide_clk_I_90/Y  un2_divide_clk_I_91/A  un2_divide_clk_I_91/Y  divide_clk\[15\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[19\]/CLK  divide_clk\[19\]/Q  un2_divide_clk_I_132/B  un2_divide_clk_I_132/Y  un2_divide_clk_I_135/C  un2_divide_clk_I_135/Y  un2_divide_clk_I_136/A  un2_divide_clk_I_136/Y  divide_clk\[21\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[2\]/CLK  dis_count\[2\]/Q  un2_dis_char_0_a7_0\[5\]/C  un2_dis_char_0_a7_0\[5\]/Y  un2_dis_char_0\[5\]/B  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[1\]/CLK  dis_count\[1\]/Q  un1_dis_count_1_I_15/A  un1_dis_count_1_I_15/Y  dis_count_5_i\[1\]/B  dis_count_5_i\[1\]/Y  dis_count\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_state_inv_i_0_a7/C  un1_state_inv_i_0_a7/Y  un1_state_inv_i_0/A  un1_state_inv_i_0/Y  dis_complete/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[15\]/CLK  divide_clk\[15\]/Q  un2_divide_clk_I_108/A  un2_divide_clk_I_108/Y  un2_divide_clk_I_114/C  un2_divide_clk_I_114/Y  un2_divide_clk_I_115/A  un2_divide_clk_I_115/Y  divide_clk\[18\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[6\]/CLK  divide_clk\[6\]/Q  un2_divide_clk_I_41/A  un2_divide_clk_I_41/Y  un2_divide_clk_I_44/C  un2_divide_clk_I_44/Y  un2_divide_clk_I_45/A  un2_divide_clk_I_45/Y  divide_clk\[8\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_27/A  un2_divide_clk_I_27/Y  un2_divide_clk_I_30/B  un2_divide_clk_I_30/Y  un2_divide_clk_I_31/A  un2_divide_clk_I_31/Y  divide_clk\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char_0\[1\]/CLK  sel_char_0\[1\]/Q  un2_dis_char_1_2\[4\]/A  un2_dis_char_1_2\[4\]/Y  un2_dis_char_1\[4\]/B  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[20\]/CLK  divide_clk\[20\]/Q  un2_divide_clk_I_132/C  un2_divide_clk_I_132/Y  un2_divide_clk_I_135/C  un2_divide_clk_I_135/Y  un2_divide_clk_I_136/A  un2_divide_clk_I_136/Y  divide_clk\[21\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[7\]/CLK  state\[7\]/Q  state_ns_a4_0_a7\[2\]/A  state_ns_a4_0_a7\[2\]/Y  un1_state_inv_i_0/C  un1_state_inv_i_0/Y  dis_complete/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[4\]/CLK  divide_clk\[4\]/Q  un2_divide_clk_I_27/B  un2_divide_clk_I_27/Y  un2_divide_clk_I_30/B  un2_divide_clk_I_30/Y  un2_divide_clk_I_31/A  un2_divide_clk_I_31/Y  divide_clk\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[4\]/CLK  state\[4\]/Q  un2_dis_char_i_a7_2_0\[2\]/B  un2_dis_char_i_a7_2_0\[2\]/Y  un2_dis_char_i_4\[2\]/B  un2_dis_char_i_4\[2\]/Y  un2_dis_char_i\[2\]/A  un2_dis_char_i\[2\]/Y  DATA_LCD\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  RS_LCD_2_r/A  RS_LCD_2_r/Y  RS_LCD/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT RS_LCD/CLK  RS_LCD/Q  RS_LCD_3/B  RS_LCD_3/Y  un2_dis_char_0_0\[3\]/B  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[12\]/CLK  divide_clk\[12\]/Q  un2_divide_clk_I_80/A  un2_divide_clk_I_80/Y  un2_divide_clk_I_83/C  un2_divide_clk_I_83/Y  un2_divide_clk_I_84/A  un2_divide_clk_I_84/Y  divide_clk\[14\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[15\]/CLK  divide_clk\[15\]/Q  un2_divide_clk_I_101/A  un2_divide_clk_I_101/Y  un2_divide_clk_I_104/C  un2_divide_clk_I_104/Y  un2_divide_clk_I_105/A  un2_divide_clk_I_105/Y  divide_clk\[17\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[18\]/CLK  divide_clk\[18\]/Q  un2_divide_clk_I_125/A  un2_divide_clk_I_125/Y  un2_divide_clk_I_128/C  un2_divide_clk_I_128/Y  un2_divide_clk_I_129/A  un2_divide_clk_I_129/Y  divide_clk\[20\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  un1_int_count_I_20/A  un1_int_count_I_20/Y  un1_int_count_I_31/A  un1_int_count_I_31/Y  int_count_6\[1\]/B  int_count_6\[1\]/Y  int_count\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[2\]/CLK  int_count\[2\]/Q  un1_int_count_I_21/A  un1_int_count_I_21/Y  un1_int_count_I_32/A  un1_int_count_I_32/Y  int_count_6\[2\]/B  int_count_6\[2\]/Y  int_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[3\]/CLK  int_count\[3\]/Q  un1_int_count_I_23/A  un1_int_count_I_23/Y  un1_int_count_I_30/A  un1_int_count_I_30/Y  int_count_6\[3\]/B  int_count_6\[3\]/Y  int_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[4\]/CLK  int_count\[4\]/Q  un1_int_count_I_24/A  un1_int_count_I_24/Y  un1_int_count_I_28/A  un1_int_count_I_28/Y  int_count_6\[4\]/B  int_count_6\[4\]/Y  int_count\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[5\]/CLK  int_count\[5\]/Q  un1_int_count_I_25/A  un1_int_count_I_25/Y  un1_int_count_I_33/A  un1_int_count_I_33/Y  int_count_6\[5\]/B  int_count_6\[5\]/Y  int_count\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[6\]/CLK  int_count\[6\]/Q  un1_int_count_I_26/A  un1_int_count_I_26/Y  un1_int_count_I_27/A  un1_int_count_I_27/Y  int_count_6\[6\]/B  int_count_6\[6\]/Y  int_count\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[0\]/CLK  dis_count\[0\]/Q  un1_dis_count_1_I_11/A  un1_dis_count_1_I_11/Y  dis_count_5_i\[0\]/A  dis_count_5_i\[0\]/Y  dis_count\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[13\]/CLK  divide_clk\[13\]/Q  un2_divide_clk_I_80/B  un2_divide_clk_I_80/Y  un2_divide_clk_I_83/C  un2_divide_clk_I_83/Y  un2_divide_clk_I_84/A  un2_divide_clk_I_84/Y  divide_clk\[14\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[16\]/CLK  divide_clk\[16\]/Q  un2_divide_clk_I_101/B  un2_divide_clk_I_101/Y  un2_divide_clk_I_104/C  un2_divide_clk_I_104/Y  un2_divide_clk_I_105/A  un2_divide_clk_I_105/Y  divide_clk\[17\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[19\]/CLK  divide_clk\[19\]/Q  un2_divide_clk_I_125/B  un2_divide_clk_I_125/Y  un2_divide_clk_I_128/C  un2_divide_clk_I_128/Y  un2_divide_clk_I_129/A  un2_divide_clk_I_129/Y  divide_clk\[20\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[2\]/CLK  state\[2\]/Q  un2_dis_char_i_a7\[7\]/A  un2_dis_char_i_a7\[7\]/Y  un2_dis_char_i_1_1\[7\]/B  un2_dis_char_i_1_1\[7\]/Y  un2_dis_char_i\[7\]/C  un2_dis_char_i\[7\]/Y  DATA_LCD\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[7\]/CLK  state\[7\]/Q  un2_dis_char_1_a7\[4\]/B  un2_dis_char_1_a7\[4\]/Y  un2_dis_char_1\[4\]/C  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[7\]/CLK  state\[7\]/Q  un2_dis_char_0_a7_1\[5\]/A  un2_dis_char_0_a7_1\[5\]/Y  un2_dis_char_0\[5\]/C  un2_dis_char_0\[5\]/Y  DATA_LCD\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_8/B  un2_divide_clk_I_8/Y  un2_divide_clk_I_9/A  un2_divide_clk_I_9/Y  divide_clk\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_complete/CLK  dis_complete/Q  un1_rst_0_a7/B  un1_rst_0_a7/Y  state\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_12/A  un2_divide_clk_I_12/Y  un2_divide_clk_I_13/A  un2_divide_clk_I_13/Y  divide_clk\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[7\]/CLK  int_count\[7\]/Q  un1_int_count_I_22/A  un1_int_count_I_22/Y  un1_int_count_I_34/A  un1_int_count_I_34/Y  int_count_6\[7\]/B  int_count_6\[7\]/Y  int_count\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[0\]/CLK  int_count\[0\]/Q  un1_int_count_I_31/B  un1_int_count_I_31/Y  int_count_6\[1\]/B  int_count_6\[1\]/Y  int_count\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un12_dis_char_3_i_x2_0_o2\[56\]/B  un12_dis_char_3_i_x2_0_o2\[56\]/Y  sel_char\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[1\]/CLK  sel_char\[1\]/Q  un12_dis_char_3_i_x2_0_o2\[56\]/B  un12_dis_char_3_i_x2_0_o2\[56\]/Y  sel_char_0\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[5\]/CLK  state\[5\]/Q  un2_dis_char_0_0\[3\]/A  un2_dis_char_0_0\[3\]/Y  un2_dis_char_0\[3\]/A  un2_dis_char_0\[3\]/Y  DATA_LCD\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[1\]/CLK  divide_clk\[1\]/Q  un2_divide_clk_I_12/B  un2_divide_clk_I_12/Y  un2_divide_clk_I_13/A  un2_divide_clk_I_13/Y  divide_clk\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_23/B  un2_divide_clk_I_23/Y  un2_divide_clk_I_24/A  un2_divide_clk_I_24/Y  divide_clk\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[1\]/CLK  divide_clk\[1\]/Q  un2_divide_clk_I_8/A  un2_divide_clk_I_8/Y  un2_divide_clk_I_9/A  un2_divide_clk_I_9/Y  divide_clk\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_19/A  un2_divide_clk_I_19/Y  un2_divide_clk_I_20/A  un2_divide_clk_I_20/Y  divide_clk\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[3\]/CLK  dis_count\[3\]/Q  un1_state_inv_i_0_a7/A  un1_state_inv_i_0_a7/Y  un1_state_inv_i_0/A  un1_state_inv_i_0/Y  dis_complete/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[4\]/CLK  state\[4\]/Q  un2_dis_char_0_a7_2\[0\]/C  un2_dis_char_0_a7_2\[0\]/Y  un2_dis_char_0\[0\]/C  un2_dis_char_0\[0\]/Y  DATA_LCD\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[2\]/CLK  divide_clk\[2\]/Q  un2_divide_clk_I_12/C  un2_divide_clk_I_12/Y  un2_divide_clk_I_13/A  un2_divide_clk_I_13/Y  divide_clk\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[4\]/CLK  divide_clk\[4\]/Q  un2_divide_clk_I_23/C  un2_divide_clk_I_23/Y  un2_divide_clk_I_24/A  un2_divide_clk_I_24/Y  divide_clk\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_55/C  un2_divide_clk_I_55/Y  un2_divide_clk_I_56/A  un2_divide_clk_I_56/Y  divide_clk\[10\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[6\]/CLK  divide_clk\[6\]/Q  un2_divide_clk_I_37/C  un2_divide_clk_I_37/Y  un2_divide_clk_I_38/A  un2_divide_clk_I_38/Y  divide_clk\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[12\]/CLK  divide_clk\[12\]/Q  un2_divide_clk_I_76/C  un2_divide_clk_I_76/Y  un2_divide_clk_I_77/A  un2_divide_clk_I_77/Y  divide_clk\[13\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[15\]/CLK  divide_clk\[15\]/Q  un2_divide_clk_I_97/C  un2_divide_clk_I_97/Y  un2_divide_clk_I_98/A  un2_divide_clk_I_98/Y  divide_clk\[16\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[18\]/CLK  divide_clk\[18\]/Q  un2_divide_clk_I_121/C  un2_divide_clk_I_121/Y  un2_divide_clk_I_122/A  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  un2_int_flash_1_SUM2/A  un2_int_flash_1_SUM2/Y  int_flash\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  un2_int_flash_1_SUM1/B  un2_int_flash_1_SUM1/Y  int_flash\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_65/B  un2_divide_clk_I_65/Y  un2_divide_clk_I_66/A  un2_divide_clk_I_66/Y  divide_clk\[11\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[8\]/CLK  divide_clk\[8\]/Q  un2_divide_clk_I_55/B  un2_divide_clk_I_55/Y  un2_divide_clk_I_56/A  un2_divide_clk_I_56/Y  divide_clk\[10\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[6\]/CLK  state\[6\]/Q  un2_dis_char_1_a7\[4\]/A  un2_dis_char_1_a7\[4\]/Y  un2_dis_char_1\[4\]/C  un2_dis_char_1\[4\]/Y  DATA_LCD\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[0\]/CLK  state\[0\]/Q  dis_count_5_i\[0\]/C  dis_count_5_i\[0\]/Y  dis_count\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[0\]/CLK  state\[0\]/Q  state_ns_0\[7\]/A  state_ns_0\[7\]/Y  state\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[0\]/CLK  state\[0\]/Q  dis_count_5_i\[2\]/C  dis_count_5_i\[2\]/Y  dis_count\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state_0\[1\]/CLK  state_0\[1\]/Q  un1_rst_0_a7/A  un1_rst_0_a7/Y  state\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[0\]/CLK  state\[0\]/Q  un1_state_inv_i_0/B  un1_state_inv_i_0/Y  dis_complete/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[8\]/CLK  divide_clk\[8\]/Q  un2_divide_clk_I_51/A  un2_divide_clk_I_51/Y  un2_divide_clk_I_52/A  un2_divide_clk_I_52/Y  divide_clk\[9\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_flash\[1\]/CLK  int_flash\[1\]/Q  un2_int_flash_1_SUM2/B  un2_int_flash_1_SUM2/Y  int_flash\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[5\]/CLK  divide_clk\[5\]/Q  un2_divide_clk_I_30/C  un2_divide_clk_I_30/Y  un2_divide_clk_I_31/A  un2_divide_clk_I_31/Y  divide_clk\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[10\]/CLK  divide_clk\[10\]/Q  un2_divide_clk_I_65/C  un2_divide_clk_I_65/Y  un2_divide_clk_I_66/A  un2_divide_clk_I_66/Y  divide_clk\[11\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT sel_char\[0\]/CLK  sel_char\[0\]/Q  sel_char_1/A  sel_char_1/Y  sel_char\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT dis_count\[3\]/CLK  dis_count\[3\]/Q  un1_dis_count_1_I_17/A  un1_dis_count_1_I_17/Y  dis_count_5_i\[3\]/B  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  int_flash_i\[0\]/A  int_flash_i\[0\]/Y  int_flash\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[3\]/CLK  state\[3\]/Q  un2_dis_char_2_a7_2\[1\]/C  un2_dis_char_2_a7_2\[1\]/Y  un2_dis_char_2\[1\]/C  un2_dis_char_2\[1\]/Y  DATA_LCD\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[0\]/CLK  state\[0\]/Q  dis_count_5_i\[1\]/C  dis_count_5_i\[1\]/Y  dis_count\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[0\]/CLK  state\[0\]/Q  dis_count_5_i\[3\]/C  dis_count_5_i\[3\]/Y  dis_count\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[1\]/CLK  divide_clk\[1\]/Q  un2_divide_clk_I_5/B  un2_divide_clk_I_5/Y  divide_clk\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_13/B  un2_divide_clk_I_13/Y  divide_clk\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[7\]/CLK  state\[7\]/Q  state_ns_i_0\[1\]/B  state_ns_i_0\[1\]/Y  state\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_4/A  un2_divide_clk_I_4/Y  divide_clk\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_5/A  un2_divide_clk_I_5/Y  divide_clk\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_flash\[1\]/CLK  int_flash\[1\]/Q  un2_int_flash_1_SUM1/A  un2_int_flash_1_SUM1/Y  int_flash\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[2\]/CLK  divide_clk\[2\]/Q  un2_divide_clk_I_9/B  un2_divide_clk_I_9/Y  divide_clk\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[4\]/CLK  divide_clk\[4\]/Q  un2_divide_clk_I_20/B  un2_divide_clk_I_20/Y  divide_clk\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_52/B  un2_divide_clk_I_52/Y  divide_clk\[9\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[8\]/CLK  divide_clk\[8\]/Q  un2_divide_clk_I_45/B  un2_divide_clk_I_45/Y  divide_clk\[8\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[6\]/CLK  divide_clk\[6\]/Q  un2_divide_clk_I_31/B  un2_divide_clk_I_31/Y  divide_clk\[6\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[12\]/CLK  divide_clk\[12\]/Q  un2_divide_clk_I_73/B  un2_divide_clk_I_73/Y  divide_clk\[12\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[15\]/CLK  divide_clk\[15\]/Q  un2_divide_clk_I_91/B  un2_divide_clk_I_91/Y  divide_clk\[15\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[18\]/CLK  divide_clk\[18\]/Q  un2_divide_clk_I_115/B  un2_divide_clk_I_115/Y  divide_clk\[18\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_flash\[2\]/CLK  int_flash\[2\]/Q  un2_int_flash_1_SUM2/C  un2_int_flash_1_SUM2/Y  int_flash\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT int_count\[0\]/CLK  int_count\[0\]/Q  int_count_6\[0\]/B  int_count_6\[0\]/Y  int_count\[0\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[2\]/CLK  state\[2\]/Q  state_ns_0\[7\]/B  state_ns_0\[7\]/Y  state\[1\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[5\]/CLK  divide_clk\[5\]/Q  un2_divide_clk_I_24/B  un2_divide_clk_I_24/Y  divide_clk\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[10\]/CLK  divide_clk\[10\]/Q  un2_divide_clk_I_56/B  un2_divide_clk_I_56/Y  divide_clk\[10\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[7\]/CLK  divide_clk\[7\]/Q  un2_divide_clk_I_38/B  un2_divide_clk_I_38/Y  divide_clk\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[13\]/CLK  divide_clk\[13\]/Q  un2_divide_clk_I_77/B  un2_divide_clk_I_77/Y  divide_clk\[13\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[16\]/CLK  divide_clk\[16\]/Q  un2_divide_clk_I_98/B  un2_divide_clk_I_98/Y  divide_clk\[16\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[19\]/CLK  divide_clk\[19\]/Q  un2_divide_clk_I_122/B  un2_divide_clk_I_122/Y  divide_clk\[19\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[8\]/CLK  state\[8\]/Q  state_ns_i_0\[1\]/A  state_ns_i_0\[1\]/Y  state\[7\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[23\]/CLK  divide_clk\[23\]/Q  un2_divide_clk_I_156/B  un2_divide_clk_I_156/Y  divide_clk\[23\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[11\]/CLK  divide_clk\[11\]/Q  un2_divide_clk_I_66/B  un2_divide_clk_I_66/Y  divide_clk\[11\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[14\]/CLK  divide_clk\[14\]/Q  un2_divide_clk_I_84/B  un2_divide_clk_I_84/Y  divide_clk\[14\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[17\]/CLK  divide_clk\[17\]/Q  un2_divide_clk_I_105/B  un2_divide_clk_I_105/Y  divide_clk\[17\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[20\]/CLK  divide_clk\[20\]/Q  un2_divide_clk_I_129/B  un2_divide_clk_I_129/Y  divide_clk\[20\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[8\]/CLK  state\[8\]/Q  state_ns_i_0\[0\]/A  state_ns_i_0\[0\]/Y  state\[8\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[6\]/CLK  state\[6\]/Q  state\[5\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[5\]/CLK  state\[5\]/Q  state\[4\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[4\]/CLK  state\[4\]/Q  state\[3\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT state\[3\]/CLK  state\[3\]/Q  state\[2\]/D  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_16/A  un2_divide_clk_I_16/Y  un2_divide_clk_I_111/A  un2_divide_clk_I_111/Y  un2_divide_clk_I_142/A  un2_divide_clk_I_142/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_118/A  un2_divide_clk_I_118/Y  un2_divide_clk_I_142/B  un2_divide_clk_I_142/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[9\]/CLK  divide_clk\[9\]/Q  un2_divide_clk_I_69/A  un2_divide_clk_I_69/Y  un2_divide_clk_I_118/A  un2_divide_clk_I_118/Y  un2_divide_clk_I_155/B  un2_divide_clk_I_155/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[3\]/CLK  divide_clk\[3\]/Q  un2_divide_clk_I_34/A  un2_divide_clk_I_34/Y  un2_divide_clk_I_152/B  un2_divide_clk_I_152/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[8\]/CLK  divide_clk\[8\]/Q  un2_divide_clk_I_59/C  un2_divide_clk_I_59/Y  un2_divide_clk_I_152/C  un2_divide_clk_I_152/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[18\]/CLK  divide_clk\[18\]/Q  un2_divide_clk_I_132/A  un2_divide_clk_I_132/Y  un2_divide_clk_I_139/A  un2_divide_clk_I_139/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[18\]/CLK  divide_clk\[18\]/Q  un2_divide_clk_I_132/A  un2_divide_clk_I_132/Y  un2_divide_clk_I_146/A  un2_divide_clk_I_146/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  un1_flash_led/A  un1_flash_led/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  un1_flash_led/A  un1_flash_led/Y  FLASH_LED_pad\[4\]/D  FLASH_LED_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  un9_flash_led/B  un9_flash_led/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  un9_flash_led/B  un9_flash_led/Y  FLASH_LED_pad\[7\]/D  FLASH_LED_pad\[7\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  FLASH_LED_2_2_1__m3/A  FLASH_LED_2_2_1__m3/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  un9_flash_led/B  un9_flash_led/Y  FLASH_LED_pad\[0\]/D  FLASH_LED_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  FLASH_LED_2_2_1__m2/A  FLASH_LED_2_2_1__m2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[0\]/CLK  int_flash\[0\]/Q  FLASH_LED_2_2_1__m2/A  FLASH_LED_2_2_1__m2/Y  FLASH_LED_pad\[6\]/D  FLASH_LED_pad\[6\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[0\]/CLK  divide_clk\[0\]/Q  un2_divide_clk_I_149/A  un2_divide_clk_I_149/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[1\]/CLK  int_flash\[1\]/Q  un1_flash_led/B  un1_flash_led/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[1\]/CLK  int_flash\[1\]/Q  un9_flash_led/C  un9_flash_led/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[1\]/CLK  int_flash\[1\]/Q  FLASH_LED_2_2_1__m3/C  FLASH_LED_2_2_1__m3/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[1\]/CLK  int_flash\[1\]/Q  FLASH_LED_2_2_1__m2/B  FLASH_LED_2_2_1__m2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[1\]/CLK  divide_clk\[1\]/Q  un2_divide_clk_I_149/B  un2_divide_clk_I_149/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[2\]/CLK  int_flash\[2\]/Q  un1_flash_led/C  un1_flash_led/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[2\]/CLK  int_flash\[2\]/Q  un9_flash_led/A  un9_flash_led/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[2\]/CLK  int_flash\[2\]/Q  FLASH_LED_2_2_1__m3/B  FLASH_LED_2_2_1__m3/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_flash\[2\]/CLK  int_flash\[2\]/Q  FLASH_LED_2_2_1__m2/C  FLASH_LED_2_2_1__m2/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_count\[1\]/CLK  int_count\[1\]/Q  COUNTER_LED_pad\[1\]/D  COUNTER_LED_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_count\[2\]/CLK  int_count\[2\]/Q  COUNTER_LED_pad\[2\]/D  COUNTER_LED_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_count\[3\]/CLK  int_count\[3\]/Q  COUNTER_LED_pad\[3\]/D  COUNTER_LED_pad\[3\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_count\[0\]/CLK  int_count\[0\]/Q  COUNTER_LED_pad\[0\]/D  COUNTER_LED_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[2\]/CLK  divide_clk\[2\]/Q  un2_divide_clk_I_149/C  un2_divide_clk_I_149/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_count\[4\]/CLK  int_count\[4\]/Q  COUNTER_LED_pad\[4\]/D  COUNTER_LED_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_count\[5\]/CLK  int_count\[5\]/Q  COUNTER_LED_pad\[5\]/D  COUNTER_LED_pad\[5\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_count\[6\]/CLK  int_count\[6\]/Q  COUNTER_LED_pad\[6\]/D  COUNTER_LED_pad\[6\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT RS_LCD/CLK  RS_LCD/Q  RS_LCD_pad/D  RS_LCD_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT int_count\[7\]/CLK  int_count\[7\]/Q  COUNTER_LED_pad\[7\]/D  COUNTER_LED_pad\[7\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT divide_clk\[23\]/CLK  divide_clk\[23\]/Q  TX1_pad/D  TX1_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

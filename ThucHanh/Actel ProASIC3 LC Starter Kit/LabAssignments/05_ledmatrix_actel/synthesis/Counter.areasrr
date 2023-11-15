@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Report for cell Counter.counter
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AND3         6       1.0        6.0
+                                GND         1       0.0        0.0
+                              INBUF         8       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2B         2       1.0        2.0
+                             OUTBUF         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XOR2         7       1.0        7.0
+                            
+                         TOTAL             35                 17.0

@@ -1,0 +1,9 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Unit DM74LS47(behaviour) created by the old version of the compiler found.
+# ELBREAD: Error: Library 'bcd7segdecoder' has incompatible format. Recompile all library units.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Design Explorer: Shortcut to "W:\workspaces\activehdl\02_bcd7segdecoder_activehdl\bcd7segdecoder.aws" design added.
+# Breakpoint set on signal "dm74ls47/Ain".
+# Error: Cannot connect to W:/workspaces/activehdl/02_bcd7segdecoder_activehdl/bcd7segdecoder/src/wave.asdb database
+# Breakpoint on signal "dm74ls47/Ain" cleared.

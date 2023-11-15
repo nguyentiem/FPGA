@@ -1,0 +1,15 @@
+311
+~E 1 "./src/counter40.vhd" 31 counter40
+~A 1 "./src/counter40.vhd" 42 behavior
+~E 1 "./src/counter.vhd" 29 counter16
+~A 1 "./src/counter.vhd" 39 behavior
+~E 1 "./src/counter.vhd" 29 counter
+~A 1 "./src/counter.vhd" 40 behavior
+~E 1 "./src/counter1M.vhd" 31 counter1m
+~A 1 "./src/counter1M.vhd" 47 behavior
+~E 1 "./src/BCD_7Seg_Decoder.vhd" 10 dm74ls47
+~A 1 "./src/BCD_7Seg_Decoder.vhd" 29 behaviour
+~E 1 "./compile/demo4.vhd" 25 demo4
+~A 1 "./compile/demo4.vhd" 35 demo4
+~E 1 "./compile/top.vhd" 25 top
+~A 1 "./compile/top.vhd" 48 top

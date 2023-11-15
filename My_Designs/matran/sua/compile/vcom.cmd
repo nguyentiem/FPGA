@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/matran/sua/compile/sua.erf -d c:/My_Designs/matran/sua/compile -s c:/My_Designs/matran/sua/library.cfg -j c:/My_Designs/matran/sua/projlib.cfg -work sua -O3 -e 100 -work sua -2002 c:/My_Designs/matran/sua/src/code.vhd 

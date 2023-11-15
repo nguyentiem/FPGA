@@ -1,0 +1,88 @@
+----------------------------------------------------------------------
+Report for cell top.top
+                                          Cell usage:
+                               cell       count     area    count*area
+                               BUFF         1       1.0        1.0
+                             CLKBUF         2       0.0        0.0
+                           DM74LS47         1      23.0       23.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                             OUTBUF        18       0.0        0.0
+                                VCC         1       0.0        0.0
+                            counter         1       9.0        9.0
+                          counter1M         1      46.0       46.0
+                          counter40         1      32.0       32.0
+                            
+                         TOTAL             28                111.0
+----------------------------------------------------------------------
+Report for cell DM74LS47.netlist
+     Instance path:  Led7Seg_Decoder
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OAI1         2       1.0        2.0
+                               OR2B         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL             25                 23.0
+----------------------------------------------------------------------
+Report for cell counter.netlist
+     Instance path:  KeyPressCounter
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         1       1.0        1.0
+                             DFN1C1         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             11                  9.0
+----------------------------------------------------------------------
+Report for cell counter40.netlist
+     Instance path:  ClockDiv_40x
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AND3         5       1.0        5.0
+                             CLKINT         1       0.0        0.0
+                               DFN1         7       1.0        7.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         5       1.0        5.0
+                              NOR3C         1       1.0        1.0
+                                OR3         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XOR2         6       1.0        6.0
+                            
+                         TOTAL             35                 32.0
+----------------------------------------------------------------------
+Report for cell counter1M.netlist
+     Instance path:  ClockDiv_1M
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         9       1.0        9.0
+                             DFN1C1        19       1.0       19.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR3C         8       1.0        8.0
+                                VCC         1       0.0        0.0
+                               XOR2         9       1.0        9.0
+                            
+                         TOTAL             48                 46.0

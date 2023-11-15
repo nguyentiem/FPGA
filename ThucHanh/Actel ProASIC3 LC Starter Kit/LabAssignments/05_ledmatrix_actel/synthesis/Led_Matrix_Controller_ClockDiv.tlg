@@ -1,0 +1,30 @@
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Led_Matrix_Controller_ClockDiv.vhd":25:7:25:36|Synthesizing work.led_matrix_controller_clockdiv.led_matrix_controller_clockdiv 
+@W: CD326 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Led_Matrix_Controller_ClockDiv.vhd":102:0:102:1|Port g1024hz of entity work.counter1m is unconnected
+@W: CD326 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Led_Matrix_Controller_ClockDiv.vhd":102:0:102:1|Port g128hz of entity work.counter1m is unconnected
+@W: CD326 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Led_Matrix_Controller_ClockDiv.vhd":102:0:102:1|Port g8hz of entity work.counter1m is unconnected
+@W: CD326 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Led_Matrix_Controller_ClockDiv.vhd":102:0:102:1|Port g4hz of entity work.counter1m is unconnected
+@W: CD326 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Led_Matrix_Controller_ClockDiv.vhd":102:0:102:1|Port g2hz of entity work.counter1m is unconnected
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src\counter1M.vhd":31:7:31:15|Synthesizing work.counter1m.behavior 
+Post processing for work.counter1m.behavior
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src\counter40.vhd":32:7:32:15|Synthesizing work.counter40.behavior 
+@W: CG296 :"E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src\counter40.vhd":46:4:46:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src\counter40.vhd":49:33:49:42|Referenced variable load_value is not in sensitivity list
+@W: CD638 :"E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src\counter40.vhd":44:7:44:16|Signal load_value is undriven 
+Post processing for work.counter40.behavior
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Led_Matrix_Controller_rom.vhd":25:7:25:36|Synthesizing work.led_matrix_controller_with_rom.led_matrix_controller_with_rom 
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\rom.vhd":6:7:6:9|Synthesizing work.rom.rom_arch 
+@W: CD604 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\rom.vhd":33:12:33:25|OTHERS clause is not synthesized 
+Post processing for work.rom.rom_arch
+@W: CL189 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Register bit Q(0) is always 1, optimizing ...
+@W: CL260 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Pruning Register bit 7 of Q(7 downto 0)  
+@W: CL260 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\rom.vhd":23:2:23:3|Pruning Register bit 0 of Q(7 downto 0)  
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Step_Register.vhd":28:7:28:19|Synthesizing work.step_register.behavior 
+Post processing for work.step_register.behavior
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Controller.vhd":25:7:25:16|Synthesizing work.controller.controller 
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\Counter.vhd":29:7:29:13|Synthesizing work.counter.counter 
+Post processing for work.counter.counter
+@N: CD630 :"E:\workspaces\activehdl\05_ledmatrix_actel\hdl\GRegister.vhd":24:7:24:15|Synthesizing work.gregister.behavior 
+Post processing for work.gregister.behavior
+Post processing for work.controller.controller
+Post processing for work.led_matrix_controller_with_rom.led_matrix_controller_with_rom
+Post processing for work.led_matrix_controller_clockdiv.led_matrix_controller_clockdiv

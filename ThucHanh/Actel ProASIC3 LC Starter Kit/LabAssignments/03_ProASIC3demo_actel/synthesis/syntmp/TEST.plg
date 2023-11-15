@@ -1,0 +1,35 @@
+@P:  Worst Slack : 17.911
+@P:  TEST|CLK - Estimated Frequency : 152.2 MHz
+@P:  TEST|CLK - Requested Frequency : 40.0 MHz
+@P:  TEST|CLK - Estimated Period : 6.569
+@P:  TEST|CLK - Requested Period : 25.000
+@P:  TEST|CLK - Slack : 18.431
+@P:  TEST|divide_clk_inferred_clock[21] - Estimated Frequency : 329.3 MHz
+@P:  TEST|divide_clk_inferred_clock[21] - Requested Frequency : 40.0 MHz
+@P:  TEST|divide_clk_inferred_clock[21] - Estimated Period : 3.037
+@P:  TEST|divide_clk_inferred_clock[21] - Requested Period : 25.000
+@P:  TEST|divide_clk_inferred_clock[21] - Slack : 21.963
+@P:  TEST|divide_clk_inferred_clock[22] - Estimated Frequency : 141.1 MHz
+@P:  TEST|divide_clk_inferred_clock[22] - Requested Frequency : 40.0 MHz
+@P:  TEST|divide_clk_inferred_clock[22] - Estimated Period : 7.089
+@P:  TEST|divide_clk_inferred_clock[22] - Requested Period : 25.000
+@P:  TEST|divide_clk_inferred_clock[22] - Slack : 17.911
+@P:  Worst Slack(min analysis) : NA
+@P:  TEST|CLK - Estimated Frequency(min analysis) : 152.2 MHz
+@P:  TEST|CLK - Requested Frequency(min analysis) : 40.0 MHz
+@P:  TEST|CLK - Estimated Period(min analysis) : 6.569
+@P:  TEST|CLK - Requested Period(min analysis) : 25.000
+@P:  TEST|CLK - Slack(min analysis) : 18.431
+@P:  TEST|divide_clk_inferred_clock[21] - Estimated Frequency(min analysis) : 329.3 MHz
+@P:  TEST|divide_clk_inferred_clock[21] - Requested Frequency(min analysis) : 40.0 MHz
+@P:  TEST|divide_clk_inferred_clock[21] - Estimated Period(min analysis) : 3.037
+@P:  TEST|divide_clk_inferred_clock[21] - Requested Period(min analysis) : 25.000
+@P:  TEST|divide_clk_inferred_clock[21] - Slack(min analysis) : 21.963
+@P:  TEST|divide_clk_inferred_clock[22] - Estimated Frequency(min analysis) : 141.1 MHz
+@P:  TEST|divide_clk_inferred_clock[22] - Requested Frequency(min analysis) : 40.0 MHz
+@P:  TEST|divide_clk_inferred_clock[22] - Estimated Period(min analysis) : 7.089
+@P:  TEST|divide_clk_inferred_clock[22] - Requested Period(min analysis) : 25.000
+@P:  TEST|divide_clk_inferred_clock[22] - Slack(min analysis) : 17.911
+@P:  Total Area : 275.0
+@P:  Total Area : 275.0
+@P:  CPU Time : 0h:00m:02s

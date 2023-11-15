@@ -1,0 +1,5 @@
+Should your CD not start automatically, please follow these steps:
+
+- Click on the "My Computer" symbol on the desktop or start Windows Explorer.
+- Right click on the CD ROM symbol in the My Computer window
+- Click on "AutoPlay"

@@ -1,0 +1,68 @@
+#-- Synopsys, Inc.
+#-- Version E-2010.09A-1
+#-- Project file E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis\scratchproject.prs
+
+#project files
+add_file -vhdl -lib work "E:/workspaces/activehdl/03_ProASIC3demo_actel/hdl/test.vhd"
+
+
+#implementation: "synthesis"
+impl -add E:\workspaces\activehdl\03_ProASIC3demo_actel\synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -num_startend_points 5
+
+#device options
+set_option -technology ProASIC3
+set_option -part A3P250
+set_option -package VQFP100
+set_option -speed_grade -2
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "work.TEST"
+
+# mapper_options
+set_option -frequency 40.0000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Actel 500K
+set_option -run_prop_extract 1
+set_option -maxfan 24
+set_option -maxfan_hard3 0
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -report_path 0
+set_option -opcond COMWC
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# Actel 500K
+set_option -globalthreshold 50
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# timing_analyst_options
+set_option -reporting_filename TEST_syn.ta
+set_option -reporting_output_srm 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "E:/workspaces/activehdl/03_ProASIC3demo_actel/synthesis/TEST.edn"
+impl -active "synthesis"

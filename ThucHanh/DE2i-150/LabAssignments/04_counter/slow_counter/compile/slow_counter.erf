@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available." 
+MESSAGE "File: .\demo4.vhd" 
+MESSAGE "Compile Entity "demo4"" 
+MESSAGE "Compile Architecture "demo4" of Entity "demo4"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

@@ -1,0 +1,98 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=keymatrix
+
+[Library]
+keymatrix=.\keymatrix.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Actel ProASIC3
+fileopenfolder=E:\workspaces\activehdl\06_keymatrix\keymatrix\keymatrix\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+keymatrix=.
+Active_lib=
+xilinxun=
+UnlinkedDesignLibrary=
+DESIGNS=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=ram|ram_arch|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+top=1
+DESIGN_STATUS=1
+DESIGN_STATUS\2013_11_27_17_06=1
+
+[Files]
+/ram.vhd=-1
+/Step_Register.vhd=-1
+/counter40.vhd=-1
+/counter1M.vhd=-1
+/Counter.vhd=-1
+/GRegister.vhd=-1
+/Controller.bde=-1
+/DFF.vhd=-1
+/Single_Key_Controller.bde=-1
+top/Key_Matrix_Controller.bde=-1
+top/Key_Matrix_Controller_ClockDiv.bde=-1
+top/Key_Matrix_Controller_rom.bde=-1
+DESIGN_STATUS\2013_11_27_17_06/ComputerInformation.txt=-1
+DESIGN_STATUS\2013_11_27_17_06/DesignInformation.txt=-1
+DESIGN_STATUS\2013_11_27_17_06/DesignFiles.txt=-1
+DESIGN_STATUS\2013_11_27_17_06/LibrariesList.txt=-1
+
+[Files.Data]
+.\src\ram.vhd=VHDL Source Code
+.\src\Step_Register.vhd=VHDL Source Code
+.\src\counter40.vhd=VHDL Source Code
+.\src\counter1M.vhd=VHDL Source Code
+.\src\Counter.vhd=VHDL Source Code
+.\src\GRegister.vhd=VHDL Source Code
+.\src\Controller.bde=Block Diagram
+.\src\DFF.vhd=VHDL Source Code
+.\src\Single_Key_Controller.bde=Block Diagram
+.\src\top\Key_Matrix_Controller.bde=Block Diagram
+.\src\top\Key_Matrix_Controller_ClockDiv.bde=Block Diagram
+.\src\top\Key_Matrix_Controller_rom.bde=Block Diagram
+.\src\DESIGN_STATUS\2013_11_27_17_06\ComputerInformation.txt=Text File
+.\src\DESIGN_STATUS\2013_11_27_17_06\DesignInformation.txt=Text File
+.\src\DESIGN_STATUS\2013_11_27_17_06\DesignFiles.txt=Text File
+.\src\DESIGN_STATUS\2013_11_27_17_06\LibrariesList.txt=Text File
+
+[file_out:/Controller.bde]
+/..\compile\Controller.vhd=-1
+
+[file_out:/Single_Key_Controller.bde]
+/..\compile\Single_Key_Controller.vhd=-1
+
+[file_out:top/Key_Matrix_Controller.bde]
+top/..\..\compile\Key_Matrix_Controller.vhd=-1
+

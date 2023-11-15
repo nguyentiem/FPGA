@@ -1,0 +1,218 @@
+Actel Designer Software
+Version: 9.1.0.18
+Release: v9.1
+
+Info: The design
+      E:\WORKSPACES\ACTIVEHDL\05_LEDMATRIX_ACTEL\DESIGNER\IMPL1\Led_Matrix_Controller_ClockDiv.\
+      adb was last modified by software version 9.1.0.18.
+Opened an existing Libero design
+E:\WORKSPACES\ACTIVEHDL\05_LEDMATRIX_ACTEL\DESIGNER\IMPL1\Led_Matrix_Controller_ClockDiv.adb.
+'BA_NAME' set to 'Led_Matrix_Controller_ClockDiv_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'E:\workspaces\activehdl\05_ledmatrix_actel\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+
+The Execute Script command succeeded ( 00:00:00 )
+
+ Netlist Reading Time = 1.0 seconds
+Imported the files:
+   E:\WORKSPACES\ACTIVEHDL\05_LEDMATRIX_ACTEL\synthesis\Led_Matrix_Controller_ClockDiv.edn
+   E:\WORKSPACES\ACTIVEHDL\05_LEDMATRIX_ACTEL\synthesis\Led_Matrix_Controller_ClockDiv_sdc.sdc
+
+The Import command succeeded ( 00:00:07 )
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P250
+Package     : 208 PQFP
+Source      :
+E:\WORKSPACES\ACTIVEHDL\05_LEDMATRIX_ACTEL\synthesis\Led_Matrix_Controller_ClockDiv.edn
+
+E:\WORKSPACES\ACTIVEHDL\05_LEDMATRIX_ACTEL\synthesis\Led_Matrix_Controller_ClockDiv_sdc.sdc
+Format      : EDIF
+Topcell     : Led_Matrix_Controller_ClockDiv
+Speed grade : -2
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        6
+
+    Total macros optimized  6
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:    126  Total:   6144   (2.05%)
+    IO (W/ clocks)             Used:     19  Total:    151   (12.58%)
+    Differential IO            Used:      0  Total:     34   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      3  Total:     18   (16.67%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 2      | 6  (33.33%)*
+    Quadrant global | 1      | 12 (8.33%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 82           | 82
+    SEQ     | 44           | 44
+
+I/O Function:
+
+    Type                          | w/o register  | w/ register  | w/ DDR register
+    ------------------------------|---------------|--------------|----------------
+    Input I/O                     | 2             | 0            | 0
+    Output I/O                    | 17            | 0            | 0
+    Bidirectional I/O             | 0             | 0            | 0
+    Differential Input I/O Pairs  | 0             | 0            | 0
+    Differential Output I/O Pairs | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 2     | 17     | 0
+
+I/O Placement:
+
+    Locked  :  19 ( 100.00% )
+    Placed  :   0
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    20      CLK_NET       Net   : NET199
+                          Driver: U2/adder_value_RNID2P[6]
+                          Source: NETLIST
+    18      CLK_NET       Net   : NET230
+                          Driver: U3/adder_value_RNITRG6[14]
+                          Source: NETLIST
+
+The following nets have been assigned to a quadrant global resource:
+    Fanout  Type          Name
+    --------------------------
+    7       CLK_NET       Net   : CLK_c
+                          Driver: CLK_pad
+                          Region: quadrant_LL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    20      SET/RESET_NET Net   : aReset_c
+                          Driver: aReset_pad
+    19      SET/RESET_NET Net   : aReset_c_0
+                          Driver: aReset_pad_RNIGVV4
+    8       INT_NET       Net   : U3/DWACT_FINC_E[0]
+                          Driver: U3/un3_adder_value_I_16
+    7       INT_NET       Net   : U2/adder_value[0]
+                          Driver: U2/adder_value[0]
+    7       INT_NET       Net   : U1/BUS2202[0]
+                          Driver: U1/ADDR_AUTOINC/U1/Q[0]
+    7       INT_NET       Net   : U1/BUS2202[1]
+                          Driver: U1/ADDR_AUTOINC/U1/Q[1]
+    6       INT_NET       Net   : U2/adder_value[1]
+                          Driver: U2/adder_value[1]
+    6       INT_NET       Net   : U3/adder_value[0]
+                          Driver: U3/adder_value[0]
+    6       INT_NET       Net   : U3/adder_value[3]
+                          Driver: U3/adder_value[3]
+    6       INT_NET       Net   : U3/DWACT_FINC_E[6]
+                          Driver: U3/un3_adder_value_I_62
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    38      SET/RESET_NET Net   : aReset_c
+                          Driver: aReset_pad
+    8       INT_NET       Net   : U3/DWACT_FINC_E[0]
+                          Driver: U3/un3_adder_value_I_16
+    7       INT_NET       Net   : U2/adder_value[0]
+                          Driver: U2/adder_value[0]
+    7       INT_NET       Net   : U1/BUS2202[0]
+                          Driver: U1/ADDR_AUTOINC/U1/Q[0]
+    7       INT_NET       Net   : U1/BUS2202[1]
+                          Driver: U1/ADDR_AUTOINC/U1/Q[1]
+    6       INT_NET       Net   : U2/adder_value[1]
+                          Driver: U2/adder_value[1]
+    6       INT_NET       Net   : U3/adder_value[0]
+                          Driver: U3/adder_value[0]
+    6       INT_NET       Net   : U3/adder_value[3]
+                          Driver: U3/adder_value[3]
+    6       INT_NET       Net   : U3/DWACT_FINC_E[6]
+                          Driver: U3/un3_adder_value_I_62
+    6       INT_NET       Net   : U1/BUS2202[2]
+                          Driver: U1/ADDR_AUTOINC/U1/Q[2]
+
+
+SDC Import: Begin processing constraints...
+
+
+
+SDC Import: End processing constraints
+
+
+The Compile command succeeded ( 00:00:05 )
+Design closed.
+

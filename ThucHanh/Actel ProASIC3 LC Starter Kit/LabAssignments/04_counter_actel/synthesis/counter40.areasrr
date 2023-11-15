@@ -1,0 +1,20 @@
+----------------------------------------------------------------------
+Report for cell counter40.behavior
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AND3         4       1.0        4.0
+                                AO1         2       1.0        2.0
+                             CLKBUF         1       0.0        0.0
+                             DFN1C1         5       1.0        5.0
+                             DFN1P1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2B         4       1.0        4.0
+                              NOR3C         1       1.0        1.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XOR2         6       1.0        6.0
+                            
+                         TOTAL             31                 26.0

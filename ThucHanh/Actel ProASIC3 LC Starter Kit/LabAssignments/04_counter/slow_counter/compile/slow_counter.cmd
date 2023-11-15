@@ -1,0 +1,1 @@
+-w -s "W:\workspaces\activehdl\04_counter\library.cfg"  -j "W:\workspaces\activehdl\04_counter\slow_counter\projlib.cfg"  -d "W:\workspaces\activehdl\04_counter\slow_counter\compile"   -work slow_counter  -O3 -e 100 -2002 "W:\workspaces\activehdl\04_counter\slow_counter\compile\demo4.vhd" 

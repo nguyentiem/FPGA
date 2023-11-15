@@ -1,0 +1,18 @@
+FlashPro
+Version: 9.1.0.18
+Release: v9.1
+
+Software Version: 9.1.0.18
+Created new project
+'W:\workspaces\activehdl\01_dip_switch_actel\designer\impl1\simple_dip_switch_1_fp_1\simple_dip\
+_switch.pro'
+PDB file 'W:\workspaces\activehdl\01_dip_switch_actel\designer\impl1\simple_dip_switch.pdb' has
+been loaded successfully.
+DESIGN : simple_dip_switch;  CHECKSUM : 1347;  PDB_VERSION : 1.6
+Checking for software updates...
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Error: Failed to run Action.
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Warning: Project 'simple_dip_switch' has been modified. Do you want to save it? [NO]

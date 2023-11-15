@@ -1,0 +1,4 @@
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\c_vhdl.exe  -osyn E:\workspaces\activehdl\04_counter_actel\synthesis\top.srs  -top work.top  -nram -fixsmult  -encrypt  -pro  -dmgen  E:\workspaces\activehdl\04_counter_actel\synthesis\dm  -lite -ll 2000   -ui -fid2 -ram -sharing on -autosm -ignore_undefined_lib  -lib work E:\workspaces\activehdl\04_counter_actel\hdl\counter1M.vhd -lib work E:\workspaces\activehdl\04_counter_actel\hdl\counter.vhd -lib work E:\workspaces\activehdl\04_counter_actel\hdl\BCD_7Seg_Decoder.vhd -lib work E:\workspaces\activehdl\04_counter_actel\hdl\counter40.vhd -lib work E:\workspaces\activehdl\04_counter_actel\hdl\top.vhd -loga "E:\workspaces\activehdl\04_counter_actel\synthesis\top.srr"
+rc:0 success:1
+E:\workspaces\activehdl\04_counter_actel\synthesis\dm|o|1385446286
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\c_vhdl.exe|i|1286423480

@@ -1,0 +1,103 @@
+timestamp=1441956825468
+
+[counter]
+A/behavior=21|./src/counter.vhd|40|1*99230
+BinI32/behavior=3*5364
+I=0*45692
+I/behavior=0*46288
+M=11|0|v98|1385518556654|./src/counter.vhd|0*45310*0x32b0070ee8c07c080ec3f5c1a897f7163ef467a3|0*45617*0xab32bc1a2daf049573e14469f634e0e6
+M/behavior=21|0|v98|1385518563585|./src/counter.vhd|0*45862*0x7b7e4b71b6ebd96199952696389d60f64add53cb|0*46201*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/counter.vhd|29
+S/counter=40|0|2*0
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavior=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[counter16]
+A/behavior=21|./src/counter.vhd|39|1*95887
+BinI32/behavior=3*4809
+I=0*35166
+I/behavior=0*44909
+M=11|0|v98|1385317020552|./src/counter.vhd|0*34814*0x2ba6141742fa971c72922c50594fbe0554deea78|0*35089*0xab32bc1a2daf049573e14469f634e0e6
+M/behavior=21|0|v98|1385518469114|./src/counter.vhd|0*44487*0xb69d251c6810bf7a97e96208888f96e15e06a01a|0*44820*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/counter.vhd|29
+S/counter16=40|0|2*1542
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavior=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[counter1m]
+A/behavior=21|./src/counter1M.vhd|47|1*100968
+BinI32/behavior=3*6126
+I=0*31126
+I/behavior=0*44241
+M=11|0|v98|1385316520054|./src/counter1M.vhd|0*30613*0xd3d8b31afa71bcc96b3cf61db6a8678558be22b5|0*31047*0xab32bc1a2daf049573e14469f634e0e6
+M/behavior=21|0|v98|1385518731151|./src/counter1M.vhd|0*43640*0xa6ef8dede3c2c057b508dfeb3c649b54cd8d5bf5|0*44150*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/counter1M.vhd|31
+S/counter1m=S/counter1M 40|0|2*3086
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavior=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[counter40]
+A/behavior=21|./src/counter40.vhd|42|1*64014
+BinI32/behavior=3*242
+I=0*26879
+I/behavior=0*30059
+M=11|0|v98|1385315474380|./src/counter40.vhd|0*26507*0x06109644c52dfa2b000a700a80d32615a15e6c6d|0*26800*0xab32bc1a2daf049573e14469f634e0e6
+M/behavior=21|0|v98|1385316150887|./src/counter40.vhd|0*29489*0x032f2b50181c17f97ef5c30d3baf815b42017d7e|0*29968*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/counter40.vhd|31
+S/counter40=40|0|2*6913
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavior=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[demo4]
+A/demo4=24|.\src\demo4.bde|10000|1*138524
+B/demo4=3*7162
+C=8.2.1986.3485  (Windows)
+C/demo4=8.2.1986.3485  (Windows)
+I=0*56111
+I/demo4=0*56771
+M=11|0|v63|1441956768575|./compile/demo4.vhd|0*55798*0xf93b30902a60978afbb8604c639331c246ea4243|0*56039*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/demo4=21|0|v63|1441956825407|./compile/demo4.vhd|0*56543*0x5255bb1f82c8eab16e7794f647207f79135700f4|0*56690*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./compile/demo4.vhd|25
+
+[dm74ls47]
+A/behaviour=21|./src/BCD_7Seg_Decoder.vhd|29|1*83769
+BinI32/behaviour=3*2691
+I=0*38900
+I/behaviour=0*40401
+M=11|0|v98|1385446803539|./src/BCD_7Seg_Decoder.vhd|0*38398*0xdebe952260bfd6dd880c6fccc3d3fd9a1f492f91|0*38815*0xab32bc1a2daf049573e14469f634e0e6
+M/behaviour=21|0|v98|1385446820891|./src/BCD_7Seg_Decoder.vhd|0*39068*0x5cc55022bd1c2ab657c37e6a0bbcbf098d921bc8|0*40303*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/BCD_7Seg_Decoder.vhd|10
+S/dm74ls47=S/DM74LS47 40|0|2*8432
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/behaviour=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[top]
+A/top=24|.\src\top.bde|10000|1*130600
+BinI32/top=3*6925
+I=0*41750
+I/top=0*55291
+M=11|0|v98|1385447246833|./compile/top.vhd|0*41097*0xcfecb1f0494fa691d72ce23f04fd0ac86e00cf71|0*41679*0xab32bc1a2daf049573e14469f634e0e6
+M/top=21|0|v98|1385519885749|./compile/top.vhd|0*53782*0xe10758ff879b608bacd9062e4468f9b9c879aae0|0*55213*0xb33770ff1c10522f9491560174ac8e6c
+R=./compile/top.vhd|25
+Version=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+Version/top=9.1.2354.4209  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=311
+Version=73
+
+[~MFT]
+0=306|0slow_counter.mgf|56771|44168
+1=78|1slow_counter.mgf|138524|121207
+2=4|2slow_counter.mgf|8432|0
+3=76|3slow_counter.mgf|7162|3006
+
+[~U]
+counter=11|0*45090||0x3
+counter16=11|0*34635||0x3
+counter1m=counter1M 11|0*30305||0x3
+counter40=11|0*26337||0x3
+demo4=11|0*55614|
+dm74ls47=DM74LS47 11|0*38083||0x3
+top=11|0*40579|
+

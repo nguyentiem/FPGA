@@ -1,0 +1,3 @@
+@N: CD630 :"E:\workspaces\ws_actel\02_bcd7segdecoder_actel\hdl\BCD_7Seg_Decoder.vhd":10:7:10:14|Synthesizing work.dm74ls47.behaviour 
+@W: CD604 :"E:\workspaces\ws_actel\02_bcd7segdecoder_actel\hdl\BCD_7Seg_Decoder.vhd":59:10:59:23|OTHERS clause is not synthesized 
+Post processing for work.dm74ls47.behaviour

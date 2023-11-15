@@ -1,0 +1,14 @@
+[Version]
+Version=9.1
+[Designs]
+keymatrix=keymatrix.adf
+[Settings]
+Active=keymatrix
+[Expand]
+keymatrix=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

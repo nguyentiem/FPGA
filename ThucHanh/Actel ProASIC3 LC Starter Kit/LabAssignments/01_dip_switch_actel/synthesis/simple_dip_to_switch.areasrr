@@ -1,0 +1,10 @@
+----------------------------------------------------------------------
+Report for cell simple_dip_to_switch.def_arch
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         8       0.0        0.0
+                             OUTBUF        16       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             26                  0.0

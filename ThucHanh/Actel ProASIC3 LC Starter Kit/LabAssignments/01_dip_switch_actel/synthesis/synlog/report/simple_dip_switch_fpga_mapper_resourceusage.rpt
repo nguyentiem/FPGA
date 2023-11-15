@@ -1,0 +1,26 @@
+Target Part: A3P250_PQFP208_-2
+Report for cell simple_dip_switch.rtl
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     2                 0.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     8
+            OUTBUF    16
+                   -----
+             TOTAL    24
+
+
+Core Cells         : 0 of 6144 (0%)
+IO Cells           : 24
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

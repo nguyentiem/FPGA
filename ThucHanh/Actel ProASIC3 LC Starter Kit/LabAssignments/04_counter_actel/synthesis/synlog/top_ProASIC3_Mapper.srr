@@ -1,0 +1,456 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\workspaces\activehdl\04_counter_actel\hdl\counter1m.vhd":53:8:53:9|Found counter in view:work.counter1M(behavior) inst adder_value[18:0]
+@N: MF238 :"e:\workspaces\activehdl\04_counter_actel\hdl\counter40.vhd":52:31:52:45|Found 6 bit incrementor, 'un6_adder_value[5:0]'
+@N: MF238 :"e:\workspaces\activehdl\04_counter_actel\hdl\counter40.vhd":52:31:52:45|Found 7 bit incrementor, 'un6_adder_value_0[6:0]'
+@N:"e:\workspaces\activehdl\04_counter_actel\hdl\counter.vhd":45:8:45:9|Found counter in view:work.counter(behavior) inst adder_value[3:0]
+@N: MO106 :"e:\workspaces\activehdl\04_counter_actel\hdl\bcd_7seg_decoder.vhd":40:8:40:11|Found ROM, 'mergedbits_out_1[0:6]', 16 words by 7 bits 
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 55MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+aReset_pad / Y                 30 : 23 asynchronous set/reset
+=============================================================
+
+@N: FP130 |Promoting Net NET93 on CLKINT  ClockDiv_40x.adder_value_inferred_clock[6] 
+@N: FP130 |Promoting Net CLK_c on CLKBUF  CLK_pad 
+@N: FP130 |Promoting Net Key_c on CLKBUF  Key_pad 
+Buffering aReset_c, fanout 30 segments 2
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+Added 1 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base E:\workspaces\activehdl\04_counter_actel\synthesis\top.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+@W: MT420 |Found inferred clock top|CLK with period 1000.00ns. A user-defined clock should be declared on object "p:CLK"
+
+@W: MT420 |Found inferred clock top|Key with period 1000.00ns. A user-defined clock should be declared on object "p:Key"
+
+@W: MT420 |Found inferred clock counter40|adder_value_inferred_clock[6] with period 1000.00ns. A user-defined clock should be declared on object "n:ClockDiv_40x.adder_value[6]"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 28 14:36:04 2013
+#
+
+
+Top view:               top
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 989.326
+
+                                            Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                              Frequency     Frequency     Period        Period        Slack       Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------------
+counter40|adder_value_inferred_clock[6]     1.0 MHz       93.7 MHz      1000.000      10.674        989.326     inferred     Inferred_clkgroup_2
+top|CLK                                     1.0 MHz       206.7 MHz     1000.000      4.837         995.163     inferred     Inferred_clkgroup_1
+top|Key                                     1.0 MHz       240.7 MHz     1000.000      4.155         995.845     inferred     Inferred_clkgroup_0
+================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                 Ending                                   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+top|Key                                  top|Key                                  |  1000.000    995.845  |  No paths    -      |  No paths    -      |  No paths    -    
+top|CLK                                  top|CLK                                  |  1000.000    995.163  |  No paths    -      |  No paths    -      |  No paths    -    
+counter40|adder_value_inferred_clock[6]  counter40|adder_value_inferred_clock[6]  |  1000.000    989.326  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: counter40|adder_value_inferred_clock[6]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                                          Arrival            
+Instance                       Reference                                   Type       Pin     Net                Time        Slack  
+                               Clock                                                                                                
+------------------------------------------------------------------------------------------------------------------------------------
+ClockDiv_1M.adder_value[0]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[0]     0.434       989.326
+ClockDiv_1M.adder_value[1]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[1]     0.434       989.534
+ClockDiv_1M.adder_value[2]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[2]     0.434       989.816
+ClockDiv_1M.adder_value[3]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[3]     0.434       990.676
+ClockDiv_1M.adder_value[4]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[4]     0.434       990.885
+ClockDiv_1M.adder_value[5]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[5]     0.434       991.744
+ClockDiv_1M.adder_value[6]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[6]     0.434       991.953
+ClockDiv_1M.adder_value[8]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       G1024Hz_c          0.434       992.707
+ClockDiv_1M.adder_value[7]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[7]     0.434       992.812
+ClockDiv_1M.adder_value[9]     counter40|adder_value_inferred_clock[6]     DFN1C1     Q       adder_value[9]     0.434       993.880
+====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                                           Required            
+Instance                        Reference                                   Type       Pin     Net                 Time         Slack  
+                                Clock                                                                                                  
+---------------------------------------------------------------------------------------------------------------------------------------
+ClockDiv_1M.adder_value[18]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n18     999.598      989.326
+ClockDiv_1M.adder_value[17]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n17     999.598      989.331
+ClockDiv_1M.adder_value[16]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n16     999.598      990.006
+ClockDiv_1M.adder_value[15]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n15     999.598      990.011
+ClockDiv_1M.adder_value[14]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n14     999.598      990.993
+ClockDiv_1M.adder_value[13]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n13     999.598      990.999
+ClockDiv_1M.adder_value[12]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n12     999.598      992.029
+ClockDiv_1M.adder_value[11]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n11     999.598      992.389
+ClockDiv_1M.adder_value[10]     counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n10     999.598      993.085
+ClockDiv_1M.adder_value[9]      counter40|adder_value_inferred_clock[6]     DFN1C1     D       adder_value_n9      999.598      993.444
+=======================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.598
+
+    - Propagation time:                      10.272
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     989.326
+
+    Number of logic level(s):                9
+    Starting point:                          ClockDiv_1M.adder_value[0] / Q
+    Ending point:                            ClockDiv_1M.adder_value[18] / D
+    The start point is clocked by            counter40|adder_value_inferred_clock[6] [rising] on pin CLK
+    The end   point is clocked by            counter40|adder_value_inferred_clock[6] [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                     Type       Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+ClockDiv_1M.adder_value[0]               DFN1C1     Q        Out     0.434     0.434       -         
+adder_value[0]                           Net        -        -       0.884     -           4         
+ClockDiv_1M.adder_value_RNIL3LF[2]       NOR3C      A        In      -         1.317       -         
+ClockDiv_1M.adder_value_RNIL3LF[2]       NOR3C      Y        Out     0.392     1.709       -         
+adder_value_c2                           Net        -        -       0.602     -           3         
+ClockDiv_1M.adder_value_RNI8Q3Q[4]       NOR3C      B        In      -         2.312       -         
+ClockDiv_1M.adder_value_RNI8Q3Q[4]       NOR3C      Y        Out     0.466     2.777       -         
+adder_value_c4                           Net        -        -       0.602     -           3         
+ClockDiv_1M.adder_value_RNIV0J41[6]      NOR3C      B        In      -         3.380       -         
+ClockDiv_1M.adder_value_RNIV0J41[6]      NOR3C      Y        Out     0.466     3.846       -         
+adder_value_c6                           Net        -        -       0.602     -           3         
+ClockDiv_1M.adder_value_RNIQN2F1[7]      NOR3C      B        In      -         4.448       -         
+ClockDiv_1M.adder_value_RNIQN2F1[7]      NOR3C      Y        Out     0.466     4.914       -         
+adder_value_c8                           Net        -        -       0.602     -           3         
+ClockDiv_1M.adder_value_RNIICML1[10]     NOR3C      B        In      -         5.516       -         
+ClockDiv_1M.adder_value_RNIICML1[10]     NOR3C      Y        Out     0.466     5.982       -         
+adder_value_c10                          Net        -        -       0.602     -           3         
+ClockDiv_1M.adder_value_RNI7JDO1[12]     NOR3C      B        In      -         6.584       -         
+ClockDiv_1M.adder_value_RNI7JDO1[12]     NOR3C      Y        Out     0.466     7.050       -         
+adder_value_c12                          Net        -        -       0.602     -           3         
+ClockDiv_1M.adder_value_RNI0Q4R1[14]     NOR3C      A        In      -         7.653       -         
+ClockDiv_1M.adder_value_RNI0Q4R1[14]     NOR3C      Y        Out     0.392     8.044       -         
+adder_value_c14                          Net        -        -       0.602     -           3         
+ClockDiv_1M.adder_value_RNIT0ST1[16]     NOR3C      A        In      -         8.647       -         
+ClockDiv_1M.adder_value_RNIT0ST1[16]     NOR3C      Y        Out     0.392     9.039       -         
+adder_value_c16                          Net        -        -       0.288     -           2         
+ClockDiv_1M.adder_value_RNO[18]          AX1C       A        In      -         9.327       -         
+ClockDiv_1M.adder_value_RNO[18]          AX1C       Y        Out     0.705     10.032      -         
+adder_value_n18                          Net        -        -       0.240     -           1         
+ClockDiv_1M.adder_value[18]              DFN1C1     D        In      -         10.272      -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 10.674 is 5.046(47.3%) logic and 5.628(52.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: top|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                            Arrival            
+Instance                        Reference     Type     Pin     Net                  Time        Slack  
+                                Clock                                                                  
+-------------------------------------------------------------------------------------------------------
+ClockDiv_40x.adder_value[1]     top|CLK       DFN1     Q       adder_value[1]       0.550       995.163
+ClockDiv_40x.adder_value[0]     top|CLK       DFN1     Q       adder_value[0]       0.550       995.193
+ClockDiv_40x.adder_value[2]     top|CLK       DFN1     Q       adder_value[2]       0.550       995.245
+ClockDiv_40x.adder_value[4]     top|CLK       DFN1     Q       adder_value[4]       0.550       995.482
+ClockDiv_40x.adder_value[3]     top|CLK       DFN1     Q       adder_value[3]       0.550       995.495
+ClockDiv_40x.adder_value[5]     top|CLK       DFN1     Q       adder_value[5]       0.550       996.253
+ClockDiv_40x.adder_value[6]     top|CLK       DFN1     Q       adder_value_i[6]     0.550       997.194
+=======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                              Required            
+Instance                        Reference     Type     Pin     Net                    Time         Slack  
+                                Clock                                                                     
+----------------------------------------------------------------------------------------------------------
+ClockDiv_40x.adder_value[4]     top|CLK       DFN1     D       adder_value_RNO[4]     999.572      995.163
+ClockDiv_40x.adder_value[5]     top|CLK       DFN1     D       adder_value_RNO[5]     999.572      995.377
+ClockDiv_40x.adder_value[6]     top|CLK       DFN1     D       adder_value_RNO[6]     999.572      995.425
+ClockDiv_40x.adder_value[3]     top|CLK       DFN1     D       adder_value_RNO[3]     999.572      995.605
+ClockDiv_40x.adder_value[2]     top|CLK       DFN1     D       adder_value_RNO[2]     999.572      995.919
+ClockDiv_40x.adder_value[1]     top|CLK       DFN1     D       adder_value_RNO[1]     999.598      996.419
+ClockDiv_40x.adder_value[0]     top|CLK       DFN1     D       adder_value_RNO[0]     999.598      997.185
+==========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.572
+
+    - Propagation time:                      4.409
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 995.163
+
+    Number of logic level(s):                4
+    Starting point:                          ClockDiv_40x.adder_value[1] / Q
+    Ending point:                            ClockDiv_40x.adder_value[4] / D
+    The start point is clocked by            top|CLK [rising] on pin CLK
+    The end   point is clocked by            top|CLK [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                  Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+ClockDiv_40x.adder_value[1]           DFN1      Q        Out     0.550     0.550       -         
+adder_value[1]                        Net       -        -       1.063     -           6         
+ClockDiv_40x.un6_adder_value.I_16     AND3      B        In      -         1.613       -         
+ClockDiv_40x.un6_adder_value.I_16     AND3      Y        Out     0.453     2.066       -         
+DWACT_FINC_E[0]                       Net       -        -       0.288     -           2         
+ClockDiv_40x.un6_adder_value.I_19     NOR2B     B        In      -         2.355       -         
+ClockDiv_40x.un6_adder_value.I_19     NOR2B     Y        Out     0.469     2.823       -         
+N_7                                   Net       -        -       0.240     -           1         
+ClockDiv_40x.un6_adder_value.I_20     XOR2      A        In      -         3.063       -         
+ClockDiv_40x.un6_adder_value.I_20     XOR2      Y        Out     0.305     3.368       -         
+I_20                                  Net       -        -       0.240     -           1         
+ClockDiv_40x.adder_value_RNO[4]       OR3       C        In      -         3.608       -         
+ClockDiv_40x.adder_value_RNO[4]       OR3       Y        Out     0.561     4.169       -         
+adder_value_RNO[4]                    Net       -        -       0.240     -           1         
+ClockDiv_40x.adder_value[4]           DFN1      D        In      -         4.409       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 4.837 is 2.766(57.2%) logic and 2.072(42.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: top|Key
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                      Arrival            
+Instance                           Reference     Type       Pin     Net          Time        Slack  
+                                   Clock                                                            
+----------------------------------------------------------------------------------------------------
+KeyPressCounter.adder_value[1]     top|Key       DFN1C1     Q       Led_c[1]     0.550       995.845
+KeyPressCounter.adder_value[0]     top|Key       DFN1C1     Q       Led_c[0]     0.550       995.884
+KeyPressCounter.adder_value[2]     top|Key       DFN1C1     Q       Led_c[2]     0.550       996.014
+KeyPressCounter.adder_value[3]     top|Key       DFN1C1     Q       Led_c[3]     0.550       997.167
+====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                            Required            
+Instance                           Reference     Type       Pin     Net                Time         Slack  
+                                   Clock                                                                   
+-----------------------------------------------------------------------------------------------------------
+KeyPressCounter.adder_value[3]     top|Key       DFN1C1     D       adder_value_n3     999.598      995.845
+KeyPressCounter.adder_value[2]     top|Key       DFN1C1     D       adder_value_n2     999.598      996.514
+KeyPressCounter.adder_value[1]     top|Key       DFN1C1     D       adder_value_n1     999.598      996.519
+KeyPressCounter.adder_value[0]     top|Key       DFN1C1     D       Led_c_i[0]         999.598      996.840
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.598
+
+    - Propagation time:                      3.752
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 995.845
+
+    Number of logic level(s):                2
+    Starting point:                          KeyPressCounter.adder_value[1] / Q
+    Ending point:                            KeyPressCounter.adder_value[3] / D
+    The start point is clocked by            top|Key [rising] on pin CLK
+    The end   point is clocked by            top|Key [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                       Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+KeyPressCounter.adder_value[1]             DFN1C1     Q        Out     0.550     0.550       -         
+Led_c[1]                                   Net        -        -       1.521     -           13        
+KeyPressCounter.adder_value_RNINMQ3[2]     OR3C       B        In      -         2.072       -         
+KeyPressCounter.adder_value_RNINMQ3[2]     OR3C       Y        Out     0.453     2.525       -         
+adder_value_c2                             Net        -        -       0.288     -           2         
+KeyPressCounter.adder_value_RNO[3]         XNOR2      B        In      -         2.813       -         
+KeyPressCounter.adder_value_RNO[3]         XNOR2      Y        Out     0.700     3.512       -         
+adder_value_n3                             Net        -        -       0.240     -           1         
+KeyPressCounter.adder_value[3]             DFN1C1     D        In      -         3.752       -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 4.155 is 2.105(50.7%) logic and 2.050(49.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P250_VQFP100_-2
+Report for cell top.top
+  Core Cell usage:
+              cell count     area count*area
+              AND2     1      1.0        1.0
+              AND3     5      1.0        5.0
+              AO1B     2      1.0        2.0
+              AX1C    10      1.0       10.0
+              BUFF     1      1.0        1.0
+            CLKINT     1      0.0        0.0
+               GND     5      0.0        0.0
+               INV     2      1.0        2.0
+               MX2     1      1.0        1.0
+              NOR2     1      1.0        1.0
+             NOR2A     7      1.0        7.0
+             NOR2B     6      1.0        6.0
+             NOR3C    10      1.0       10.0
+               OA1     3      1.0        3.0
+              OA1A     1      1.0        1.0
+              OA1B     1      1.0        1.0
+              OAI1     2      1.0        2.0
+              OR2B     2      1.0        2.0
+               OR3     2      1.0        2.0
+              OR3A     1      1.0        1.0
+              OR3B     1      1.0        1.0
+              OR3C     2      1.0        2.0
+               VCC     5      0.0        0.0
+             XNOR2     2      1.0        2.0
+              XOR2    18      1.0       18.0
+
+
+              DFN1     7      1.0        7.0
+            DFN1C1    23      1.0       23.0
+                   -----          ----------
+             TOTAL   122               111.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     1
+            OUTBUF    18
+                   -----
+             TOTAL    21
+
+
+Core Cells         : 111 of 6144 (2%)
+IO Cells           : 21
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:08s realtime, 0h:00m:01s cputime
+# Thu Nov 28 14:36:04 2013
+
+###########################################################]

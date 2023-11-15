@@ -1,0 +1,33 @@
+KEY IDE_DES_TOOL "Designer"
+KEY IDE_DES_FAMILY "ProASIC3"
+KEY IDE_DES_DIE "IS4X4M1"
+KEY IDE_DES_PACKAGE "pq208"
+KEY IDE_DES_SPEED "-2"
+KEY IDE_DES_VOLTAGE "1.5"
+KEY IDE_DES_TEMPRANGE "COM"
+KEY IDE_DES_VOLTRANGE "COM"
+KEY IDE_DES_IOSTD "LVTTL"
+KEY IDE_DES_TOP_CELL_NAME "simple_dip_to_switch"
+KEY IDE_DES_KEEP_PHY_CONSTR "TRUE"
+KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
+KEY IDE_DES_LAYOUT_DONE "TRUE"
+KEY IDE_DES_COMPILE_DONE "TRUE"
+KEY IDE_DES_IOCONSTRAINTS_PRESENT "TRUE"
+KEY IDE_DES_TIMINGCONSTRAINTS_PRESENT "FALSE"
+KEY IDE_DES_TIMING_VIOLATION "-1"
+KEY IDE_DES_BITSGEN_DONE "TRUE"
+KEY IDE_DES_BLOCK_PUBLISH "FALSE"
+KEY IDE_DES_BA_EXPORTED "TRUE"
+KEY IDE_DES_INTERACTIVE "FALSE"
+KEY IDE_DES_ERROR_FOUND "FALSE"
+KEY IDE_DES_ADB_PATH "W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\designer\impl1\simple_dip_to_switch.adb"
+LIST SOURCE_FILES
+VALUE "W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\synthesis\simple_dip_to_switch.edn;edn"
+VALUE "W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\synthesis\simple_dip_to_switch_sdc.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\synthesis\simple_dip_to_switch_sdc.sdc;Used"
+VALUE "W:\OneDrive - Hanoi University of Science and Technology\TaiLieuMonHoc\IT4251_ThietKeIC\ThucHanh\Actel ProASIC3 LC Starter Kit\LabAssignments\01_dip_switch_actel\constraint\dip_switch.pdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

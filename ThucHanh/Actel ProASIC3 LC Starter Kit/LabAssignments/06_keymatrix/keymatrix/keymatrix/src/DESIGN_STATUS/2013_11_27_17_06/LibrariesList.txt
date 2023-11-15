@@ -1,0 +1,73 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : List of local and global libraries visible in Library Manager
+-- Active-HDL : Student Edition
+-- Workspace  : keymatrix
+-- Design     : keymatrix
+-- Author     : Nguyen Duc Tien
+-- Company    : DCE, SOICT, HUST
+-- Date       : 2013-11-27 17:06:08
+--
+-------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Library               | Mode  | Vendor   | Version                                          | Comment
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+a3200dx               | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A3200DX VHDL LIBRARY
+act1_ver              | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | ACT1 VERILOG LIBRARY
+axcelerator_gpset_ver | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | AXCELERATOR VERILOG LIBRARY
+iglooplus_ver         | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | IGLOOPLUS VERILOG LIBRARY
+proasic3_ver          | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | PROASIC3 VERILOG LIBRARY
+smartfusion           | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | SMARTFUSION VHDL LIBRARY
+proasic3e_ver         | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | PROASIC3E VERILOG LIBRARY
+act3                  | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | ACT3 VHDL LIBRARY
+a40mx                 | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A40MX VHDL LIBRARY
+ex_ver                | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | EX VERILOG LIBRARY
+a40mx_ver             | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A40MX VERILOG LIBRARY
+act2                  | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | ACT2 VHDL LIBRARY
+a500k                 | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A500K VHDL LIBRARY
+axcelerator_gclr      | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | AXCELERATOR VHDL LIBRARY
+axcelerator_ver       | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | AXCELERATOR VERILOG LIBRARY
+act2_ver              | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | ACT2 VERILOG LIBRARY
+act3_ver              | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | ACT3 VERILOG LIBRARY
+iglooplus             | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | IGLOOPLUS VHDL LIBRARY
+fusion                | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | FUSION VHDL LIBRARY
+apa_ver               | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | APA VERILOG LIBRARY
+a3200dx_ver           | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A3200DX VERILOG LIBRARY
+a42mx                 | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A42MX VHDL LIBRARY
+igloo_ver             | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | IGLOO VERILOG LIBRARY
+a54sxa_ver            | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A54SXA VERILOG LIBRARY
+a54sx                 | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A54SX VHDL LIBRARY
+act1                  | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | ACT1 VHDL LIBRARY
+proasic3e             | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | PROASIC3E VHDL LIBRARY
+proasic3              | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | PROASIC3 VHDL LIBRARY
+axcelerator_gpset     | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | AXCELERATOR VHDL LIBRARY
+igloo                 | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | IGLOO VHDL LIBRARY
+proasic3l_ver         | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | PROASIC3L VERILOG LIBRARY
+fusion_ver            | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | FUSION VERILOG LIBRARY
+a54sx_ver             | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A54SX VERILOG LIBRARY
+proasic3l             | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | PROASIC3L VHDL LIBRARY
+iglooe_ver            | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | IGLOOE VERILOG LIBRARY
+ex                    | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | EX VHDL LIBRARY
+a500k_ver             | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A500K VERILOG LIBRARY
+a42mx_ver             | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A42MX VERILOG LIBRARY
+axcelerator           | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | AXCELERATOR VHDL LIBRARY
+smartfusion_ver       | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | SMARTFUSION VERILOG LIBRARY
+a54sxa                | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | A54SXA VHDL LIBRARY
+apa                   | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | APA VHDL LIBRARY
+axcelerator_gclr_ver  | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | AXCELERATOR VERILOG LIBRARY
+iglooe                | RO    | ACTEL    | ACTEL DESIGNER/LIBERO 9.1 SP4                    | IGLOOE VHDL LIBRARY
+aldec                 | RO    | ALDEC    | Aldec Active-HDL                                 | VHDL PROCEDURES FOR CALLING ASDB, FSDB, MATLAB, SIGNAL AGENT TASKS FROM THE VHDL CODE, RANDOM PACKAGE
+exemplar              | RO    | MENTOR   | MENTOR GRAPHICS PRECISION RTL SYNTHESIS 2011a.61 | EXEMPLAR VHDL LIBRARY.
+ieee_proposed         | RO    | No Data  | No Data                                          | VHDL '93 compatible version of the proposed packages for the IEEE 1076-2008 standard
+vital2000             | RO    | No Data  | No Data                                          | Standard IEEE packages library
+ieee                  | RO    | No Data  | No Data                                          | Standard IEEE packages library
+synopsys              | RO    | No Data  | No Data                                          | Library containing packages with useful functions for std_logic types objects
+vl                    | RO    | No Data  | No Data                                          | Standard Verilog library
+assertions            | RO    | No Data  | No Data                                          | No Data
+keymatrix             | RW    | No Data  | No Data                                          | No Data
+vtl                   | RO    | No Data  | No Data                                          | No Data
+std                   | RO    | No Data  | No Data                                          | Standard VHDL library
+vtl_dbg               | RO    | No Data  | No Data                                          | No Data
+synplify              | RO    | SYNOPSYS | SYNOPSYS FPGA PRODUCTS F-2011.09-SP1             | SYNPLIFY VHDL LIBRARY
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

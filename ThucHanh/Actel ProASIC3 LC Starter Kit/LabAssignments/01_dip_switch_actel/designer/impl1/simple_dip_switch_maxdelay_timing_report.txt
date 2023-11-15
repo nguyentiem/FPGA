@@ -1,0 +1,121 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Tue Nov 27 14:15:31 2018
+
+
+Design: simple_dip_switch
+Family: ProASIC3
+Die: A3P250
+Package: 208 PQFP
+Temperature Range: 0 - 70 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: -2
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 70 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+                            Input to Output
+Min Delay (ns):             1.571
+Max Delay (ns):             4.091
+
+END SUMMARY
+-----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+Path 1
+  From:                        SW2[5]
+  To:                          LED3[5]
+  Delay (ns):                  4.091
+  Slack (ns):
+  Arrival (ns):                4.091
+  Required (ns):
+
+Path 2
+  From:                        SW2[7]
+  To:                          LED3[7]
+  Delay (ns):                  3.905
+  Slack (ns):
+  Arrival (ns):                3.905
+  Required (ns):
+
+Path 3
+  From:                        SW2[4]
+  To:                          LED3[4]
+  Delay (ns):                  3.905
+  Slack (ns):
+  Arrival (ns):                3.905
+  Required (ns):
+
+Path 4
+  From:                        SW2[0]
+  To:                          LED3[0]
+  Delay (ns):                  3.905
+  Slack (ns):
+  Arrival (ns):                3.905
+  Required (ns):
+
+Path 5
+  From:                        SW2[6]
+  To:                          LED3[6]
+  Delay (ns):                  3.875
+  Slack (ns):
+  Arrival (ns):                3.875
+  Required (ns):
+
+
+Expanded Path 1
+  From: SW2[5]
+  To: LED3[5]
+  data required time                             N/C
+  data arrival time                          -   4.091
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        SW2[5] (f)
+               +     0.000          net: SW2[5]
+  0.000                        SW2_pad[5]/U0/U0:PAD (f)
+               +     0.514          cell: ADLIB:IOPAD_IN
+  0.514                        SW2_pad[5]/U0/U0:Y (f)
+               +     0.000          net: SW2_pad[5]/U0/NET1
+  0.514                        SW2_pad[5]/U0/U1:YIN (f)
+               +     0.030          cell: ADLIB:IOIN_IB
+  0.544                        SW2_pad[5]/U0/U1:Y (f)
+               +     0.753          net: SW2_c_c[5]
+  1.297                        LED3_pad[5]/U0/U1:D (f)
+               +     0.435          cell: ADLIB:IOTRI_OB_EB
+  1.732                        LED3_pad[5]/U0/U1:DOUT (f)
+               +     0.000          net: LED3_pad[5]/U0/NET1
+  1.732                        LED3_pad[5]/U0/U0:D (f)
+               +     2.359          cell: ADLIB:IOPAD_TRI
+  4.091                        LED3_pad[5]/U0/U0:PAD (f)
+               +     0.000          net: LED3[5]
+  4.091                        LED3[5] (f)
+                                    
+  4.091                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          SW2[5] (f)
+                                    
+  N/C                          LED3[5] (f)
+                                    
+  N/C                          data required time
+
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

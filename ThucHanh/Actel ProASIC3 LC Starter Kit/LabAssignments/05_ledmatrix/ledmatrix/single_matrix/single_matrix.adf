@@ -1,0 +1,99 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=single_matrix
+
+[Library]
+single_matrix=.\single_matrix.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Actel ProASIC3
+fileopenfolder=E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+single_matrix=.
+Active_lib=
+xilinxun=
+UnlinkedDesignLibrary=
+DESIGNS=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=ram|ram_arch|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+ClockDiv=1
+top=1
+waveform=1
+
+[Files]
+/ram.vhd=-1
+/Step_Register.vhd=-1
+/Counter.vhd=-1
+/Controller.bde=-1
+/GRegister.vhd=-1
+/rom.vhd=-1
+ClockDiv/..\counter1M.vhd=-1
+ClockDiv/..\counter40.vhd=-1
+top/Led_Matrix_Controller.bde=-1
+top/Led_Matrix_Controller_rom.bde=-1
+top/Led_Matrix_Controller_ClockDiv.bde=-1
+waveform/wave_with_ram_init.asdb=-1
+waveform/wave_with_ram_init.awc=-1
+waveform/wave_with_rom.asdb=-1
+waveform/wave_with_rom.awc=-1
+
+[Files.Data]
+.\src\ram.vhd=VHDL Source Code
+.\src\Step_Register.vhd=VHDL Source Code
+.\src\Counter.vhd=VHDL Source Code
+.\src\Controller.bde=Block Diagram
+.\src\GRegister.vhd=VHDL Source Code
+.\src\rom.vhd=VHDL Source Code
+.\src\counter1M.vhd=VHDL Source Code
+.\src\counter40.vhd=VHDL Source Code
+.\src\top\Led_Matrix_Controller.bde=Block Diagram
+.\src\top\Led_Matrix_Controller_rom.bde=Block Diagram
+.\src\top\Led_Matrix_Controller_ClockDiv.bde=Block Diagram
+.\src\waveform\wave_with_ram_init.asdb=Accelerated Waveform File
+.\src\waveform\wave_with_ram_init.awc=Accelerated Waveform Configuration
+.\src\waveform\wave_with_rom.asdb=Accelerated Waveform File
+.\src\waveform\wave_with_rom.awc=Accelerated Waveform Configuration
+
+[file_out:/Controller.bde]
+/..\compile\Controller.vhd=-1
+
+[file_out:top/Led_Matrix_Controller.bde]
+top/..\..\compile\Led_Matrix_Controller.vhd=-1
+
+[file_out:top/Led_Matrix_Controller_rom.bde]
+top/..\..\compile\Led_Matrix_Controller_rom.vhd=-1
+
+[file_out:top/Led_Matrix_Controller_ClockDiv.bde]
+top/..\..\compile\Led_Matrix_Controller_ClockDiv.vhd=-1
+

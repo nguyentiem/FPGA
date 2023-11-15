@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<!----------------------------------------------------------------------------->
+<!--                          BEGIN HTML HEAD                                -->
+<!--                                                                         -->
+
+<HEAD>
+<TITLE>DRC Report File - Led_Matrix_Controller.bde</TITLE>
+<STYLE>
+.Err	{color:'#FF0000';cursor:hand;text-decoration:underline;}
+.Warn	{color:'#0000FF';cursor:hand;text-decoration:underline;}
+.Info	{color:'#000000';cursor:hand;text-decoration:underline;}
+.Sccss  {color:'#009600';cursor:hand;text-decoration:underline;}
+.ErrH	{color:'#FF0000';cursor:hand;text-decoration:underline;}
+.WarnH	{color:'#0000FF';cursor:hand;text-decoration:underline;}
+.InfoH	{color:'#000000';cursor:hand;text-decoration:underline;}
+.Err1	{color:'#FF0000';}
+.Warn1	{color:'#0000FF';}
+.Info1	{color:'#000000';}
+.Sccss1 {color:'#009600';}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="white" TEXT="black" LINK="blue" VLINK="purple" BACKGROUND="C:\Aldec\Active-HDL Student Edition\\Flows\Res\default.bmp">
+<FONT FACE="Serif">
+<tt>
+<!--                                                                         -->
+<!--                             END HEADER                                  -->
+<!----------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------->
+<!--                            BEGIN VBSCRIPT                               -->
+<!--                                                                         -->
+<SCRIPT LANGUAGE=JSCRIPT>
+	function RollOn() {
+		switch(window.event.srcElement.className) {
+			case 'Err':
+				window.event.srcElement.className = 'ErrH'; break;
+			case 'Warn':
+				window.event.srcElement.className = 'WarnH'; break;
+			case 'Info':
+				window.event.srcElement.className = 'InfoH'; break;
+		}
+	}
+	function RollOff() {
+		switch(window.event.srcElement.className) {
+			case 'ErrH':
+				window.event.srcElement.className = 'Err'; break;
+			case 'WarnH':
+				window.event.srcElement.className = 'Warn'; break;
+			case 'InfoH':
+				window.event.srcElement.className = 'Info'; break;
+		}
+	}
+	function OnError(sMsg,sUrl,sLine) {
+		return true;
+	}
+	
+	document.onmouseover = RollOn;
+	document.onmouseout = RollOff;
+	window.onerror = OnError;
+</SCRIPT>
+
+<SCRIPT LANGUAGE=VBSCRIPT>
+
+Function IID_IDispatch
+	IID_IDispatch = "{00020400-0000-0000-C000-000000000046}"
+End Function
+
+Function CLSID_Executor
+	CLSID_Executor = "Aldec.ExePlugIn.Generic.7"
+End Function
+
+
+Sub OpenPlugIn (progid, template, document, element, string)
+
+	Dim executor, command
+
+	Set executor = window.external.aldec.connector.OpenPlugIn(CLSID_Executor, IID_IDispatch)
+
+	command = "?Activate[<"+progid+">][<"+template+">][<"+document+">][<"+element+">][<"+string+">]"
+
+	executor.ExecuteCommand command, ""
+
+End Sub
+
+
+</SCRIPT>
+<!--                                                                         -->
+<!--                             END VBSCRIPT                                -->
+<!----------------------------------------------------------------------------->
+
+<H2>DRC Report File - Led_Matrix_Controller.bde</H2>
+
+Created on Tue 2013-11-26 at 11:10:24
+<HR NOSHADE COLOR="#008080">
+<SPAN class=Info1>Checking file 'E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\src\top\Led_Matrix_Controller.bde'.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','E:\\workspaces\\activehdl\\05_ledmatrix\\ledmatrix\\single_matrix\\src\\top\\Led_Matrix_Controller.bde','','-errorid=1727,1360');">Different index ranges 'Addr(ADDR_WIDTH-1:0), U5.D1' in a bus node.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','E:\\workspaces\\activehdl\\05_ledmatrix\\ledmatrix\\single_matrix\\src\\top\\Led_Matrix_Controller.bde','','-errorid=2328,1360');">Different index ranges 'BUS2096(ADDR_WIDTH-1:0), U5.O' in a bus node.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','E:\\workspaces\\activehdl\\05_ledmatrix\\ledmatrix\\single_matrix\\src\\top\\Led_Matrix_Controller.bde','','-errorid=2220,1360');">Different index ranges 'BUS2202(ADDR_WIDTH-1:0), U5.D0' in a bus node.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','E:\\workspaces\\activehdl\\05_ledmatrix\\ledmatrix\\single_matrix\\src\\top\\Led_Matrix_Controller.bde','','-errorid=249,814');">Different index ranges 'nRow(ROW_WIDTH-1:0), U2.O' in a bus node.</SPAN><BR>
+<SPAN class=Warn onclick="OpenPlugIn('Aldec.BDE.7','0','E:\\workspaces\\activehdl\\05_ledmatrix\\ledmatrix\\single_matrix\\src\\top\\Led_Matrix_Controller.bde','','-errorid=2858,814');">Different index ranges 'ROW(ROW_WIDTH-1:0), U2.I' in a bus node.</SPAN><BR>
+<SPAN class=Warn1>Led_Matrix_Controller.bde - 0 error(s), 5 warning(s)</SPAN><BR>
+<SPAN class=Info1>DRC process completed in 2 second(s).</SPAN><BR>
+</tt>
+</FONT>
+       
+        >
+</BODY>
+</HTML>

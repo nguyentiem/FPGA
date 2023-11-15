@@ -1,0 +1,218 @@
+Actel Designer Software
+Version: 9.1.0.18
+Release: v9.1
+
+
+ Netlist Reading Time = 0.0 seconds
+Imported the files:
+   E:\WORKSPACES\ACTIVEHDL\03_PROASIC3DEMO_ACTEL\synthesis\TEST.edn
+   E:\WORKSPACES\ACTIVEHDL\03_PROASIC3DEMO_ACTEL\synthesis\TEST_sdc.sdc
+
+The Import command succeeded ( 00:00:07 )
+Info: The design E:\WORKSPACES\ACTIVEHDL\03_PROASIC3DEMO_ACTEL\DESIGNER\IMPL1\TEST.adb was last
+      modified by software version 7.3.0.29.
+Opened an existing Libero design
+E:\WORKSPACES\ACTIVEHDL\03_PROASIC3DEMO_ACTEL\DESIGNER\IMPL1\TEST.adb.
+'BA_NAME' set to 'TEST_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'E:\workspaces\activehdl\03_ProASIC3demo_actel\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+
+The Execute Script command succeeded ( 00:00:00 )
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P250
+Package     : 208 PQFP
+Source      : E:\WORKSPACES\ACTIVEHDL\03_PROASIC3DEMO_ACTEL\synthesis\TEST.edn
+              E:\WORKSPACES\ACTIVEHDL\03_PROASIC3DEMO_ACTEL\synthesis\TEST_sdc.sdc
+Format      : EDIF
+Topcell     : TEST
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        5
+
+    Total macros optimized  5
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:    270  Total:   6144   (4.39%)
+    IO (W/ clocks)             Used:     52  Total:    151   (34.44%)
+    Differential IO            Used:      0  Total:     34   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      4  Total:     18   (22.22%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 3      | 6  (50.00%)*
+    Quadrant global | 1      | 12 (8.33%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 210          | 210
+    SEQ     | 60           | 60
+
+I/O Function:
+
+    Type                          | w/o register  | w/ register  | w/ DDR register
+    ------------------------------|---------------|--------------|----------------
+    Input I/O                     | 16            | 0            | 0
+    Output I/O                    | 36            | 0            | 0
+    Bidirectional I/O             | 0             | 0            | 0
+    Differential Input I/O Pairs  | 0             | 0            | 0
+    Differential Output I/O Pairs | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 16    | 36     | 0
+
+I/O Placement:
+
+    Locked  :  52 ( 100.00% )
+    Placed  :   0
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    52      SET/RESET_NET Net   : RST_c
+                          Driver: RST_pad_RNI1R06
+                          Source: NETLIST
+    35      CLK_NET       Net   : divide_clk_c[22]
+                          Driver: divide_clk_RNIIOD3[22]
+                          Source: NETLIST
+    6       INT_NET       Net   : divide_clk_c[21]
+                          Driver: divide_clk_RNIHKD3[21]
+                          Source: NETLIST
+
+The following nets have been assigned to a quadrant global resource:
+    Fanout  Type          Name
+    --------------------------
+    24      CLK_NET       Net   : CLK_c
+                          Driver: CLK_pad
+                          Region: quadrant_LL
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    19      INT_NET       Net   : dis_count[2]
+                          Driver: dis_count[2]
+    19      INT_NET       Net   : sel_char[0]
+                          Driver: sel_char[0]
+    16      INT_NET       Net   : sel_char[1]
+                          Driver: sel_char[1]
+    15      INT_NET       Net   : dis_count_c0
+                          Driver: dis_count[0]
+    14      INT_NET       Net   : LOAD_c
+                          Driver: LOAD_pad
+    10      INT_NET       Net   : state[0]
+                          Driver: state[0]
+    9       INT_NET       Net   : dis_complete_RNI95MB
+                          Driver: dis_complete_RNI95MB
+    8       INT_NET       Net   : divide_clk[0]
+                          Driver: divide_clk[0]
+    8       INT_NET       Net   : N_178
+                          Driver: dis_count_RNIL6CF[1]
+    8       INT_NET       Net   : N_188
+                          Driver: state_RNIV26G[1]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    19      INT_NET       Net   : dis_count[2]
+                          Driver: dis_count[2]
+    19      INT_NET       Net   : sel_char[0]
+                          Driver: sel_char[0]
+    16      INT_NET       Net   : sel_char[1]
+                          Driver: sel_char[1]
+    15      INT_NET       Net   : dis_count_c0
+                          Driver: dis_count[0]
+    14      INT_NET       Net   : LOAD_c
+                          Driver: LOAD_pad
+    10      INT_NET       Net   : state[0]
+                          Driver: state[0]
+    9       INT_NET       Net   : dis_complete_RNI95MB
+                          Driver: dis_complete_RNI95MB
+    8       INT_NET       Net   : divide_clk[0]
+                          Driver: divide_clk[0]
+    8       INT_NET       Net   : N_178
+                          Driver: dis_count_RNIL6CF[1]
+    8       INT_NET       Net   : N_188
+                          Driver: state_RNIV26G[1]
+
+
+SDC Import: Begin processing constraints...
+
+
+
+SDC Import: End processing constraints
+
+
+The Compile command succeeded ( 00:00:06 )
+Design closed.
+

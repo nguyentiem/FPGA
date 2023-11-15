@@ -1,0 +1,20 @@
+26
+~E 1 "./../src/code.vhd" 115 demux
+~A 1 "./../src/code.vhd" 150 ardemux
+~E 1 "./../src/code.vhd" 11 Dff
+~A 1 "./../src/code.vhd" 20 ardff
+~E 1 "./../src/code.vhd" 40 dich_9byte
+~A 1 "./../src/code.vhd" 66 ardich
+~E 1 "./../compile/khoi.vhd" 27 khoi
+~E 1 "./../src/code.vhd" 307 latch
+~A 1 "./../src/code.vhd" 346 arrlatch
+~E 1 "./../src/code.vhd" 776 mul_matrix
+~A 1 "./../src/code.vhd" 784 arrmul_matrix
+~E 1 "./../src/code.vhd" 189 mux_8bit
+~A 1 "./../src/code.vhd" 199 mux
+~E 1 "./../src/code.vhd" 224 mux_9byte
+~A 1 "./../src/code.vhd" 272 armux_9byte
+~E 1 "./../compile/test.vhd" 27 test
+~A 1 "./../compile/test.vhd" 54 test
+~E 1 "./../src/code.vhd" 612 xl_byte
+~A 1 "./../src/code.vhd" 629 config

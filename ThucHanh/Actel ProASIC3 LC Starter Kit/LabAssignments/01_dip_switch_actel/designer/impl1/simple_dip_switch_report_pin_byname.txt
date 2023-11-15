@@ -1,0 +1,36 @@
+*****************************************************************
+Pin Report - Date: Tue Nov 27 14:15:26 2018 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: simple_dip_switch
+Family: ProASIC3
+Die: A3P250
+Package: 208 PQFP
+*****************************************************************
+Port    |Pin |Fixed |Function      |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+--------|----|------|--------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+LED1[0]  70   No     IO84RSB2       LVCMOS33  12                 High  None           No    35                No           No
+LED1[1]  127  No     IO53NDB1       LVCMOS33  12                 High  None           No    35                No           No
+LED1[2]  169  No     IO30RSB0       LVCMOS33  12                 High  None           No    35                No           No
+LED1[3]  77   No     IO79RSB2       LVCMOS33  12                 High  None           No    35                No           No
+LED1[4]  112  No     GDA1/IO60UDB1  LVCMOS33  12                 High  None           No    35                No           No
+LED1[5]  99   No     GDA2/IO61RSB2  LVCMOS33  12                 High  None           No    35                No           No
+LED1[6]  78   No     IO78RSB2       LVCMOS33  12                 High  None           No    35                No           No
+LED1[7]  111  No     GDA0/IO60VDB1  LVCMOS33  12                 High  None           No    35                No           No
+LED3[0]  96   No     GDC2/IO63RSB2  LVCMOS33  12                 High  None           No    35                No           No
+LED3[1]  48   No     GEA1/IO98PDB3  LVCMOS33  12                 High  None           No    35                No           No
+LED3[2]  132  No     GCA1/IO50PDB1  LVCMOS33  12                 High  None           No    35                No           No
+LED3[3]  145  No     IO45PDB1       LVCMOS33  12                 High  None           No    35                No           No
+LED3[4]  58   No     IO94RSB2       LVCMOS33  12                 High  None           No    35                No           No
+LED3[5]  83   No     IO74RSB2       LVCMOS33  12                 High  None           No    35                No           No
+LED3[6]  38   No     IO104NDB3      LVCMOS33  12                 High  None           No    35                No           No
+LED3[7]  82   No     IO75RSB2       LVCMOS33  12                 High  None           No    35                No           No
+SW2[0]   95   No     IO64RSB2       LVCMOS33  ---                ---   None           ---   ---               No           No
+SW2[1]   47   No     GEB0/IO99NDB3  LVCMOS33  ---                ---   None           ---   ---               No           No
+SW2[2]   133  No     GCA0/IO50NDB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+SW2[3]   144  No     IO45NDB1       LVCMOS33  ---                ---   None           ---   ---               No           No
+SW2[4]   57   No     GEC2/IO95RSB2  LVCMOS33  ---                ---   None           ---   ---               No           No
+SW2[5]   84   No     IO73RSB2       LVCMOS33  ---                ---   None           ---   ---               No           No
+SW2[6]   37   No     IO104PDB3      LVCMOS33  ---                ---   None           ---   ---               No           No
+SW2[7]   80   No     IO76RSB2       LVCMOS33  ---                ---   None           ---   ---               No           No

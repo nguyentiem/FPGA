@@ -1,0 +1,143 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 53MB peak: 55MB)
+
+@N: MO106 :"e:\workspaces\ws_actel\02_bcd7segdecoder_actel\hdl\bcd_7seg_decoder.vhd":40:8:40:11|Found ROM, 'mergedbits_out_1[0:6]', 16 words by 7 bits 
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 53MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base E:\workspaces\ws_actel\02_bcd7segdecoder_actel\synthesis\DM74LS47.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 54MB peak: 55MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Nov 05 15:48:04 2013
+#
+
+
+Top view:               DM74LS47
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    40.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A3P250_VQFP100_-2
+Report for cell DM74LS47.behaviour
+  Core Cell usage:
+              cell count     area count*area
+              AO1C     1      1.0        1.0
+             AOI1B     1      1.0        1.0
+               GND     1      0.0        0.0
+             NOR2A     2      1.0        2.0
+             NOR3A     1      1.0        1.0
+               OA1     1      1.0        1.0
+              OA1B     2      1.0        2.0
+               OR2     3      1.0        3.0
+              OR2A     1      1.0        1.0
+              OR2B     2      1.0        2.0
+              OR3B     2      1.0        2.0
+              OR3C     6      1.0        6.0
+               VCC     1      0.0        0.0
+              XO1A     1      1.0        1.0
+              XOR2     2      1.0        2.0
+
+
+                   -----          ----------
+             TOTAL    27                25.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     4
+            OUTBUF     7
+                   -----
+             TOTAL    11
+
+
+Core Cells         : 25 of 6144 (0%)
+IO Cells           : 11
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+# Tue Nov 05 15:48:04 2013
+
+###########################################################]

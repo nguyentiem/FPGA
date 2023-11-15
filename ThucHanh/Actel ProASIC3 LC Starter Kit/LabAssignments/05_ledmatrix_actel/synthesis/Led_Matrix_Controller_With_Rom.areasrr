@@ -1,0 +1,62 @@
+----------------------------------------------------------------------
+Report for cell Led_Matrix_Controller_With_Rom.led_matrix_controller_with_rom
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                         Controller         1       6.0        6.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                             OUTBUF        16       0.0        0.0
+                      Step_Register         1       8.0        8.0
+                                VCC         1       0.0        0.0
+                                rom         1      12.0       12.0
+                            
+                         TOTAL             23                 26.0
+----------------------------------------------------------------------
+Report for cell rom.netlist
+     Instance path:  ROW_VALUE_ROM
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO16         3       1.0        3.0
+                               DFI1         6       1.0        6.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                               ZOR3         1       1.0        1.0
+                            
+                         TOTAL             14                 12.0
+----------------------------------------------------------------------
+Report for cell Step_Register.netlist
+     Instance path:  ROW_SCAN_REG
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C1         7       1.0        7.0
+                             DFN1P1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             10                  8.0
+----------------------------------------------------------------------
+Report for cell Controller.netlist
+     Instance path:  ADDR_AUTOINC
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                          GRegister         1       6.0        6.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  6.0
+----------------------------------------------------------------------
+Report for cell GRegister.netlist
+     Instance path:  ADDR_AUTOINC.U1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         1       1.0        1.0
+                             DFN1C1         3       1.0        3.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL              8                  6.0

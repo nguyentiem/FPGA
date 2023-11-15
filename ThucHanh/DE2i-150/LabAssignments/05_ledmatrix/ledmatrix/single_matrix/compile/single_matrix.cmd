@@ -1,0 +1,1 @@
+-w -s "E:\workspaces\activehdl\05_ledmatrix\ledmatrix\library.cfg"  -j "E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\projlib.cfg"  -d "E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\compile"   -work single_matrix  -O3 -e 100 -2002 "E:\workspaces\activehdl\05_ledmatrix\ledmatrix\single_matrix\compile\Led_Matrix_Controller_ClockDiv.vhd"
